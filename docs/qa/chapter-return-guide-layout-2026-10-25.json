@@ -1,0 +1,86 @@
+{
+  "reports": [
+    {
+      "label": "phone-small",
+      "width": 667,
+      "height": 375,
+      "panel": {
+        "x": 23.5,
+        "y": 16,
+        "width": 620,
+        "height": 343,
+        "top": 16,
+        "right": 643.5,
+        "bottom": 359,
+        "left": 23.5
+      },
+      "next": true,
+      "skip": true,
+      "heading": true,
+      "reopen": true,
+      "scroll": 2
+    },
+    {
+      "label": "phone",
+      "width": 844,
+      "height": 390,
+      "panel": {
+        "x": 112,
+        "y": 21.40625,
+        "width": 620,
+        "height": 347.1875,
+        "top": 21.40625,
+        "right": 732,
+        "bottom": 368.59375,
+        "left": 112
+      },
+      "next": true,
+      "skip": true,
+      "heading": true,
+      "reopen": true,
+      "scroll": 0
+    },
+    {
+      "label": "ipad",
+      "width": 1024,
+      "height": 768,
+      "panel": {
+        "x": 202,
+        "y": 189.40625,
+        "width": 620,
+        "height": 389.1875,
+        "top": 189.40625,
+        "right": 822,
+        "bottom": 578.59375,
+        "left": 202
+      },
+      "next": true,
+      "skip": true,
+      "heading": true,
+      "reopen": true,
+      "scroll": 0
+    },
+    {
+      "label": "desktop",
+      "width": 1600,
+      "height": 900,
+      "panel": {
+        "x": 490,
+        "y": 255.40625,
+        "width": 620,
+        "height": 389.1875,
+        "top": 255.40625,
+        "right": 1110,
+        "bottom": 644.59375,
+        "left": 490
+      },
+      "next": true,
+      "skip": true,
+      "heading": true,
+      "reopen": true,
+      "scroll": 0
+    }
+  ],
+  "build": "Final production build, short-screen margins and scroll behavior included",
+  "limits": "Isolated muted headless Chrome, touch emulation."
+}

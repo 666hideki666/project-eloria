@@ -1,0 +1,33 @@
+{
+  "modifiedCodeAndTests": [
+    "index.html",
+    "tests/layer1-anomaly-and-field-messages.test.ts",
+    "tests/world.test.ts",
+    "tests/stage.test.ts",
+    "src/main.ts",
+    "src/style.css",
+    "src/ui/FieldMessages.ts",
+    "src/ui/DesktopHudController.ts",
+    "src/ui/Layer1AnomalyController.ts",
+    "src/ui/OverlayController.ts",
+    "src/game/GameWorld.ts",
+    "src/game/types.ts"
+  ],
+  "newCodeAndTests": [
+    "src/ui/ChapterCinematicController.ts",
+    "src/ui/caveGuide.ts",
+    "src/ui/chapter.css",
+    "src/ui/PresentationInput.ts",
+    "src/ui/CaveGuideController.ts",
+    "src/ui/chapterSequence.ts",
+    "tests/chapter-and-onboarding.test.ts"
+  ],
+  "unchangedProtectedFiles": 309,
+  "protectedChanges": [],
+  "gates": {
+    "typecheck": "pass",
+    "testFiles": 22,
+    "testsPassed": 397,
+    "build": "pass"
+  }
+}

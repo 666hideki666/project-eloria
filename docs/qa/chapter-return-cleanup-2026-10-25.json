@@ -1,0 +1,33 @@
+{
+  "protectedFileCount": 326,
+  "protectedChanged": [],
+  "protectedScopes": [
+    "assets",
+    "src/stage",
+    "src/audio",
+    "src/render"
+  ],
+  "listenersAtStart": {
+    "4173": ""
+  },
+  "listenersAtFinish": {
+    "4173": "",
+    "4174": "",
+    "4175": ""
+  },
+  "ownChromeProcessesAtFinish": [],
+  "ownChromeProfilesAtFinish": [],
+  "typecheck": "passed",
+  "tests": {
+    "files": 23,
+    "passed": 404
+  },
+  "build": "passed; Vite chunk-size advisory, approximately 503 kB",
+  "qaFiles": [
+    "chapter-return-responsive-2026-10-25.json",
+    "chapter-return-edges-2026-10-25.json",
+    "chapter-return-production-2026-10-25.json",
+    "chapter-return-guide-layout-2026-10-25.json"
+  ],
+  "cleanup": "Stopped only this task dev server 4174/session92175 and preview 4175/session78757. Isolated browser close ran in finally. No stop operation against 4173."
+}

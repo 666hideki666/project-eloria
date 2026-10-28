@@ -1,0 +1,53 @@
+{
+  "character": "nadi",
+  "action": "ultimate",
+  "ability": "geshokuRanbu",
+  "displayName": "月蝕乱舞",
+  "version": 1,
+  "image": "nadi-ultimate-geshoku-ranbu-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.92
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "animation": {
+    "loop": false,
+    "durationSeconds": 1.04,
+    "frameDurationsSeconds": [0.06, 0.18, 0.19, 0.26, 0.21, 0.14],
+    "sequenceStageFrames": [1, 2, 3, 4],
+    "sequenceStageTimesSeconds": [0.06, 0.24, 0.43, 0.69],
+    "finalReleaseFrame": 4,
+    "worldPositionFixed": true
+  },
+  "notes": [
+    "Each row is keyed by the starting and ending direction; middle frames intentionally turn through other body views.",
+    "Render with nearest-neighbor scaling and never rotate or mirror the completed sprite in code.",
+    "Keep Nadi centered at the moonDance target while the body, ponytail, braid and scarf move.",
+    "The moon-ring blade is included exactly once in every frame and must not be drawn separately.",
+    "The repeated slash rings, expanding circles, final large ring, hit sparks and ground shadow remain game-rendered effects.",
+    "The 1.04 second action duration is presentation timing aligned to the existing moonDance sequence; do not change its damage, radii or stage timings."
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "page": 1,
+      "dialogue": {
+        "x": 48,
+        "y": 741.625,
+        "width": 1504,
+        "height": 146.375,
+        "top": 741.625,
+        "right": 1552,
+        "bottom": 888,
+        "left": 48
+      },
+      "copy": {
+        "x": 64,
+        "y": 785.015625,
+        "width": 1472,
+        "height": 61.59375,
+        "top": 785.015625,
+        "right": 1536,
+        "bottom": 846.609375,
+        "left": 64
+      },
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 900,
+        "top": 0,
+        "right": 1600,
+        "bottom": 900,
+        "left": 0
+      },
+      "party": {
+        "x": 10,
+        "y": 10,
+        "width": 264,
+        "height": 120,
+        "top": 10,
+        "right": 274,
+        "bottom": 130,
+        "left": 10
+      },
+      "font": 22,
+      "text": "ヴェルグラン「森の晶光は鎮まった。だが、この乱れは森だけのものではない。」",
+      "gauge": false
+    },
+    {
+      "label": "desktop",
+      "page": 2,
+      "dialogue": {
+        "x": 48,
+        "y": 741.625,
+        "width": 1504,
+        "height": 146.375,
+        "top": 741.625,
+        "right": 1552,
+        "bottom": 888,
+        "left": 48
+      },
+      "copy": {
+        "x": 64,
+        "y": 785.015625,
+        "width": 1472,
+        "height": 61.59375,
+        "top": 785.015625,
+        "right": 1536,
+        "bottom": 846.609375,
+        "left": 64
+      },
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 900,
+        "top": 0,
+        "right": 1600,
+        "bottom": 900,
+        "left": 0
+      },
+      "party": {
+        "x": 10,
+        "y": 10,
+        "width": 264,
+        "height": 120,
+        "top": 10,
+        "right": 274,
+        "bottom": 130,
+        "left": 10
+      },
+      "font": 22,
+      "text": "ヴェルグラン「ほかの地の封印石も、同じ光に揺れているかもしれぬ。どうか、あの石たちの声にも耳を傾けてほしい。」",
+      "gauge": false
+    },
+    {
+      "label": "desktop",
+      "page": 3,
+      "dialogue": {
+        "x": 48,
+        "y": 741.625,
+        "width": 1504,
+        "height": 146.375,
+        "top": 741.625,
+        "right": 1552,
+        "bottom": 888,
+        "left": 48
+      },
+      "copy": {
+        "x": 64,
+        "y": 785.015625,
+        "width": 1472,
+        "height": 61.59375,
+        "top": 785.015625,
+        "right": 1536,
+        "bottom": 846.609375,
+        "left": 64
+      },
+      "field": {
+        "x": 0,
+        "y": 0,
+        "width": 1600,
+        "height": 900,
+        "top": 0,
+        "right": 1600,
+        "bottom": 900,
+        "left": 0
+      },
+      "party": {
+        "x": 10,
+        "y": 10,
+        "width": 264,
+        "height": 120,
+        "top": 10,
+        "right": 274,
+        "bottom": 130,
+        "left": 10
+      },
+      "font": 22,
+      "text": "メル「……うん。私たち、確かめに行く。」",
+      "gauge": false
+    },
+    {
+      "label": "phone",
+      "page": 1,
+      "dialogue": {
+        "x": 171.46875,
+        "y": 237.4375,
+        "width": 651.734375,
+        "height": 140.5625,
+        "top": 237.4375,
+        "right": 823.203125,
+        "bottom": 378,
+        "left": 171.46875
+      },
+      "copy": {
+        "x": 187.46875,
+        "y": 280.828125,
+        "width": 619.734375,
+        "height": 55.78125,
+        "top": 280.828125,
+        "right": 807.203125,
+        "bottom": 336.609375,
+        "left": 187.46875
+      },
+      "field": {
+        "x": 150.671875,
+        "y": 0,
+        "width": 693.328125,
+        "height": 390,
+        "top": 0,
+        "right": 844,
+        "bottom": 390,
+        "left": 150.671875
+      },
+      "party": {
+        "x": 10,
+        "y": 10,
+        "width": 264,
+        "height": 120,
+        "top": 10,
+        "right": 274,
+        "bottom": 130,
+        "left": 10
+      },
+      "font": 18,
+      "text": "ヴェルグラン「森の晶光は鎮まった。だが、この乱れは森だけのものではない。」",
+      "gauge": false
+    },
+    {
+      "label": "phone",
+      "page": 2,
+      "dialogue": {
+        "x": 171.46875,
+        "y": 237.4375,
+        "width": 651.734375,
+        "height": 140.5625,
+        "top": 237.4375,
+        "right": 823.203125,
+        "bottom": 378,
+        "left": 171.46875
+      },
+      "copy": {
+        "x": 187.46875,
+        "y": 280.828125,
+        "width": 619.734375,
+        "height": 55.78125,
+        "top": 280.828125,
+        "right": 807.203125,
+        "bottom": 336.609375,
+        "left": 187.46875
+      },
+      "field": {
+        "x": 150.671875,
+        "y": 0,
+        "width": 693.328125,
+        "height": 390,
+        "top": 0,
+        "right": 844,
+        "bottom": 390,
+        "left": 150.671875
+      },
+      "party": {
+        "x": 10,
+        "y": 10,
+        "width": 264,
+        "height": 120,
+        "top": 10,
+        "right": 274,
+        "bottom": 130,
+        "left": 10
+      },
+      "font": 18,
+      "text": "ヴェルグラン「ほかの地の封印石も、同じ光に揺れているかもしれぬ。どうか、あの石たちの声にも耳を傾けてほしい。」",
+      "gauge": false
+    },
+    {
+      "label": "phone",
+      "page": 3,
+      "dialogue": {
+        "x": 171.46875,
+        "y": 242.828125,
+        "width": 651.734375,
+        "height": 135.171875,
+        "top": 242.828125,
+        "right": 823.203125,
+        "bottom": 378,
+        "left": 171.46875
+      },
+      "copy": {
+        "x": 187.46875,
+        "y": 286.21875,
+        "width": 619.734375,
+        "height": 50.390625,
+        "top": 286.21875,
+        "right": 807.203125,
+        "bottom": 336.609375,
+        "left": 187.46875
+      },
+      "field": {
+        "x": 150.671875,
+        "y": 0,
+        "width": 693.328125,
+        "height": 390,
+        "top": 0,
+        "right": 844,
+        "bottom": 390,
+        "left": 150.671875
+      },
+      "party": {
+        "x": 10,
+        "y": 10,
+        "width": 264,
+        "height": 120,
+        "top": 10,
+        "right": 274,
+        "bottom": 130,
+        "left": 10
+      },
+      "font": 18,
+      "text": "メル「……うん。私たち、確かめに行く。」",
+      "gauge": false
+    },
+    {
+      "label": "phone-small",
+      "page": 1,
+      "dialogue": {
+        "x": 20.328125,
+        "y": 222.4375,
+        "width": 626.6875,
+        "height": 140.5625,
+        "top": 222.4375,
+        "right": 647.015625,
+        "bottom": 363,
+        "left": 20.328125
+      },
+      "copy": {
+        "x": 36.328125,
+        "y": 265.828125,
+        "width": 594.6875,
+        "height": 55.78125,
+        "top": 265.828125,
+        "right": 631.015625,
+        "bottom": 321.609375,
+        "left": 36.328125
+      },
+      "field": {
+        "x": 0.34375,
+        "y": 0,
+        "width": 666.65625,
+        "height": 375,
+        "top": 0,
+        "right": 667,
+        "bottom": 375,
+        "left": 0.34375
+      },
+      "party": {
+        "x": 10,
+        "y": 10,
+        "width": 264,
+        "height": 120,
+        "top": 10,
+        "right": 274,
+        "bottom": 130,
+        "left": 10
+      },
+      "font": 18,
+      "text": "ヴェルグラン「森の晶光は鎮まった。だが、この乱れは森だけのものではない。」",
+      "gauge": false
+    },
+    {
+      "label": "phone-small",
+      "page": 2,
+      "dialogue": {
+        "x": 20.328125,
+        "y": 222.4375,
+        "width": 626.6875,
+        "height": 140.5625,
+        "top": 222.4375,
+        "right": 647.015625,
+        "bottom": 363,
+        "left": 20.328125
+      },
+      "copy": {
+        "x": 36.328125,
+        "y": 265.828125,
+        "width": 594.6875,
+        "height": 55.78125,
+        "top": 265.828125,
+        "right": 631.015625,
+        "bottom": 321.609375,
+        "left": 36.328125
+      },
+      "field": {
+        "x": 0.34375,
+        "y": 0,
+        "width": 666.65625,
+        "height": 375,
+        "top": 0,
+        "right": 667,
+        "bottom": 375,
+        "left": 0.34375
+      },
+      "party": {
+        "x": 10,
+        "y": 10,
+        "width": 264,
+        "height": 120,
+        "top": 10,
+        "right": 274,
+        "bottom": 130,
+        "left": 10
+      },
+      "font": 18,
+      "text": "ヴェルグラン「ほかの地の封印石も、同じ光に揺れているかもしれぬ。どうか、あの石たちの声にも耳を傾けてほしい。」",
+      "gauge": false
+    },
+    {
+      "label": "phone-small",
+      "page": 3,
+      "dialogue": {
+        "x": 20.328125,
+        "y": 227.828125,
+        "width": 626.6875,
+        "height": 135.171875,
+        "top": 227.828125,
+        "right": 647.015625,
+        "bottom": 363,
+        "left": 20.328125
+      },
+      "copy": {
+        "x": 36.328125,
+        "y": 271.21875,
+        "width": 594.6875,
+        "height": 50.390625,
+        "top": 271.21875,
+        "right": 631.015625,
+        "bottom": 321.609375,
+        "left": 36.328125
+      },
+      "field": {
+        "x": 0.34375,
+        "y": 0,
+        "width": 666.65625,
+        "height": 375,
+        "top": 0,
+        "right": 667,
+        "bottom": 375,
+        "left": 0.34375
+      },
+      "party": {
+        "x": 10,
+        "y": 10,
+        "width": 264,
+        "height": 120,
+        "top": 10,
+        "right": 274,
+        "bottom": 130,
+        "left": 10
+      },
+      "font": 18,
+      "text": "メル「……うん。私たち、確かめに行く。」",
+      "gauge": false
+    }
+  ],
+  "limits": "Isolated muted headless Chrome, NPC acquired state and validated nearby floor placement used solely for layout. Normal/skip acquisition and travel verified separately. No physical devices/Safari/VoiceOver/listening assessment."
+}

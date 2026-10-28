@@ -1,0 +1,53 @@
+{
+  "character": "mel",
+  "runtimeCharacterId": "meru",
+  "action": "ultimate",
+  "ability": "tenseiHoraku",
+  "displayName": "天晶崩落",
+  "version": 1,
+  "image": "mel-ultimate-tensei-horaku-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.92
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "animation": {
+    "loop": false,
+    "durationSeconds": 1.12,
+    "frameDurationsSeconds": [0.08, 0.18, 0.26, 0.24, 0.22, 0.14],
+    "impactFrame": 3,
+    "impactTimeSeconds": 0.52,
+    "worldPositionFixed": true
+  },
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "Keep the facing captured at ultimate start for the whole non-looping animation.",
+    "Keep Mel at a fixed world position while the upper body, staff, hair and scarf move.",
+    "The staff is included exactly once in every frame and must not be drawn separately.",
+    "The target marker, falling crystal, crystal glow, shockwave, shards, sparks and ground shadow remain game-rendered effects.",
+    "The 1.12 second action duration and 0.52 second impact pose are presentation timing aligned to the existing crystalFall sequence; do not change its gameplay impact timing or values."
+  ]
+}

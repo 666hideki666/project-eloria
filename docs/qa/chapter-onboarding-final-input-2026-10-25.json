@@ -1,0 +1,7 @@
+{
+  "titleWaitBlocksHudAndPause": true,
+  "initialSkipKeepsAnomaly": true,
+  "firstManualTouchShowsTouchLabels": true,
+  "closeKeepsPauseThenResumes": true,
+  "limits": "Reduced-motion Chrome; validated cave approach setup and real input"
+}

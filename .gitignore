@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.project-eloria-runtime/
+
+# Local credentials and environment overrides
+.env
+.env.*
+!.env.example
+
+# Generated caches and editor/patch backups
+__pycache__/
+.venv/
+*.py[cod]
+*.orig
+*.rej
+
+# Browser QA images stay local; keep textual QA records and redline references
+docs/screenshots/

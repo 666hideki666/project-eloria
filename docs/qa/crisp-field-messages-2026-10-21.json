@@ -1,0 +1,2246 @@
+{
+  "reports": [
+    {
+      "viewport": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "room": "mossRootRuins",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 20,
+          "rect": {
+            "x": 593,
+            "y": 12,
+            "width": 640,
+            "height": 49,
+            "top": 12,
+            "right": 1233,
+            "bottom": 61,
+            "left": 593
+          },
+          "party": {
+            "x": 10,
+            "y": 10,
+            "width": 264,
+            "height": 120,
+            "top": 10,
+            "right": 274,
+            "bottom": 130,
+            "left": 10
+          },
+          "controls": {
+            "x": 1552,
+            "y": 10,
+            "width": 38,
+            "height": 38,
+            "top": 10,
+            "right": 1590,
+            "bottom": 48,
+            "left": 1552
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 20,
+          "rect": {
+            "x": 593,
+            "y": 12,
+            "width": 640,
+            "height": 80,
+            "top": 12,
+            "right": 1233,
+            "bottom": 92,
+            "left": 593
+          },
+          "party": {
+            "x": 10,
+            "y": 10,
+            "width": 264,
+            "height": 120,
+            "top": 10,
+            "right": 274,
+            "bottom": 130,
+            "left": 10
+          },
+          "controls": {
+            "x": 1552,
+            "y": 10,
+            "width": 38,
+            "height": 38,
+            "top": 10,
+            "right": 1590,
+            "bottom": 48,
+            "left": 1552
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 3
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": true
+    },
+    {
+      "viewport": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "room": "lightwingCrystalCavern",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 20,
+          "rect": {
+            "x": 593,
+            "y": 12,
+            "width": 640,
+            "height": 49,
+            "top": 12,
+            "right": 1233,
+            "bottom": 61,
+            "left": 593
+          },
+          "party": {
+            "x": 10,
+            "y": 10,
+            "width": 264,
+            "height": 120,
+            "top": 10,
+            "right": 274,
+            "bottom": 130,
+            "left": 10
+          },
+          "controls": {
+            "x": 1552,
+            "y": 10,
+            "width": 38,
+            "height": 38,
+            "top": 10,
+            "right": 1590,
+            "bottom": 48,
+            "left": 1552
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 20,
+          "rect": {
+            "x": 593,
+            "y": 12,
+            "width": 640,
+            "height": 80,
+            "top": 12,
+            "right": 1233,
+            "bottom": 92,
+            "left": 593
+          },
+          "party": {
+            "x": 10,
+            "y": 10,
+            "width": 264,
+            "height": 120,
+            "top": 10,
+            "right": 274,
+            "bottom": 130,
+            "left": 10
+          },
+          "controls": {
+            "x": 1552,
+            "y": 10,
+            "width": 38,
+            "height": 38,
+            "top": 10,
+            "right": 1590,
+            "bottom": 48,
+            "left": 1552
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 3
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": true
+    },
+    {
+      "viewport": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "room": "spiritClothStonescaleDepths",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 20,
+          "rect": {
+            "x": 593,
+            "y": 12,
+            "width": 640,
+            "height": 49,
+            "top": 12,
+            "right": 1233,
+            "bottom": 61,
+            "left": 593
+          },
+          "party": {
+            "x": 10,
+            "y": 10,
+            "width": 264,
+            "height": 120,
+            "top": 10,
+            "right": 274,
+            "bottom": 130,
+            "left": 10
+          },
+          "controls": {
+            "x": 1552,
+            "y": 10,
+            "width": 38,
+            "height": 38,
+            "top": 10,
+            "right": 1590,
+            "bottom": 48,
+            "left": 1552
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 20,
+          "rect": {
+            "x": 593,
+            "y": 12,
+            "width": 640,
+            "height": 80,
+            "top": 12,
+            "right": 1233,
+            "bottom": 92,
+            "left": 593
+          },
+          "party": {
+            "x": 10,
+            "y": 10,
+            "width": 264,
+            "height": 120,
+            "top": 10,
+            "right": 274,
+            "bottom": 130,
+            "left": 10
+          },
+          "controls": {
+            "x": 1552,
+            "y": 10,
+            "width": 38,
+            "height": 38,
+            "top": 10,
+            "right": 1590,
+            "bottom": 48,
+            "left": 1552
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 3
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": true
+    },
+    {
+      "viewport": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "dpr": 1,
+      "room": "crystalAltar",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 20,
+          "rect": {
+            "x": 616,
+            "y": 105,
+            "width": 640,
+            "height": 49,
+            "top": 105,
+            "right": 1256,
+            "bottom": 154,
+            "left": 616
+          },
+          "party": {
+            "x": 10,
+            "y": 10,
+            "width": 264,
+            "height": 120,
+            "top": 10,
+            "right": 274,
+            "bottom": 130,
+            "left": 10
+          },
+          "controls": {
+            "x": 1515.6875,
+            "y": 10,
+            "width": 74.3125,
+            "height": 67,
+            "top": 10,
+            "right": 1590,
+            "bottom": 77,
+            "left": 1515.6875
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 20,
+          "rect": {
+            "x": 616,
+            "y": 105,
+            "width": 640,
+            "height": 80,
+            "top": 105,
+            "right": 1256,
+            "bottom": 185,
+            "left": 616
+          },
+          "party": {
+            "x": 10,
+            "y": 10,
+            "width": 264,
+            "height": 120,
+            "top": 10,
+            "right": 274,
+            "bottom": 130,
+            "left": 10
+          },
+          "controls": {
+            "x": 1515.6875,
+            "y": 10,
+            "width": 74.3125,
+            "height": 67,
+            "top": 10,
+            "right": 1590,
+            "bottom": 77,
+            "left": 1515.6875
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 3
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": true
+    },
+    {
+      "viewport": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "dpr": 1,
+      "room": "mossRootRuins",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 177.328125,
+            "y": 154,
+            "width": 640,
+            "height": 42.796875,
+            "top": 154,
+            "right": 817.328125,
+            "bottom": 196.796875,
+            "left": 177.328125
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 836,
+            "height": 30,
+            "top": 8,
+            "right": 836,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 150.671875,
+            "y": 0,
+            "width": 693.328125,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 150.671875
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 177.328125,
+            "y": 154,
+            "width": 640,
+            "height": 67.59375,
+            "top": 154,
+            "right": 817.328125,
+            "bottom": 221.59375,
+            "left": 177.328125
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 836,
+            "height": 30,
+            "top": 8,
+            "right": 836,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 150.671875,
+            "y": 0,
+            "width": 693.328125,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 150.671875
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "dpr": 1,
+      "room": "lightwingCrystalCavern",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 177.328125,
+            "y": 154,
+            "width": 640,
+            "height": 42.796875,
+            "top": 154,
+            "right": 817.328125,
+            "bottom": 196.796875,
+            "left": 177.328125
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 836,
+            "height": 30,
+            "top": 8,
+            "right": 836,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 150.671875,
+            "y": 0,
+            "width": 693.328125,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 150.671875
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 177.328125,
+            "y": 154,
+            "width": 640,
+            "height": 67.59375,
+            "top": 154,
+            "right": 817.328125,
+            "bottom": 221.59375,
+            "left": 177.328125
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 836,
+            "height": 30,
+            "top": 8,
+            "right": 836,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 150.671875,
+            "y": 0,
+            "width": 693.328125,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 150.671875
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "dpr": 1,
+      "room": "spiritClothStonescaleDepths",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 177.328125,
+            "y": 154,
+            "width": 640,
+            "height": 42.796875,
+            "top": 154,
+            "right": 817.328125,
+            "bottom": 196.796875,
+            "left": 177.328125
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 836,
+            "height": 30,
+            "top": 8,
+            "right": 836,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 150.671875,
+            "y": 0,
+            "width": 693.328125,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 150.671875
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 177.328125,
+            "y": 154,
+            "width": 640,
+            "height": 67.59375,
+            "top": 154,
+            "right": 817.328125,
+            "bottom": 221.59375,
+            "left": 177.328125
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 836,
+            "height": 30,
+            "top": 8,
+            "right": 836,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 150.671875,
+            "y": 0,
+            "width": 693.328125,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 150.671875
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "dpr": 1,
+      "room": "crystalAltar",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 207,
+            "y": 51.15625,
+            "width": 623,
+            "height": 42.796875,
+            "top": 51.15625,
+            "right": 830,
+            "bottom": 93.953125,
+            "left": 207
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 836,
+            "height": 30,
+            "top": 8,
+            "right": 836,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 150.671875,
+            "y": 0,
+            "width": 693.328125,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 150.671875
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 207,
+            "y": 51.15625,
+            "width": 623,
+            "height": 67.59375,
+            "top": 51.15625,
+            "right": 830,
+            "bottom": 118.75,
+            "left": 207
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 836,
+            "height": 30,
+            "top": 8,
+            "right": 836,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 150.671875,
+            "y": 0,
+            "width": 693.328125,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 150.671875
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "dpr": 1,
+      "room": "mossRootRuins",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 14.34375,
+            "y": 154,
+            "width": 638.65625,
+            "height": 42.796875,
+            "top": 154,
+            "right": 653,
+            "bottom": 196.796875,
+            "left": 14.34375
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 659,
+            "height": 30,
+            "top": 8,
+            "right": 659,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0.34375,
+            "y": 0,
+            "width": 666.65625,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0.34375
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 14.34375,
+            "y": 154,
+            "width": 638.65625,
+            "height": 67.59375,
+            "top": 154,
+            "right": 653,
+            "bottom": 221.59375,
+            "left": 14.34375
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 659,
+            "height": 30,
+            "top": 8,
+            "right": 659,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0.34375,
+            "y": 0,
+            "width": 666.65625,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0.34375
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "dpr": 1,
+      "room": "lightwingCrystalCavern",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 14.34375,
+            "y": 154,
+            "width": 638.65625,
+            "height": 42.796875,
+            "top": 154,
+            "right": 653,
+            "bottom": 196.796875,
+            "left": 14.34375
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 659,
+            "height": 30,
+            "top": 8,
+            "right": 659,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0.34375,
+            "y": 0,
+            "width": 666.65625,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0.34375
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 14.34375,
+            "y": 154,
+            "width": 638.65625,
+            "height": 67.59375,
+            "top": 154,
+            "right": 653,
+            "bottom": 221.59375,
+            "left": 14.34375
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 659,
+            "height": 30,
+            "top": 8,
+            "right": 659,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0.34375,
+            "y": 0,
+            "width": 666.65625,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0.34375
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "dpr": 1,
+      "room": "spiritClothStonescaleDepths",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 14.34375,
+            "y": 154,
+            "width": 638.65625,
+            "height": 42.796875,
+            "top": 154,
+            "right": 653,
+            "bottom": 196.796875,
+            "left": 14.34375
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 659,
+            "height": 30,
+            "top": 8,
+            "right": 659,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0.34375,
+            "y": 0,
+            "width": 666.65625,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0.34375
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 14.34375,
+            "y": 154,
+            "width": 638.65625,
+            "height": 67.59375,
+            "top": 154,
+            "right": 653,
+            "bottom": 221.59375,
+            "left": 14.34375
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 659,
+            "height": 30,
+            "top": 8,
+            "right": 659,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0.34375,
+            "y": 0,
+            "width": 666.65625,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0.34375
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "dpr": 1,
+      "room": "crystalAltar",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 207,
+            "y": 49.578125,
+            "width": 446,
+            "height": 42.796875,
+            "top": 49.578125,
+            "right": 653,
+            "bottom": 92.375,
+            "left": 207
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 659,
+            "height": 30,
+            "top": 8,
+            "right": 659,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0.34375,
+            "y": 0,
+            "width": 666.65625,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0.34375
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 207,
+            "y": 49.578125,
+            "width": 446,
+            "height": 67.59375,
+            "top": 49.578125,
+            "right": 653,
+            "bottom": 117.171875,
+            "left": 207
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 659,
+            "height": 30,
+            "top": 8,
+            "right": 659,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0.34375,
+            "y": 0,
+            "width": 666.65625,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0.34375
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "dpr": 1,
+      "room": "mossRootRuins",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 192,
+            "y": 154,
+            "width": 640,
+            "height": 42.796875,
+            "top": 154,
+            "right": 832,
+            "bottom": 196.796875,
+            "left": 192
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 1016,
+            "height": 30,
+            "top": 8,
+            "right": 1016,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 576,
+            "top": 0,
+            "right": 1024,
+            "bottom": 576,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 192,
+            "y": 154,
+            "width": 640,
+            "height": 67.59375,
+            "top": 154,
+            "right": 832,
+            "bottom": 221.59375,
+            "left": 192
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 1016,
+            "height": 30,
+            "top": 8,
+            "right": 1016,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 576,
+            "top": 0,
+            "right": 1024,
+            "bottom": 576,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "dpr": 1,
+      "room": "lightwingCrystalCavern",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 192,
+            "y": 154,
+            "width": 640,
+            "height": 42.796875,
+            "top": 154,
+            "right": 832,
+            "bottom": 196.796875,
+            "left": 192
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 1016,
+            "height": 30,
+            "top": 8,
+            "right": 1016,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 576,
+            "top": 0,
+            "right": 1024,
+            "bottom": 576,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 192,
+            "y": 154,
+            "width": 640,
+            "height": 67.59375,
+            "top": 154,
+            "right": 832,
+            "bottom": 221.59375,
+            "left": 192
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 1016,
+            "height": 30,
+            "top": 8,
+            "right": 1016,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 576,
+            "top": 0,
+            "right": 1024,
+            "bottom": 576,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "dpr": 1,
+      "room": "spiritClothStonescaleDepths",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 192,
+            "y": 154,
+            "width": 640,
+            "height": 42.796875,
+            "top": 154,
+            "right": 832,
+            "bottom": 196.796875,
+            "left": 192
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 1016,
+            "height": 30,
+            "top": 8,
+            "right": 1016,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 576,
+            "top": 0,
+            "right": 1024,
+            "bottom": 576,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 192,
+            "y": 154,
+            "width": 640,
+            "height": 67.59375,
+            "top": 154,
+            "right": 832,
+            "bottom": 221.59375,
+            "left": 192
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 1016,
+            "height": 30,
+            "top": 8,
+            "right": 1016,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 576,
+            "top": 0,
+            "right": 1024,
+            "bottom": 576,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "dpr": 1,
+      "room": "crystalAltar",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 288.5,
+            "y": 70.796875,
+            "width": 640,
+            "height": 42.796875,
+            "top": 70.796875,
+            "right": 928.5,
+            "bottom": 113.59375,
+            "left": 288.5
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 1016,
+            "height": 30,
+            "top": 8,
+            "right": 1016,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 576,
+            "top": 0,
+            "right": 1024,
+            "bottom": 576,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 288.5,
+            "y": 70.796875,
+            "width": 640,
+            "height": 67.59375,
+            "top": 70.796875,
+            "right": 928.5,
+            "bottom": 138.390625,
+            "left": 288.5
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 1016,
+            "height": 30,
+            "top": 8,
+            "right": 1016,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 1024,
+            "height": 576,
+            "top": 0,
+            "right": 1024,
+            "bottom": 576,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "zoom-200-equivalent",
+      "size": [
+        800,
+        450
+      ],
+      "dpr": 2,
+      "room": "mossRootRuins",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 80,
+            "y": 154,
+            "width": 640,
+            "height": 42.796875,
+            "top": 154,
+            "right": 720,
+            "bottom": 196.796875,
+            "left": 80
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 792,
+            "height": 30,
+            "top": 8,
+            "right": 792,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 450,
+            "top": 0,
+            "right": 800,
+            "bottom": 450,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 80,
+            "y": 154,
+            "width": 640,
+            "height": 67.59375,
+            "top": 154,
+            "right": 720,
+            "bottom": 221.59375,
+            "left": 80
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 792,
+            "height": 30,
+            "top": 8,
+            "right": 792,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 450,
+            "top": 0,
+            "right": 800,
+            "bottom": 450,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "zoom-200-equivalent",
+      "size": [
+        800,
+        450
+      ],
+      "dpr": 2,
+      "room": "lightwingCrystalCavern",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 80,
+            "y": 154,
+            "width": 640,
+            "height": 42.796875,
+            "top": 154,
+            "right": 720,
+            "bottom": 196.796875,
+            "left": 80
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 792,
+            "height": 30,
+            "top": 8,
+            "right": 792,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 450,
+            "top": 0,
+            "right": 800,
+            "bottom": 450,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 80,
+            "y": 154,
+            "width": 640,
+            "height": 67.59375,
+            "top": 154,
+            "right": 720,
+            "bottom": 221.59375,
+            "left": 80
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 792,
+            "height": 30,
+            "top": 8,
+            "right": 792,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 450,
+            "top": 0,
+            "right": 800,
+            "bottom": 450,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "zoom-200-equivalent",
+      "size": [
+        800,
+        450
+      ],
+      "dpr": 2,
+      "room": "spiritClothStonescaleDepths",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 80,
+            "y": 154,
+            "width": 640,
+            "height": 42.796875,
+            "top": 154,
+            "right": 720,
+            "bottom": 196.796875,
+            "left": 80
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 792,
+            "height": 30,
+            "top": 8,
+            "right": 792,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 450,
+            "top": 0,
+            "right": 800,
+            "bottom": 450,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 80,
+            "y": 154,
+            "width": 640,
+            "height": 67.59375,
+            "top": 154,
+            "right": 720,
+            "bottom": 221.59375,
+            "left": 80
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 792,
+            "height": 30,
+            "top": 8,
+            "right": 792,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 450,
+            "top": 0,
+            "right": 800,
+            "bottom": 450,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    },
+    {
+      "viewport": "zoom-200-equivalent",
+      "size": [
+        800,
+        450
+      ],
+      "dpr": 2,
+      "room": "crystalAltar",
+      "cases": [
+        {
+          "kind": "short",
+          "text": "カイルの裂空断",
+          "font": 16,
+          "rect": {
+            "x": 207,
+            "y": 57.5,
+            "width": 579,
+            "height": 42.796875,
+            "top": 57.5,
+            "right": 786,
+            "bottom": 100.296875,
+            "left": 207
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 792,
+            "height": 30,
+            "top": 8,
+            "right": 792,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 450,
+            "top": 0,
+            "right": 800,
+            "bottom": 450,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 1
+        },
+        {
+          "kind": "long",
+          "text": "晶石の光が不規則に脈打っている。狭い通路を抜け、仲間とともに奥の広場へ向かおう。",
+          "font": 16,
+          "rect": {
+            "x": 207,
+            "y": 57.5,
+            "width": 579,
+            "height": 67.59375,
+            "top": 57.5,
+            "right": 786,
+            "bottom": 125.09375,
+            "left": 207
+          },
+          "party": {
+            "x": 5,
+            "y": 34,
+            "width": 190,
+            "height": 110,
+            "top": 34,
+            "right": 195,
+            "bottom": 144,
+            "left": 5
+          },
+          "controls": {
+            "x": 0,
+            "y": 8,
+            "width": 792,
+            "height": 30,
+            "top": 8,
+            "right": 792,
+            "bottom": 38,
+            "left": 0
+          },
+          "field": {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 450,
+            "top": 0,
+            "right": 800,
+            "bottom": 450,
+            "left": 0
+          },
+          "canvasBannerPaints": 0,
+          "stableMutationCount": 2
+        }
+      ],
+      "priorities": [
+        "dialogue",
+        "layer title",
+        "pause",
+        "status"
+      ],
+      "fullscreen": false
+    }
+  ],
+  "setup": "Synthetic short/long banners on real rendered stages, AI frozen for layout measurements; native Chrome fullscreen; 200% equivalent uses CSS 800x450 at DPR2",
+  "limits": "Physical devices/Safari/WebKit/VoiceOver not assessed"
+}

@@ -1,0 +1,65 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "defaultStayAndVisibleFocus": true,
+      "dialogueOnlyThenChoice": true,
+      "worldFrozen": true,
+      "stayThenRepeat": true,
+      "oneShortcutToExactForestSpawn": true,
+      "progressHpMpActivePreserved": true,
+      "noCinematicOrEntryTitle": true,
+      "noDuplicateWarpOrReward": true
+    },
+    {
+      "label": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "defaultStayAndVisibleFocus": true,
+      "dialogueOnlyThenChoice": true,
+      "worldFrozen": true,
+      "stayThenRepeat": true,
+      "oneShortcutToExactForestSpawn": true,
+      "progressHpMpActivePreserved": true,
+      "noCinematicOrEntryTitle": true,
+      "noDuplicateWarpOrReward": true
+    },
+    {
+      "label": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "defaultStayAndVisibleFocus": true,
+      "dialogueOnlyThenChoice": true,
+      "worldFrozen": true,
+      "stayThenRepeat": true,
+      "oneShortcutToExactForestSpawn": true,
+      "progressHpMpActivePreserved": true,
+      "noCinematicOrEntryTitle": true,
+      "noDuplicateWarpOrReward": true
+    },
+    {
+      "label": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "defaultStayAndVisibleFocus": true,
+      "dialogueOnlyThenChoice": true,
+      "worldFrozen": true,
+      "stayThenRepeat": true,
+      "oneShortcutToExactForestSpawn": true,
+      "progressHpMpActivePreserved": true,
+      "noCinematicOrEntryTitle": true,
+      "noDuplicateWarpOrReward": true
+    }
+  ],
+  "limits": "Final production build in muted isolated headless Chrome. Actual title START/prologue skip. Acquired boss state and completed gates set to isolate choices. Real keyboard/touch and PC fullscreen; no physical devices or Safari."
+}

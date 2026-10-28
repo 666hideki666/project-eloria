@@ -1,0 +1,51 @@
+{
+  "character": "nadi",
+  "action": "normal",
+  "ability": "moonbladeThrow",
+  "displayName": "月輪投げ",
+  "version": 1,
+  "image": "nadi-normal-moonblade-throw-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.92
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "animation": {
+    "loop": false,
+    "durationSeconds": 0.18,
+    "frameDurationsSeconds": [0.015, 0.02, 0.035, 0.04, 0.035, 0.035],
+    "projectileReleaseFrame": 2,
+    "heldWeaponFrames": [0, 1, 5],
+    "emptyHandFrames": [2, 3, 4]
+  },
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "Keep the same draw scale, direction offset and feet anchor as Nadi's idle/walk sheet.",
+    "The held moon-ring blade is included only in frames 0, 1 and 5.",
+    "The flying moon-ring projectile remains a game-rendered object and must not be added to the sprite frames.",
+    "Circular trails, hit flashes, particles and the ground shadow remain game-rendered effects."
+  ]
+}

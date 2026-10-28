@@ -1,0 +1,95 @@
+[
+  {
+    "character": "kyle",
+    "source": "assets/concepts/characters/downed/kyle-downed-concept-v2.png",
+    "sourceSha256": "e73f864bbc7f47fe5682a9c38bc36a340384138cf90391a68a2ca7a57a193fcc",
+    "crop": [
+      360,
+      378,
+      1184,
+      716
+    ],
+    "resize": [
+      44,
+      18
+    ],
+    "paste": [
+      2,
+      18
+    ],
+    "output": "assets/sprites/characters/kyle/kyle-downed-48px-v1.png",
+    "frame": [
+      48,
+      48
+    ],
+    "anchor": [
+      24,
+      32
+    ],
+    "drawScale": 0.75,
+    "resample": "NEAREST",
+    "alpha": "source unchanged"
+  },
+  {
+    "character": "nadi",
+    "source": "assets/concepts/characters/downed/nadi-downed-concept-v1.png",
+    "sourceSha256": "07bb92e3474f0a47b0af345aceab35aecacca4a9a41622f474bc9237afe2f9a6",
+    "crop": [
+      339,
+      466,
+      985,
+      810
+    ],
+    "resize": [
+      42,
+      22
+    ],
+    "paste": [
+      3,
+      14
+    ],
+    "output": "assets/sprites/characters/nadi/nadi-downed-48px-v1.png",
+    "frame": [
+      48,
+      48
+    ],
+    "anchor": [
+      24,
+      32
+    ],
+    "drawScale": 0.75,
+    "resample": "NEAREST",
+    "alpha": "source unchanged"
+  },
+  {
+    "character": "mel",
+    "source": "assets/concepts/characters/downed/mel-downed-concept-v1.png",
+    "sourceSha256": "b7bbe23fbb483f795dcadf238c246f22fa281e3292b5b26752c686fc40d65dd1",
+    "crop": [
+      415,
+      434,
+      1097,
+      849
+    ],
+    "resize": [
+      42,
+      26
+    ],
+    "paste": [
+      3,
+      10
+    ],
+    "output": "assets/sprites/characters/mel/mel-downed-48px-v1.png",
+    "frame": [
+      48,
+      48
+    ],
+    "anchor": [
+      24,
+      32
+    ],
+    "drawScale": 0.75,
+    "resample": "NEAREST",
+    "alpha": "source unchanged"
+  }
+]

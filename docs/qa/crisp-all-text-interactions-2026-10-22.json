@@ -1,0 +1,104 @@
+{
+  "reports": [
+    {
+      "room": "mossRootRuins",
+      "name": "crystal",
+      "hint": "クリスタルに触れる",
+      "dialoguePages": 2,
+      "heldInputSafe": true,
+      "movementFrozen": true,
+      "canvasTextPaints": []
+    },
+    {
+      "room": "lightwingCrystalCavern",
+      "name": "primary",
+      "hint": "主結晶に触れる",
+      "dialoguePages": 1,
+      "heldInputSafe": true,
+      "movementFrozen": true,
+      "canvasTextPaints": []
+    },
+    {
+      "room": "lightwingCrystalCavern",
+      "name": "secondary",
+      "hint": "副結晶に触れる",
+      "dialoguePages": 1,
+      "heldInputSafe": true,
+      "movementFrozen": true,
+      "canvasTextPaints": []
+    },
+    {
+      "room": "lightwingCrystalCavern",
+      "name": "spring",
+      "hint": "回復の晶泉",
+      "dialoguePages": 2,
+      "heldInputSafe": true,
+      "movementFrozen": true,
+      "canvasTextPaints": []
+    },
+    {
+      "room": "lightwingCrystalCavern",
+      "name": "floor3",
+      "hint": "第3層の門",
+      "dialoguePages": 1,
+      "heldInputSafe": true,
+      "movementFrozen": true,
+      "canvasTextPaints": []
+    },
+    {
+      "room": "spiritClothStonescaleDepths",
+      "name": "lamp",
+      "hint": "霊灯を調べる",
+      "dialoguePages": 2,
+      "heldInputSafe": true,
+      "movementFrozen": true,
+      "canvasTextPaints": []
+    },
+    {
+      "room": "spiritClothStonescaleDepths",
+      "name": "wedge",
+      "hint": "石楔を調べる",
+      "dialoguePages": 2,
+      "heldInputSafe": true,
+      "movementFrozen": true,
+      "canvasTextPaints": []
+    },
+    {
+      "room": "spiritClothStonescaleDepths",
+      "name": "restoration",
+      "hint": "再生晶石",
+      "restorationBanner": true
+    },
+    {
+      "room": "spiritClothStonescaleDepths",
+      "name": "door",
+      "hint": "封印門",
+      "dialoguePages": 2,
+      "heldInputSafe": true,
+      "movementFrozen": true,
+      "canvasTextPaints": []
+    },
+    {
+      "room": "crystalAltar",
+      "name": "seal",
+      "hint": "森の封印石",
+      "dialoguePages": 1,
+      "heldInputSafe": true,
+      "movementFrozen": true,
+      "canvasTextPaints": []
+    },
+    {
+      "touchPanelAndCanvas": true
+    },
+    {
+      "realPickupsAndRewards": true,
+      "pauseFreezesEffects": true,
+      "lifetimeExpires": true
+    },
+    {
+      "arenaRealSwitchBanner": true
+    }
+  ],
+  "setup": "Existing DEV QA landmark placement and out-of-range position probes; real E/Enter/click/touch input and original dialogue progression. Pickup/enemy reward paths triggered with QA resources.",
+  "limits": "Muted headless Chrome; physical devices/Safari/VoiceOver/listening not assessed"
+}

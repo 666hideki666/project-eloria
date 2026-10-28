@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="ELORIA — 3人の冒険者と、古の森の記憶をたどるアクションRPG"
+    />
+    <title>ELORIA</title>
+    <style>html, body { background: #020b0a; } body[data-opening="loading"] .page-shell { visibility: hidden; }</style>
+  </head>
+  <body data-input="keyboard" data-opening="loading">
+    <section id="opening" class="opening" aria-label="ELORIA タイトルと序章" hidden></section>
+    <main class="page-shell">
+      <header class="brand-line" aria-label="ゲームタイトル">
+        <div>
+          <span class="brand-kicker">COMBAT PROTOTYPE 01</span>
+          <h1>PROJECT <em>ELORIA</em></h1>
+        </div>
+        <div class="build-tag">晶界戦闘システム</div>
+      </header>
+
+      <section
+        id="game-shell"
+        class="game-shell"
+        aria-label="Project Eloria ゲーム画面"
+      >
+        <header class="top-info-bar" aria-label="戦闘情報">
+          <div class="area-readout">
+            <span>AREA</span>
+            <strong id="hud-area-name">晶界・試練の環</strong>
+          </div>
+          <div id="hud-encounter" class="encounter-readout">
+            <span id="hud-trial">TRIAL 01</span>
+            <span id="hud-enemies">ENEMY 3/3</span>
+          </div>
+          <div class="top-controls">
+            <button
+              id="audio-toggle"
+              class="audio-toggle"
+              type="button"
+              aria-label="BGMをミュート（M）"
+              aria-pressed="false"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path class="speaker-body" d="M4 9h4l5-4v14l-5-4H4z" />
+                <path
+                  class="speaker-waves"
+                  d="M16 8c1.2 1.1 1.2 6.9 0 8M19 5c3 3 3 11 0 14"
+                />
+                <path class="speaker-slash" d="M3 3l18 18" />
+              </svg>
+              <span>BGM</span>
+              <kbd>M</kbd>
+            </button>
+            <button
+              id="pause-toggle"
+              class="pause-toggle"
+              type="button"
+              aria-label="ポーズ（Esc）"
+              disabled
+            >
+              <span class="pause-glyph" aria-hidden="true"></span>
+              <span id="pause-toggle-label">ポーズ</span>
+              <kbd>ESC</kbd>
+            </button>
+          </div>
+        </header>
+
+        <div class="combat-layout">
+          <aside class="party-panel" aria-label="パーティー状態">
+            <div class="panel-heading">
+              <span>PARTY STATUS</span>
+              <small>3 MEMBERS</small>
+            </div>
+
+            <article
+              class="party-status"
+              role="button"
+              tabindex="0"
+              data-party-id="kyle"
+              data-active="true"
+              data-downed="false"
+            >
+              <div class="party-portrait portrait-kyle" aria-hidden="true"></div>
+              <div class="party-details">
+                <div class="party-name-line">
+                  <strong>カイル</strong>
+                  <span class="active-marker">操作中</span>
+                </div>
+                <div class="resource-label">
+                  <span>HP</span><span data-hp-value>120 / 120</span>
+                </div>
+                <div class="resource-bar hp-bar">
+                  <span data-hp-fill style="width: 100%"></span>
+                </div>
+                <div class="tech-readout" aria-label="技ゲージ 0 / 3">
+                  <span class="tech-label">技</span><span class="tech-meter" aria-hidden="true"><span data-tech-fill class="tech-meter-fill"></span><i></i><i></i></span><span data-tech-value>0/3</span>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="party-status"
+              role="button"
+              tabindex="0"
+              data-party-id="nadi"
+              data-active="false"
+              data-downed="false"
+            >
+              <div class="party-portrait portrait-nadi" aria-hidden="true"></div>
+              <div class="party-details">
+                <div class="party-name-line">
+                  <strong>ナディ</strong>
+                  <span class="active-marker">操作中</span>
+                </div>
+                <div class="resource-label">
+                  <span>HP</span><span data-hp-value>100 / 100</span>
+                </div>
+                <div class="resource-bar hp-bar">
+                  <span data-hp-fill style="width: 100%"></span>
+                </div>
+                <div class="tech-readout" aria-label="技ゲージ 0 / 3">
+                  <span class="tech-label">技</span><span class="tech-meter" aria-hidden="true"><span data-tech-fill class="tech-meter-fill"></span><i></i><i></i></span><span data-tech-value>0/3</span>
+                </div>
+              </div>
+            </article>
+
+            <article
+              class="party-status"
+              role="button"
+              tabindex="0"
+              data-party-id="meru"
+              data-active="false"
+              data-downed="false"
+            >
+              <div class="party-portrait portrait-meru" aria-hidden="true"></div>
+              <div class="party-details">
+                <div class="party-name-line">
+                  <strong>メル</strong>
+                  <span class="active-marker">操作中</span>
+                  <span
+                    class="auto-heal-marker"
+                    data-auto-heal
+                    hidden
+                    title="自動回復待機"
+                    aria-label="自動回復待機"
+                  >＋</span>
+                </div>
+                <div class="resource-label">
+                  <span>HP</span><span data-hp-value>82 / 82</span>
+                </div>
+                <div class="resource-bar hp-bar">
+                  <span data-hp-fill style="width: 100%"></span>
+                </div>
+                <div class="tech-readout" aria-label="技ゲージ 0 / 3">
+                  <span class="tech-label">技</span><span class="tech-meter" aria-hidden="true"><span data-tech-fill class="tech-meter-fill"></span><i></i><i></i></span><span data-tech-value>0/3</span>
+                </div>
+                <div class="resource-label mp-label">
+                  <span>MP</span><span data-mp-value>100 / 100</span>
+                </div>
+                <div class="resource-bar mp-bar">
+                  <span data-mp-fill style="width: 100%"></span>
+                </div>
+              </div>
+            </article>
+
+            <p class="party-help">
+              <kbd>SPACE</kbd>
+              <span>先頭を交代</span>
+            </p>
+          </aside>
+
+          <div class="field-shell" aria-label="戦闘フィールド">
+            <canvas id="game" width="640" height="360" tabindex="0">
+              このゲームを遊ぶにはCanvas対応ブラウザが必要です。
+            </canvas>
+
+            <aside id="status-panel" class="status-panel" role="dialog" aria-label="キャラクターの状態" hidden>
+              <header class="status-panel-header">
+                <div><small>状態</small><h2 id="status-name">カイル</h2></div>
+                <button id="status-close" type="button" aria-label="状態を閉じる">×</button>
+              </header>
+              <p id="status-health">HP 120 / 120</p>
+              <p id="status-mana" hidden>MP 100 / 100</p>
+              <p id="status-tech">技ゲージ 0 / 3</p>
+              <div class="status-tech-meter" aria-hidden="true"><span id="status-tech-fill" class="status-tech-meter-fill"></span><i></i><i></i></div>
+              <div id="status-abilities" class="status-abilities"></div>
+              <button id="status-controls-help" type="button">操作方法</button>
+              <p class="status-panel-help">I / Esc で閉じる</p>
+            </aside>
+            <div id="layer-entry" class="layer-entry" hidden aria-live="polite"><span>第一層</span><strong>苔根の遺構</strong><i aria-hidden="true"></i></div>
+            <section id="cave-entry-story" class="cave-entry-story" role="dialog" aria-modal="true" aria-label="苔根の遺構へ" hidden></section>
+            <div id="field-banner" class="field-banner" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+            <div id="field-prompt" class="field-prompt" role="status" hidden></div>
+            <section id="field-dialogue" class="field-dialogue" aria-label="晶界の記録" hidden>
+              <strong class="field-dialogue-heading"></strong>
+              <p class="field-dialogue-copy" aria-live="off"></p>
+              <small class="field-dialogue-advance" hidden>E / クリック ▼</small>
+              <p class="field-dialogue-live" aria-live="polite" aria-atomic="true"></p>
+            </section>
+            <div id="field-boss" class="field-boss" role="progressbar" aria-label="森晶獣ヴェルグラン" aria-valuemin="0" hidden>
+              <div class="field-boss-label"><strong>森晶獣ヴェルグラン</strong><span class="field-boss-core" hidden>晶核露出</span></div>
+              <div class="field-boss-track"><i class="field-boss-hp"></i></div>
+              <div class="field-boss-armor-track"><i class="field-boss-armor"></i></div>
+            </div>
+            <div id="field-floating" class="field-floating" aria-hidden="true"></div>
+            <section id="layer1-anomaly" class="layer1-anomaly" role="dialog" aria-modal="true" aria-label="苔根の遺構の異変" hidden></section>
+
+            <div id="screen-overlay" class="screen-overlay is-visible">
+              <div class="overlay-card">
+                <span id="overlay-kicker" class="overlay-kicker">
+                  FIRST COMBAT TEST
+                </span>
+                <h2 id="overlay-title">晶界・試練の環</h2>
+                <p id="overlay-copy">
+                  3人の役割を切り替え、遺跡に巣食う魔物を退けよう。
+                </p>
+                <button id="controls-help" type="button" hidden>操作を見る</button>
+                <div id="audio-settings" class="audio-settings" hidden>
+                  <div id="audio-track" class="audio-track">BGM「晶界を駆ける」</div>
+                  <label for="bgm-volume">
+                    <span>BGM音量</span>
+                    <output id="bgm-volume-value" for="bgm-volume">40%</output>
+                  </label>
+                  <input
+                    id="bgm-volume"
+                    type="range"
+                    min="0"
+                    max="1"
+                    step="0.05"
+                    value="0.4"
+                    aria-label="BGM音量"
+                  />
+                  <button
+                    id="pause-audio-mute"
+                    class="pause-audio-mute"
+                    type="button"
+                    aria-pressed="false"
+                  >🔊 BGMミュート</button>
+                  <div class="audio-setting-divider"></div>
+                  <label for="sfx-volume">
+                    <span>効果音音量</span>
+                    <output id="sfx-volume-value" for="sfx-volume">65%</output>
+                  </label>
+                  <input
+                    id="sfx-volume"
+                    type="range"
+                    min="0"
+                    max="1"
+                    step="0.05"
+                    value="0.65"
+                    aria-label="効果音音量"
+                  />
+                  <button
+                    id="pause-sfx-mute"
+                    class="pause-audio-mute"
+                    type="button"
+                    aria-pressed="false"
+                  >🔊 SFXミュート</button>
+                </div>
+                <button id="overlay-action" type="button">
+                  戦闘開始 <kbd>E</kbd>
+                </button>
+                <p id="overlay-hint" class="overlay-hint">
+                  WASD 移動 ・ J 通常 ・ K 特殊 ・ L 大技 ・ Space 交代
+                </p>
+                <p id="audio-unlock-hint" class="audio-unlock-hint">
+                  最初のクリックまたはキー操作でBGM・効果音が有効になります
+                </p>
+              </div>
+            </div>
+
+            <div id="touch-layer" class="touch-layer" aria-label="タッチ操作">
+              <div
+                id="stick-zone"
+                class="stick-zone"
+                aria-label="移動エリア"
+              >
+                <div id="touch-stick" class="touch-stick">
+                  <span class="touch-stick-knob"></span>
+                </div>
+              </div>
+              <div class="touch-actions">
+                <button
+                  data-touch-action="switch"
+                  class="touch-action touch-switch"
+                  aria-label="交代"
+                >交代</button>
+                <button
+                  data-touch-action="ultimate"
+                  class="touch-action touch-ultimate"
+                  aria-label="大技"
+                >L</button>
+                <button
+                  data-touch-action="special"
+                  class="touch-action touch-special"
+                  aria-label="特殊技"
+                >K</button>
+                <button
+                  data-touch-action="attack"
+                  class="touch-action touch-attack"
+                  aria-label="通常攻撃"
+                >J</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+
+    <aside
+      id="sfx-soundboard"
+      class="sfx-soundboard"
+      hidden
+      aria-label="効果音試聴"
+    >
+      <header>
+        <div>
+          <small>DEVELOPMENT ONLY</small>
+          <h2>SFXサウンドボード</h2>
+        </div>
+        <button id="sfx-board-collapse" type="button">閉じる</button>
+      </header>
+      <div class="sfx-board-body">
+        <div id="sfx-board-controls" class="sfx-board-controls"></div>
+        <p id="sfx-board-status" class="sfx-board-status">
+          Context: unavailable
+        </p>
+        <div id="sfx-board-buttons" class="sfx-board-buttons"></div>
+      </div>
+    </aside>
+    <section id="cave-guide" class="cave-guide" role="dialog" aria-modal="true" aria-label="操作ガイド" hidden></section>
+    <section id="forest-return-cinematic" class="opening chapter-cinematic return-cinematic" role="dialog" aria-modal="true" aria-label="古の森への帰還" hidden></section>
+    <div id="title-return-fade" aria-hidden="true" hidden></div>
+    <section id="velgran-return-choice" class="velgran-return-choice" role="dialog" aria-modal="true" aria-labelledby="velgran-return-heading" hidden></section>
+    <section id="chapter-cinematic" class="opening chapter-cinematic" role="dialog" aria-modal="true" aria-label="森の封印石" hidden></section>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

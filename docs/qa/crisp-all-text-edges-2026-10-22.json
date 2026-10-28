@@ -1,0 +1,13 @@
+{
+  "touchLongScroll": {
+    "scroll": 141,
+    "page": 0,
+    "hidden": false
+  },
+  "touchAdvancesAfterScroll": true,
+  "devConfirmationEscape": true,
+  "cameraReprojects": true,
+  "offscreenClipped": true,
+  "transitionClearsEffects": true,
+  "limits": "Scroll uses actual Chrome touch gesture; camera and room transition use existing runtime methods; muted headless Chrome, no physical device or screen reader"
+}

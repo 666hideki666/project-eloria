@@ -1,0 +1,23 @@
+{
+  "name": "project-eloria",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json && vite build",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "generate:moss-mask": "python3 scripts/generate-moss-root-red-boundary-mask-2026-10-06.py && node scripts/generate-moss-root-walkability-data.mjs",
+    "qa:moss-mask": "python3 scripts/generate-moss-root-red-boundary-mask-2026-10-06.py --check && python3 scripts/generate-moss-root-route-qa.py",
+    "qa:forest-mask": "python3 scripts/generate-ancient-forest-walkability.py --check",
+    "pretest": "node scripts/generate-moss-root-walkability-data.mjs --check && python3 scripts/generate-ancient-forest-walkability.py --check",
+    "prebuild": "node scripts/generate-moss-root-walkability-data.mjs --check && python3 scripts/generate-ancient-forest-walkability.py --check"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^7.0.4",
+    "vitest": "^3.2.4"
+  }
+}

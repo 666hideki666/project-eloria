@@ -1,0 +1,105 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "titleThenGuideThenAnomaly": true,
+      "twoCards": true,
+      "worldFrozen": true,
+      "returnAndReentryNoReplay": true,
+      "optionalPauseHelp": true,
+      "input": "keyboard",
+      "fullscreen": true
+    },
+    {
+      "label": "desktop",
+      "epilogueThreeScenes": true,
+      "walkToSeal": true,
+      "solidSealMaintained": true,
+      "worldFrozen": true,
+      "acquiredOnlyOnCompletion": true,
+      "commits": 1,
+      "acquisitionSounds": 1,
+      "guardianSurvives": true
+    },
+    {
+      "label": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "titleThenGuideThenAnomaly": true,
+      "twoCards": true,
+      "worldFrozen": true,
+      "returnAndReentryNoReplay": true,
+      "optionalPauseHelp": true,
+      "input": "touch",
+      "fullscreen": false
+    },
+    {
+      "label": "phone",
+      "epilogueThreeScenes": true,
+      "walkToSeal": true,
+      "solidSealMaintained": true,
+      "worldFrozen": true,
+      "acquiredOnlyOnCompletion": true,
+      "commits": 1,
+      "acquisitionSounds": 1,
+      "guardianSurvives": true
+    },
+    {
+      "label": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "titleThenGuideThenAnomaly": true,
+      "twoCards": true,
+      "worldFrozen": true,
+      "returnAndReentryNoReplay": true,
+      "optionalPauseHelp": true,
+      "input": "touch",
+      "fullscreen": false
+    },
+    {
+      "label": "phone-small",
+      "epilogueThreeScenes": true,
+      "walkToSeal": true,
+      "solidSealMaintained": true,
+      "worldFrozen": true,
+      "acquiredOnlyOnCompletion": true,
+      "commits": 1,
+      "acquisitionSounds": 1,
+      "guardianSurvives": true
+    },
+    {
+      "label": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "titleThenGuideThenAnomaly": true,
+      "twoCards": true,
+      "worldFrozen": true,
+      "returnAndReentryNoReplay": true,
+      "optionalPauseHelp": true,
+      "input": "touch",
+      "fullscreen": false
+    },
+    {
+      "label": "ipad",
+      "epilogueThreeScenes": true,
+      "walkToSeal": true,
+      "solidSealMaintained": true,
+      "worldFrozen": true,
+      "acquiredOnlyOnCompletion": true,
+      "commits": 1,
+      "acquisitionSounds": 1,
+      "guardianSurvives": true
+    }
+  ],
+  "limits": "Muted headless Chrome; cave approach placed at validated floor; seal approach placed on existing north route, followed by real movement; DEV seal-ready setup, real dialogue/input. Physical devices/Safari/VoiceOver/listening not assessed"
+}

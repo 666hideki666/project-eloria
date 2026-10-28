@@ -1,0 +1,40 @@
+{
+  "live": {
+    "exit": 0,
+    "existingListener": "99934",
+    "openedUrl": "http://127.0.0.1:4173/",
+    "newGameTabs": 1,
+    "testTabClosed": true,
+    "existingTabsPreserved": true
+  },
+  "isolated": [
+    {
+      "case": "cold start and reuse",
+      "status": "passed",
+      "port": 55432,
+      "realVite": true,
+      "browserOpenRecorded": 2
+    },
+    {
+      "case": "stop, root guard, restart and second stop",
+      "status": "passed",
+      "managedProcessesOnly": true
+    },
+    {
+      "case": "unrelated occupied port and stale PID",
+      "status": "passed",
+      "browserNotOpened": true,
+      "foreignProcessPreserved": true
+    },
+    {
+      "case": "cleanup and user server protection",
+      "status": "passed",
+      "testPortFree": true,
+      "existingListener": "99934",
+      "existingManagedPid": "99908",
+      "existingServerNeverRestarted": true
+    }
+  ],
+  "isolation": "Temporary project copy with a separate port; OS browser open recorded in fixture only; stop script and command wrappers unchanged.",
+  "finderDoubleClick": "not verified"
+}

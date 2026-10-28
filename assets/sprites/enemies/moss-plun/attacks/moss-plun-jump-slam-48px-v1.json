@@ -1,0 +1,70 @@
+{
+  "enemyKind": "mossPlun",
+  "action": "jumpSlam",
+  "displayName": "苔跳びプレス",
+  "version": 1,
+  "image": "moss-plun-jump-slam-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "drawScale": 0.8,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.92
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "phases": {
+    "windup": {
+      "framesWithinDirection": [0, 1],
+      "frameDurationsSeconds": [0.3, 0.42],
+      "loop": false
+    },
+    "attack": {
+      "framesWithinDirection": [2, 3, 4],
+      "frameDurationsSeconds": [0.08, 0.1, 0.18],
+      "loop": false
+    },
+    "recover": {
+      "framesWithinDirection": [4, 5],
+      "frameDurationsSeconds": [0.16, 0.56],
+      "loop": false
+    }
+  },
+  "hitEvent": {
+    "phase": "attack",
+    "frameWithinDirection": 4,
+    "timeSeconds": 0.18,
+    "maxHitsPerTarget": 1
+  },
+  "airborneFramesWithinDirection": [2, 3],
+  "worldPositionFixed": true,
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "Use the attack direction captured when windup begins; do not change authored rows in the middle of the action.",
+    "Frames 0 and 1 are anticipation, frames 2 and 3 are airborne, frame 4 is the landing impact, and frame 5 is recovery.",
+    "The vertical jump is authored inside the frames. Never add a second render-only Y jump or change collision height.",
+    "Keep the world-space ground anchor and attack direction fixed while the action sheet plays.",
+    "The sprite contains no shadow, impact ring, leaves, dust, damage number, HP bar or hit flash; keep those game-rendered.",
+    "Damage and impact effects must occur once when attack frame 4 begins, not when the windup ends."
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "character": "mel",
+  "runtimeCharacterId": "meru",
+  "action": "normal",
+  "ability": "phosphorBolt",
+  "displayName": "燐光弾",
+  "version": 1,
+  "image": "mel-normal-phosphor-bolt-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.92
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "animation": {
+    "loop": false,
+    "durationSeconds": 0.18,
+    "frameDurationsSeconds": [0.015, 0.02, 0.035, 0.04, 0.035, 0.035],
+    "projectileReleaseFrame": 2
+  },
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "Keep the same draw scale, direction offset and feet anchor as Mel's idle/walk sheet.",
+    "The staff is included once in every frame and must not be drawn separately.",
+    "The phosphor projectile remains a game-rendered object and must not be baked into the sprite.",
+    "Magic glow, particles, hit flashes and the ground shadow remain game-rendered effects."
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "remainingCanvasText": [
+    {
+      "file": "src/render/Renderer.ts",
+      "line": 398,
+      "code": "context.strokeText(\"!\", 0, 0);",
+      "classification": "enemy notice symbol"
+    },
+    {
+      "file": "src/render/Renderer.ts",
+      "line": 399,
+      "code": "context.fillText(\"!\", 0, 0);",
+      "classification": "enemy notice symbol"
+    },
+    {
+      "file": "src/render/Renderer.ts",
+      "line": 615,
+      "code": "context.fillText(",
+      "classification": "AI debug overlay"
+    },
+    {
+      "file": "src/render/Renderer.ts",
+      "line": 664,
+      "code": "context.fillText(",
+      "classification": "AI debug overlay"
+    },
+    {
+      "file": "src/render/Renderer.ts",
+      "line": 675,
+      "code": "context.fillText(",
+      "classification": "AI debug overlay"
+    }
+  ],
+  "migrated": [
+    "interaction prompts",
+    "landmark/exit/DEV dialogues",
+    "boss gauge name/HP/armor/core",
+    "arena banners",
+    "HP/MP/EXP floating text"
+  ],
+  "preservedProtectedFiles": 315,
+  "intentionalLogicChanges": {
+    "src/game/GameWorld.ts": "Only passes paused flag to EffectPool for non-playing effects update",
+    "src/effects/EffectPool.ts": "Optional pauseText filter freezes text effects only"
+  },
+  "reversePatchMatchesBaseline": true
+}

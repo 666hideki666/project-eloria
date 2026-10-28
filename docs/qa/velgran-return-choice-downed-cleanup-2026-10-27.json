@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-27",
+  "tests": {
+    "typecheck": "passed",
+    "vitest": {
+      "files": 27,
+      "tests": 427,
+      "passed": true
+    },
+    "build": "passed",
+    "buildWarning": "Existing main bundle over 500 kB; build succeeded."
+  },
+  "protectedBaselineFiles": 329,
+  "authorizedRenderChanges": [
+    "src/render/CharacterSpriteRenderer.ts",
+    "src/render/Renderer.ts"
+  ],
+  "remainingUnchanged": 327,
+  "approvedConceptHashesStillMatch": true,
+  "productionSprites": [
+    "assets/sprites/characters/kyle/kyle-downed-48px-v1.png",
+    "assets/sprites/characters/nadi/nadi-downed-48px-v1.png",
+    "assets/sprites/characters/mel/mel-downed-48px-v1.png"
+  ],
+  "server4173AtStart": "",
+  "listeners4173to4175AtFinish": "",
+  "ownChromeProfilesRunningAtFinish": "",
+  "cleanup": "Task-owned 4174 and 4175 sessions stopped by Ctrl-C after QA. Every isolated browser closed in finally; no user browser tabs or music were controlled. No stop action on 4173.",
+  "limits": "No physical devices, Safari/WebKit, VoiceOver, listening review or full manual chapter/boss combat playthrough."
+}

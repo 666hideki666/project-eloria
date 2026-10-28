@@ -1,0 +1,105 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "manual": false,
+      "titleMs": 3517,
+      "pulseMs": 383,
+      "noIntro": true,
+      "narrationFullAndSeparateFromTitle": true,
+      "worldFrozen": true,
+      "fourPagesThenControl": true
+    },
+    {
+      "label": "desktop",
+      "reentryRegularTitleWithoutNarration": true
+    },
+    {
+      "label": "desktop",
+      "manual": true,
+      "titleMs": 838,
+      "pulseMs": 388,
+      "noIntro": true,
+      "narrationFullAndSeparateFromTitle": true,
+      "worldFrozen": true,
+      "fourPagesThenControl": true
+    },
+    {
+      "label": "phone",
+      "manual": false,
+      "titleMs": 3504,
+      "pulseMs": 417,
+      "noIntro": true,
+      "narrationFullAndSeparateFromTitle": true,
+      "worldFrozen": true,
+      "fourPagesThenControl": true
+    },
+    {
+      "label": "phone",
+      "reentryRegularTitleWithoutNarration": true
+    },
+    {
+      "label": "phone",
+      "manual": true,
+      "titleMs": 914,
+      "pulseMs": 420,
+      "noIntro": true,
+      "narrationFullAndSeparateFromTitle": true,
+      "worldFrozen": true,
+      "fourPagesThenControl": true
+    },
+    {
+      "label": "phone-small",
+      "manual": false,
+      "titleMs": 3513,
+      "pulseMs": 388,
+      "noIntro": true,
+      "narrationFullAndSeparateFromTitle": true,
+      "worldFrozen": true,
+      "fourPagesThenControl": true
+    },
+    {
+      "label": "phone-small",
+      "reentryRegularTitleWithoutNarration": true
+    },
+    {
+      "label": "phone-small",
+      "manual": true,
+      "titleMs": 850,
+      "pulseMs": 443,
+      "noIntro": true,
+      "narrationFullAndSeparateFromTitle": true,
+      "worldFrozen": true,
+      "fourPagesThenControl": true
+    },
+    {
+      "label": "ipad",
+      "manual": false,
+      "titleMs": 3506,
+      "pulseMs": 416,
+      "noIntro": true,
+      "narrationFullAndSeparateFromTitle": true,
+      "worldFrozen": true,
+      "fourPagesThenControl": true
+    },
+    {
+      "label": "ipad",
+      "reentryRegularTitleWithoutNarration": true
+    },
+    {
+      "label": "ipad",
+      "manual": true,
+      "titleMs": 919,
+      "pulseMs": 420,
+      "noIntro": true,
+      "narrationFullAndSeparateFromTitle": true,
+      "worldFrozen": true,
+      "fourPagesThenControl": true
+    },
+    {
+      "allQaLayerTitlesUnchanged": true,
+      "reducedRegularTitleUnchanged": true
+    }
+  ],
+  "limits": "Muted isolated headless Chrome, keyboard and touch emulation, real fullscreen. Cave approach placed on existing validated floor, then real cave movement and controls. No physical devices/Safari/VoiceOver/listening assessment."
+}

@@ -1,0 +1,134 @@
+{
+  "reports": [
+    {
+      "normalIntroAndAcquisition": true,
+      "sealGrantCount": 1,
+      "sealSoundCount": 1,
+      "exp": 240,
+      "wholeOutboundRoute": [
+        {
+          "label": "L1 north",
+          "count": 212,
+          "visited": 2028,
+          "step": 8,
+          "margin": 4,
+          "room": "mossRootRuins",
+          "pos": {
+            "x": 1024.0000000000005,
+            "y": 152.85525299684573
+          },
+          "points": 212
+        },
+        {
+          "label": "L2 across bridge",
+          "count": 278,
+          "visited": 2931,
+          "step": 8,
+          "margin": 4,
+          "room": "lightwingCrystalCavern",
+          "pos": {
+            "x": 2043.9671348846637,
+            "y": 206.09240197092615
+          },
+          "points": 278
+        },
+        {
+          "label": "L3 north",
+          "count": 193,
+          "visited": 3768,
+          "step": 8,
+          "margin": 4,
+          "room": "spiritClothStonescaleDepths",
+          "pos": {
+            "x": 1268.1620764625427,
+            "y": 48.07490537549888
+          },
+          "points": 193
+        },
+        {
+          "label": "altar guardian",
+          "count": 85,
+          "visited": 85,
+          "step": 8,
+          "margin": 4,
+          "room": "crystalAltar",
+          "pos": {
+            "x": 748,
+            "y": 260.22720000003204
+          },
+          "points": 85
+        }
+      ],
+      "pcAndPhoneExactThreePages": true,
+      "repeatedConversationNoRewards": true,
+      "peacefulBodyCollision": true,
+      "frontBackDepthScreenshots": true,
+      "noBossDamageGaugeCombatOrAttacks": true
+    },
+    {
+      "altarExitAndRerevisitTwiceNoRematch": true,
+      "wholeInboundRoute": [
+        {
+          "label": "altar south",
+          "count": 7,
+          "visited": 7,
+          "step": 8,
+          "margin": 4,
+          "room": "crystalAltar",
+          "pos": {
+            "x": 748,
+            "y": 975.8999999999978
+          },
+          "points": 7
+        },
+        {
+          "label": "L3 south",
+          "count": 183,
+          "visited": 4653,
+          "step": 8,
+          "margin": 4,
+          "room": "spiritClothStonescaleDepths",
+          "pos": {
+            "x": 2139.8691598133746,
+            "y": 1403.560630732969
+          },
+          "points": 183
+        },
+        {
+          "label": "L2 bridge return",
+          "count": 264,
+          "visited": 3761,
+          "step": 8,
+          "margin": 4,
+          "room": "lightwingCrystalCavern",
+          "pos": {
+            "x": 669.4722174133142,
+            "y": 1287.8332067509073
+          },
+          "points": 264
+        },
+        {
+          "label": "L1 south",
+          "count": 214,
+          "visited": 2988,
+          "step": 8,
+          "margin": 4,
+          "room": "mossRootRuins",
+          "pos": {
+            "x": 1025.4352167597704,
+            "y": 1846.3767059407655
+          },
+          "points": 214
+        }
+      ],
+      "villageTitleAndFreshStart": true,
+      "newRunBossIntroRestored": true
+    },
+    {
+      "skipAcquisitionAndRevisit": true,
+      "grantCount": 1,
+      "soundCount": 1
+    }
+  ],
+  "limits": "Muted isolated headless Chrome. Initial intro is walked; defeat is controlled through the existing core QA state and a runtime final blow, then normal/skip seal and return UI. Completed chapter gates are set and ordinary field encounter detection is suppressed to isolate revisit travel. All full routes follow the unchanged runtime movement resolver through the normal input buffer; doors and nearby actions use real keys/touch. No complete boss battle or entire chapter combat playthrough, physical devices/Safari/VoiceOver/listening assessment."
+}

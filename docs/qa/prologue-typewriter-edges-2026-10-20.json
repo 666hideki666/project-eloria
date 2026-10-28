@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "skip from every scene during typing or reduced motion: single handoff",
+    "return/restart resets typing; rapid and double clicks, held confirmation and held movement blocked",
+    "hidden typing and fade stop (simulated); resume has no catch-up; live reduced-motion change; mute persists",
+    "all six images fail: typing, reveal, next and final handoff remain usable",
+    "all DEV WARP choices and QA/arena bypasses maintained"
+  ],
+  "unverified": [
+    "physical devices",
+    "Safari/WebKit",
+    "VoiceOver",
+    "actual OS/tab suspension",
+    "listening (muted Chrome)"
+  ]
+}

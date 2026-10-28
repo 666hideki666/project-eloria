@@ -1,0 +1,1786 @@
+:root {
+  color: #edf8df;
+  background: #030d0d;
+  font-family: "Courier New", "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --mint: #72e8cb;
+  --aqua: #35c6c9;
+  --gold: #e9bd62;
+  --ink: #061313;
+  --panel: #071816;
+  --panel-deep: #03100f;
+  --line: rgba(114, 232, 203, 0.38);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+  overscroll-behavior: none;
+  background:
+    radial-gradient(circle at 50% 18%, rgba(22, 97, 88, 0.22), transparent 38%),
+    linear-gradient(135deg, rgba(16, 54, 49, 0.25) 1px, transparent 1px) 0 0 / 28px 28px,
+    #020a0b;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+button,
+canvas {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font: inherit;
+}
+
+kbd {
+  display: inline-grid;
+  min-width: 22px;
+  min-height: 20px;
+  place-items: center;
+  border: 1px solid rgba(210, 244, 229, 0.34);
+  border-bottom-color: rgba(210, 244, 229, 0.68);
+  border-radius: 2px;
+  padding: 0 5px;
+  color: #dffcef;
+  background: #092321;
+  font: 600 11px "Courier New", monospace;
+  letter-spacing: 0.06em;
+}
+
+.page-shell {
+  width: min(1500px, calc(100vw - 24px));
+  display: grid;
+  gap: 8px;
+}
+
+.brand-line {
+  min-height: 32px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 0 4px;
+  text-shadow: 0 2px #000;
+}
+
+.brand-kicker {
+  display: block;
+  color: var(--mint);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+}
+
+h1 {
+  margin: -2px 0 0;
+  font-size: clamp(19px, 2.4vw, 30px);
+  line-height: 1;
+  letter-spacing: 0.08em;
+}
+
+h1 em {
+  color: var(--gold);
+  font-style: normal;
+}
+
+.build-tag {
+  color: #89a89f;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+}
+
+.game-shell {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 34px auto 58px;
+  overflow: hidden;
+  border: 1px solid rgba(114, 232, 203, 0.62);
+  background: #04100f;
+  box-shadow:
+    0 0 0 3px #081d1b,
+    0 0 0 4px rgba(233, 189, 98, 0.38),
+    0 20px 70px rgba(0, 0, 0, 0.6);
+}
+
+.top-info-bar {
+  position: relative;
+  z-index: 12;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto auto;
+  align-items: center;
+  gap: 14px;
+  border-bottom: 1px solid rgba(114, 232, 203, 0.24);
+  padding: 0 7px 0 12px;
+  background:
+    linear-gradient(90deg, rgba(43, 115, 98, 0.12), transparent 34%),
+    #071816;
+}
+
+.area-readout,
+.encounter-readout,
+.top-controls {
+  display: flex;
+  align-items: center;
+}
+
+.area-readout {
+  min-width: 0;
+  gap: 9px;
+}
+
+.area-readout > span,
+.panel-heading > span {
+  color: #6e9d90;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.area-readout strong {
+  overflow: hidden;
+  color: #e4f4eb;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.encounter-readout {
+  gap: 13px;
+  color: #a8c3b9;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.encounter-readout[hidden] {
+  display: none;
+}
+
+#hud-enemies {
+  color: #f0dfab;
+}
+
+.top-controls {
+  height: 100%;
+  gap: 5px;
+}
+
+.audio-toggle,
+.pause-toggle {
+  height: 26px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: 1px solid rgba(143, 206, 188, 0.4);
+  border-radius: 2px;
+  padding: 2px 7px;
+  color: #cfe8dc;
+  background: rgba(2, 18, 18, 0.78);
+  cursor: pointer;
+  box-shadow: inset 0 0 10px rgba(80, 219, 186, 0.06);
+}
+
+.audio-toggle:hover,
+.audio-toggle:focus-visible,
+.pause-toggle:hover,
+.pause-toggle:focus-visible {
+  border-color: var(--mint);
+  outline: 1px solid rgba(233, 189, 98, 0.65);
+  outline-offset: 1px;
+}
+
+.pause-toggle:disabled {
+  opacity: 0.42;
+  cursor: default;
+}
+
+.audio-toggle svg {
+  width: 16px;
+  height: 16px;
+  overflow: visible;
+}
+
+.audio-toggle path {
+  fill: #bfe9dc;
+  stroke: #bfe9dc;
+  stroke-width: 1.6;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+}
+
+.audio-toggle .speaker-waves,
+.audio-toggle .speaker-slash {
+  fill: none;
+}
+
+.audio-toggle .speaker-slash {
+  display: none;
+  stroke: #ef8f77;
+  stroke-width: 2.2;
+}
+
+.audio-toggle[data-muted="true"] .speaker-waves {
+  display: none;
+}
+
+.audio-toggle[data-muted="true"] .speaker-slash {
+  display: block;
+}
+
+.audio-toggle > span,
+.pause-toggle > span:not(.pause-glyph) {
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.audio-toggle kbd,
+.pause-toggle kbd {
+  min-width: 18px;
+  min-height: 15px;
+  padding: 0 3px;
+  font-size: 7px;
+}
+
+.pause-glyph {
+  width: 8px;
+  height: 11px;
+  border-left: 3px solid #bfe9dc;
+  border-right: 3px solid #bfe9dc;
+}
+
+.pause-toggle[data-paused="true"] .pause-glyph {
+  width: 0;
+  height: 0;
+  border: 0;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 9px solid #bfe9dc;
+}
+
+.combat-layout {
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+  gap: 8px;
+  padding: 8px 8px 0;
+  background:
+    linear-gradient(90deg, rgba(22, 65, 57, 0.2), transparent 28%),
+    #030c0b;
+}
+
+.party-panel {
+  flex: 0 0 188px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  border: 1px solid rgba(114, 232, 203, 0.28);
+  padding: 9px;
+  background:
+    linear-gradient(145deg, rgba(61, 128, 108, 0.12), transparent 40%),
+    var(--panel);
+  box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.32);
+}
+
+.panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(114, 232, 203, 0.18);
+  padding: 0 1px 7px;
+}
+
+.panel-heading small {
+  color: #526f67;
+  font-size: 7px;
+}
+
+.party-status {
+  position: relative;
+  min-height: 67px;
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr);
+  gap: 7px;
+  align-items: start;
+  border: 1px solid rgba(85, 125, 114, 0.48);
+  padding: 8px 7px;
+  background: rgba(3, 15, 14, 0.74);
+  box-shadow: inset 0 0 14px rgba(0, 0, 0, 0.34);
+  transition: border-color 120ms, background 120ms, box-shadow 120ms;
+}
+
+.party-status::before,
+.party-status::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 2px;
+  background: #52746a;
+}
+
+.party-status::before {
+  left: -1px;
+  top: -1px;
+}
+
+.party-status::after {
+  right: -1px;
+  bottom: -1px;
+}
+
+.party-status[data-active="true"] {
+  border-color: #a7f8dc;
+  background: rgba(15, 47, 41, 0.86);
+  box-shadow:
+    inset 0 0 18px rgba(80, 220, 184, 0.12),
+    0 0 0 1px rgba(233, 189, 98, 0.26);
+}
+
+.party-status[data-active="true"]::before,
+.party-status[data-active="true"]::after {
+  background: var(--gold);
+}
+
+.party-status[data-downed="true"] {
+  filter: saturate(0.35);
+  opacity: 0.68;
+}
+
+.party-portrait {
+  position: relative;
+  width: 32px;
+  height: 34px;
+  border: 1px solid rgba(200, 242, 228, 0.3);
+  background-color: #17332e;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  background-origin: border-box;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+.party-portrait::before,
+.party-portrait::after {
+  content: none;
+  display: none;
+}
+
+.portrait-kyle {
+  background-image:
+    url("../assets/ui/portraits/kyle/kyle-hud-portrait-32px-v1.png");
+}
+
+.portrait-nadi {
+  background-image:
+    url("../assets/ui/portraits/nadi/nadi-hud-portrait-32px-v1.png");
+}
+
+.portrait-meru {
+  background-image:
+    url("../assets/ui/portraits/mel/mel-hud-portrait-32px-v1.png");
+}
+
+.party-details {
+  min-width: 0;
+}
+
+.party-name-line,
+.resource-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.party-name-line {
+  min-height: 14px;
+  gap: 4px;
+}
+
+.party-name-line strong {
+  color: #edf9ef;
+  font-size: 11px;
+}
+
+.active-marker {
+  display: none;
+  border: 1px solid rgba(233, 189, 98, 0.52);
+  padding: 1px 3px;
+  color: #f1d58e;
+  font-size: 6px;
+  line-height: 1;
+}
+
+.party-status[data-active="true"] .active-marker {
+  display: inline-block;
+}
+
+.auto-heal-marker {
+  width: 13px;
+  height: 13px;
+  display: inline-grid;
+  place-items: center;
+  margin-left: auto;
+  border: 1px solid #aaf29b;
+  color: #c9ffb7;
+  background: #10271f;
+  font: 700 10px/1 monospace;
+}
+
+.auto-heal-marker[hidden] {
+  display: none;
+}
+
+.resource-label {
+  margin-top: 5px;
+  color: #8eaaa0;
+  font-size: 7px;
+}
+
+.resource-label span:last-child {
+  color: #d9e9e1;
+  font-size: 7px;
+}
+
+.mp-label {
+  margin-top: 4px;
+}
+
+.resource-bar {
+  height: 5px;
+  margin-top: 2px;
+  border: 1px solid #020807;
+  background: #10211c;
+  overflow: hidden;
+}
+
+.resource-bar > span {
+  height: 100%;
+  display: block;
+  background: linear-gradient(#9be184 1px, #68b75b 1px);
+  transition: width 90ms linear;
+}
+
+.mp-bar {
+  background: #101a2e;
+}
+
+.mp-bar > span {
+  background: linear-gradient(#9fbcff 1px, #587fd2 1px);
+}
+
+.party-help {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin: auto 0 0;
+  border-top: 1px solid rgba(114, 232, 203, 0.14);
+  padding-top: 7px;
+  color: #78978e;
+  font-size: 8px;
+}
+
+.party-help kbd {
+  min-height: 17px;
+  font-size: 7px;
+}
+
+.field-shell {
+  position: relative;
+  flex: 0 1 1304px;
+  width: calc(100% - 196px);
+  max-width: calc(177.7778dvh - 266px);
+  aspect-ratio: 16 / 9;
+  align-self: start;
+  overflow: hidden;
+  border: 1px solid rgba(94, 169, 150, 0.46);
+  background: #020909;
+  box-shadow:
+    0 0 0 2px rgba(2, 12, 11, 0.9),
+    inset 0 0 35px #000;
+}
+
+.field-shell::before {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.016) 50%, rgba(0, 0, 0, 0.03) 50%) 0 0 / 100% 4px,
+    radial-gradient(ellipse at center, transparent 68%, rgba(0, 0, 0, 0.25));
+  mix-blend-mode: screen;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  display: block;
+  outline: none;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  touch-action: none;
+}
+
+.action-bar {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 188px minmax(0, 1fr);
+  gap: 8px;
+  align-items: stretch;
+  border-top: 1px solid rgba(114, 232, 203, 0.22);
+  padding: 6px 8px;
+  background:
+    linear-gradient(90deg, rgba(35, 91, 78, 0.14), transparent 30%),
+    #061513;
+}
+
+.move-guide {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1px 7px;
+  padding: 0 4px;
+  color: #90aaa1;
+}
+
+.move-guide > span {
+  grid-row: 1 / 3;
+  display: flex;
+  gap: 3px;
+}
+
+.move-guide kbd {
+  min-height: 17px;
+  padding: 0 4px;
+  font-size: 7px;
+}
+
+.move-guide strong {
+  align-self: end;
+  color: #d6e8e0;
+  font-size: 9px;
+}
+
+.move-guide small {
+  align-self: start;
+  font-size: 7px;
+}
+
+.action-slots {
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 172px));
+  justify-content: end;
+  gap: 6px;
+}
+
+.action-slot {
+  position: relative;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: 29px minmax(0, 1fr) auto;
+  grid-template-rows: 17px 17px;
+  align-items: center;
+  column-gap: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(104, 145, 133, 0.58);
+  padding: 4px 6px;
+  color: #dcebe3;
+  background: rgba(2, 13, 13, 0.88);
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.38);
+}
+
+.action-slot[data-ready="true"] {
+  border-color: rgba(159, 247, 218, 0.78);
+}
+
+.action-slot.ultimate-slot[data-ready="true"] {
+  border-color: rgba(233, 189, 98, 0.92);
+  box-shadow:
+    inset 0 0 14px rgba(233, 189, 98, 0.1),
+    0 0 0 1px rgba(233, 189, 98, 0.18);
+}
+
+.action-key {
+  position: absolute;
+  z-index: 2;
+  left: 3px;
+  top: 3px;
+  min-width: 13px;
+  height: 11px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(210, 244, 229, 0.38);
+  color: #def5eb;
+  background: #092321;
+  font: 700 7px monospace;
+}
+
+.space-key {
+  min-width: 25px;
+  font-size: 5px;
+}
+
+.action-glyph {
+  z-index: 2;
+  grid-row: 1 / 3;
+  display: grid;
+  place-items: center;
+  color: #cfe8dc;
+  font: 700 25px/1 monospace;
+}
+
+.special-slot .action-glyph {
+  color: var(--mint);
+}
+
+.ultimate-slot .action-glyph {
+  color: var(--gold);
+}
+
+.switch-slot .action-glyph {
+  color: #85b7ae;
+}
+
+.action-label {
+  z-index: 2;
+  align-self: end;
+  color: #829d94;
+  font-size: 7px;
+}
+
+.action-slot strong {
+  z-index: 2;
+  min-width: 0;
+  align-self: start;
+  overflow: hidden;
+  color: #e8f6ef;
+  font-size: 9px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.action-ready {
+  z-index: 2;
+  grid-column: 3;
+  grid-row: 1 / 3;
+  color: #a5d8c7;
+  font-size: 6px;
+  letter-spacing: 0.05em;
+}
+
+.action-slot[data-ready="false"] .action-ready {
+  color: #e9c67d;
+  font-size: 9px;
+}
+
+.action-cooldown-fill {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  background: rgba(0, 4, 5, 0.7);
+  transition: height 80ms linear;
+}
+
+.screen-overlay {
+  position: absolute;
+  z-index: 8;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 160ms ease, visibility 160ms;
+  background:
+    radial-gradient(circle at center, rgba(18, 57, 51, 0.32), rgba(2, 9, 10, 0.78)),
+    rgba(1, 8, 9, 0.5);
+}
+
+.screen-overlay.is-visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.overlay-card {
+  width: min(500px, 88%);
+  padding: clamp(18px, 3vw, 32px);
+  border: 1px solid rgba(114, 232, 203, 0.64);
+  background:
+    linear-gradient(135deg, rgba(42, 106, 91, 0.12), transparent 44%),
+    rgba(4, 20, 20, 0.95);
+  text-align: center;
+  box-shadow:
+    0 0 0 4px rgba(4, 27, 26, 0.9),
+    0 0 0 5px rgba(233, 189, 98, 0.4),
+    0 16px 46px #000;
+  clip-path: polygon(
+    10px 0,
+    calc(100% - 10px) 0,
+    100% 10px,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    10px 100%,
+    0 calc(100% - 10px),
+    0 10px
+  );
+}
+
+.overlay-kicker {
+  color: var(--gold);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+}
+
+.overlay-card h2 {
+  margin: 7px 0 8px;
+  color: #f2f7e6;
+  font-size: clamp(22px, 4vw, 36px);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-shadow: 3px 3px #082c2b;
+}
+
+.overlay-card p {
+  margin: 0 auto 17px;
+  color: #b9cec4;
+  font-size: clamp(10px, 1.5vw, 14px);
+  line-height: 1.7;
+}
+
+.overlay-card button {
+  min-width: 190px;
+  border: 1px solid #a8f7d9;
+  padding: 9px 19px;
+  color: #041312;
+  background: linear-gradient(#c8ffe5, #58d6ba);
+  font: 700 15px "Courier New", "Hiragino Kaku Gothic ProN", monospace;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #277d70, 0 8px 18px rgba(0, 0, 0, 0.45);
+}
+
+.overlay-card button:hover,
+.overlay-card button:focus-visible {
+  filter: brightness(1.14);
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.overlay-card button:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #277d70;
+}
+
+.overlay-card button kbd {
+  margin-left: 8px;
+  border-color: rgba(4, 19, 18, 0.42);
+  color: #09211e;
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.overlay-hint {
+  margin: 15px auto 0 !important;
+  color: #76978d !important;
+  font-size: 9px !important;
+}
+
+.audio-settings {
+  width: min(330px, 90%);
+  margin: 0 auto 17px;
+  border: 1px solid rgba(114, 232, 203, 0.28);
+  padding: 10px 13px;
+  background: rgba(2, 14, 14, 0.74);
+  text-align: left;
+}
+
+.audio-settings[hidden] {
+  display: none;
+}
+
+.audio-track {
+  margin-bottom: 8px;
+  color: #9bc8ba;
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+
+.audio-settings label {
+  display: flex;
+  justify-content: space-between;
+  color: #d8eee5;
+  font-size: 10px;
+}
+
+.audio-settings input[type="range"] {
+  width: 100%;
+  margin: 7px 0 9px;
+  accent-color: #72e8cb;
+}
+
+.audio-settings .pause-audio-mute {
+  min-width: 0;
+  width: 100%;
+  padding: 6px 9px;
+  font-size: 10px;
+  box-shadow: 0 2px 0 #277d70;
+}
+
+.audio-setting-divider {
+  height: 1px;
+  margin: 10px 0;
+  background: rgba(114, 232, 203, 0.18);
+}
+
+.audio-unlock-hint {
+  margin: 7px auto 0 !important;
+  color: #9fbdaf !important;
+  font-size: 8px !important;
+}
+
+.audio-unlock-hint[hidden] {
+  display: none;
+}
+
+.touch-layer {
+  position: absolute;
+  z-index: 7;
+  inset: 0;
+  display: none;
+  pointer-events: none;
+}
+
+body[data-input="touch"] .touch-layer {
+  display: block;
+}
+
+.stick-zone {
+  position: absolute;
+  inset: 0 50% 0 0;
+  pointer-events: auto;
+  touch-action: none;
+}
+
+.touch-stick {
+  --stick-x: 58px;
+  --stick-y: 58px;
+  position: absolute;
+  left: var(--stick-x);
+  top: var(--stick-y);
+  width: 86px;
+  height: 86px;
+  translate: -50% -50%;
+  border: 2px solid rgba(179, 255, 230, 0.28);
+  border-radius: 50%;
+  opacity: 0;
+  background: rgba(8, 36, 33, 0.38);
+  box-shadow: inset 0 0 20px rgba(81, 226, 190, 0.08);
+  transition: opacity 500ms ease;
+}
+
+.touch-stick.is-active {
+  opacity: 0.78;
+  transition-duration: 80ms;
+}
+
+.touch-stick-knob {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(217, 255, 242, 0.75);
+  border-radius: 50%;
+  translate: calc(-50% + var(--knob-x, 0px))
+    calc(-50% + var(--knob-y, 0px));
+  background: rgba(92, 218, 190, 0.54);
+  box-shadow: 0 0 18px rgba(83, 234, 199, 0.38);
+}
+
+.touch-actions {
+  position: absolute;
+  right: max(3.5%, env(safe-area-inset-right));
+  bottom: max(7%, env(safe-area-inset-bottom));
+  width: 190px;
+  height: 145px;
+  pointer-events: none;
+}
+
+.touch-action {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  border: 1px solid rgba(188, 248, 226, 0.56);
+  border-radius: 50%;
+  color: #dffff0;
+  background: rgba(5, 35, 32, 0.58);
+  font: 600 14px "Courier New", "Hiragino Kaku Gothic ProN", monospace;
+  opacity: 0.68;
+  pointer-events: auto;
+  touch-action: none;
+  box-shadow: inset 0 0 18px rgba(58, 211, 177, 0.12);
+}
+
+.touch-action.is-pressed {
+  color: #061713;
+  background: #8af2cf;
+  opacity: 0.94;
+}
+
+.touch-attack {
+  right: 0;
+  bottom: 10px;
+  width: 68px;
+  height: 68px;
+}
+
+.touch-special {
+  right: 66px;
+  bottom: 0;
+}
+
+.touch-ultimate {
+  right: 58px;
+  bottom: 66px;
+  border-color: rgba(235, 191, 95, 0.72);
+}
+
+.touch-switch {
+  right: 126px;
+  bottom: 75px;
+  width: 52px;
+  height: 52px;
+  font-size: 10px;
+}
+
+.sfx-soundboard {
+  position: fixed;
+  z-index: 30;
+  top: 12px;
+  right: 12px;
+  width: min(360px, calc(100vw - 24px));
+  max-height: calc(100dvh - 24px);
+  overflow: auto;
+  border: 1px solid rgba(124, 239, 210, 0.56);
+  color: #dff8ee;
+  background: rgba(3, 17, 17, 0.96);
+  box-shadow: 0 12px 42px rgba(0, 0, 0, 0.56);
+  font: 11px "Courier New", "Hiragino Kaku Gothic ProN", monospace;
+}
+
+.sfx-soundboard[hidden] {
+  display: none;
+}
+
+.sfx-soundboard > header {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(124, 239, 210, 0.22);
+  padding: 10px 12px;
+  background: #071f1e;
+}
+
+.sfx-soundboard h2,
+.sfx-soundboard h3 {
+  margin: 0;
+  font: inherit;
+}
+
+.sfx-soundboard h2 {
+  margin-top: 2px;
+  color: #a8f7d9;
+  font-size: 14px;
+}
+
+.sfx-soundboard small {
+  color: #6f998e;
+  font-size: 8px;
+  letter-spacing: 0.12em;
+}
+
+.sfx-soundboard button {
+  border: 1px solid rgba(124, 239, 210, 0.3);
+  padding: 6px 8px;
+  color: #dff8ee;
+  background: #103b37;
+  font: inherit;
+  cursor: pointer;
+}
+
+.sfx-soundboard button:hover,
+.sfx-soundboard button:focus-visible {
+  border-color: #a8f7d9;
+  outline: none;
+  background: #175149;
+}
+
+.sfx-board-body {
+  padding: 10px 12px 14px;
+}
+
+.sfx-soundboard[data-collapsed="true"] {
+  width: 210px;
+}
+
+.sfx-soundboard[data-collapsed="true"] .sfx-board-body {
+  display: none;
+}
+
+.sfx-board-controls {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 7px 8px;
+  align-items: center;
+}
+
+.sfx-board-controls label {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 6px;
+  align-items: center;
+}
+
+.sfx-board-controls input {
+  min-width: 80px;
+  accent-color: #72e8cb;
+}
+
+.sfx-board-status {
+  margin: 10px 0;
+  color: #79aa9d;
+  font-size: 9px;
+}
+
+.sfx-board-buttons {
+  display: grid;
+  gap: 10px;
+}
+
+.sfx-board-buttons section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+}
+
+.sfx-board-buttons h3 {
+  grid-column: 1 / -1;
+  padding-top: 2px;
+  color: #d4b96d;
+}
+
+@media (max-width: 900px), (max-height: 620px) {
+  .page-shell {
+    width: calc(100vw - 8px);
+    gap: 0;
+  }
+
+  .brand-line {
+    display: none;
+  }
+
+  .game-shell {
+    grid-template-rows: 30px auto 54px;
+  }
+
+  .top-info-bar {
+    grid-template-columns: minmax(160px, 1fr) auto auto;
+    gap: 7px;
+    padding-left: 7px;
+  }
+
+  .party-panel,
+  .action-bar {
+    flex-basis: 150px;
+  }
+
+  .combat-layout {
+    gap: 5px;
+    padding: 5px 5px 0;
+  }
+
+  .party-panel {
+    flex-basis: 150px;
+    gap: 4px;
+    padding: 6px;
+  }
+
+  .party-status {
+    min-height: 55px;
+    grid-template-columns: 27px minmax(0, 1fr);
+    gap: 5px;
+    padding: 5px;
+  }
+
+  .party-portrait {
+    width: 26px;
+    height: 28px;
+    transform: none;
+  }
+
+  .party-help,
+  .panel-heading small {
+    display: none;
+  }
+
+  .field-shell {
+    width: calc(100% - 155px);
+    max-width: calc(177.7778dvh - 169px);
+  }
+
+  .action-bar {
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 5px;
+    padding: 4px 5px;
+  }
+
+  .action-slots {
+    gap: 3px;
+  }
+
+  .action-slot {
+    grid-template-columns: 23px minmax(0, 1fr);
+    padding: 3px 4px;
+  }
+
+  .action-ready {
+    display: none;
+  }
+
+  .area-readout strong {
+    font-size: 10px;
+  }
+
+  .encounter-readout {
+    gap: 7px;
+    font-size: 8px;
+  }
+}
+
+body[data-input="touch"] {
+  display: block;
+  padding:
+    env(safe-area-inset-top)
+    env(safe-area-inset-right)
+    env(safe-area-inset-bottom)
+    env(safe-area-inset-left);
+  background: #020a0b;
+}
+
+body[data-input="touch"] .page-shell {
+  width: 100%;
+  min-height: 100dvh;
+  display: grid;
+  place-items: center;
+  gap: 0;
+}
+
+body[data-input="touch"] .brand-line,
+body[data-input="touch"] .action-bar {
+  display: none;
+}
+
+body[data-input="touch"] .game-shell {
+  width: 100%;
+  display: block;
+  border: 0;
+  box-shadow: none;
+  overflow: visible;
+}
+
+body[data-input="touch"] .top-info-bar {
+  position: absolute;
+  z-index: 12;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 30px;
+  grid-template-columns: minmax(120px, 1fr) auto;
+  padding-right: max(6px, env(safe-area-inset-right));
+  padding-left: max(6px, env(safe-area-inset-left));
+  background: rgba(3, 18, 17, 0.64);
+}
+
+body[data-input="touch"] .encounter-readout {
+  display: none;
+}
+
+body[data-input="touch"] .pause-toggle > span:not(.pause-glyph),
+body[data-input="touch"] .audio-toggle > span,
+body[data-input="touch"] .top-controls kbd {
+  display: none;
+}
+
+body[data-input="touch"] .audio-toggle,
+body[data-input="touch"] .pause-toggle {
+  width: 30px;
+  padding: 2px;
+  background: rgba(2, 18, 18, 0.52);
+}
+
+body[data-input="touch"] .combat-layout {
+  position: relative;
+  display: block;
+  padding: 0;
+  background: #020a0b;
+}
+
+body[data-input="touch"] .field-shell {
+  width: min(100vw, 177.7778dvh);
+  max-width: none;
+  margin: 0 auto;
+  border: 0;
+}
+
+body[data-input="touch"] .party-panel {
+  position: absolute;
+  z-index: 6;
+  top: calc(34px + env(safe-area-inset-top));
+  left: max(5px, env(safe-area-inset-left));
+  width: 142px;
+  display: flex;
+  gap: 3px;
+  border-color: rgba(114, 232, 203, 0.18);
+  padding: 4px;
+  opacity: 0.72;
+  background: rgba(3, 18, 17, 0.62);
+  pointer-events: none;
+}
+
+body[data-input="touch"] .panel-heading,
+body[data-input="touch"] .party-help,
+body[data-input="touch"] .party-portrait,
+body[data-input="touch"] .resource-label > span:first-child {
+  display: none;
+}
+
+body[data-input="touch"] .party-status {
+  min-height: 36px;
+  display: block;
+  padding: 4px;
+  background: rgba(3, 15, 14, 0.58);
+}
+
+body[data-input="touch"] .party-name-line strong {
+  font-size: 8px;
+}
+
+body[data-input="touch"] .active-marker {
+  font-size: 5px;
+}
+
+body[data-input="touch"] .resource-label {
+  margin-top: 2px;
+}
+
+body[data-input="touch"] .resource-bar {
+  height: 4px;
+}
+
+body[data-input="touch"] .mp-label {
+  display: none;
+}
+
+body[data-input="touch"] .screen-overlay {
+  padding:
+    max(14px, env(safe-area-inset-top))
+    max(14px, env(safe-area-inset-right))
+    max(14px, env(safe-area-inset-bottom))
+    max(14px, env(safe-area-inset-left));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+
+/* Field-first fullscreen layout (2026-09). The logical canvas stays 640x360. */
+.page-shell {
+  width: 100vw;
+  height: 100dvh;
+  display: block;
+}
+.brand-line,
+.action-bar,
+.area-readout,
+.panel-heading,
+.party-help,
+.field-shell::before {
+  display: none !important;
+}
+.game-shell {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+  background: #020a09;
+  box-shadow: none;
+}
+.combat-layout {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  background: #020a09;
+}
+.field-shell {
+  position: relative;
+  width: min(100vw, 177.7778dvh);
+  height: min(100dvh, 56.25vw);
+  max-width: none;
+  flex: none;
+  aspect-ratio: 16 / 9;
+  align-self: center;
+  border: 0;
+  box-shadow: none;
+  background: #04110e;
+}
+#game {
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+}
+.top-info-bar {
+  position: absolute;
+  z-index: 13;
+  top: max(10px, env(safe-area-inset-top));
+  right: max(10px, env(safe-area-inset-right));
+  width: auto;
+  min-width: 0;
+  height: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 7px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.top-controls {
+  justify-content: flex-end;
+}
+.audio-toggle {
+  display: none;
+}
+.pause-toggle {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border-radius: 8px;
+  background: rgba(2, 17, 17, 0.9);
+}
+.pause-toggle > span:not(.pause-glyph),
+.pause-toggle kbd,
+.encounter-readout #hud-trial {
+  display: none;
+}
+.encounter-readout {
+  justify-content: flex-end;
+  padding: 5px 8px;
+  border-radius: 5px;
+  color: #e9e5bb;
+  background: rgba(2, 18, 18, 0.83);
+  font: 700 10px system-ui, sans-serif;
+  letter-spacing: 0.03em;
+}
+.party-panel {
+  position: absolute;
+  z-index: 13;
+  top: max(10px, env(safe-area-inset-top));
+  left: max(10px, env(safe-area-inset-left));
+  width: min(264px, calc(100vw - 78px));
+  min-width: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.party-status {
+  min-width: 0;
+  min-height: 36px;
+  margin: 0;
+  padding: 4px;
+  border: 1px solid rgba(99, 166, 143, 0.48);
+  border-radius: 5px;
+  background: rgba(2, 20, 17, 0.91);
+  cursor: pointer;
+}
+.party-status[data-active="true"] {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  min-height: 56px;
+  border-color: rgba(142, 227, 186, 0.82);
+  background: rgba(3, 26, 20, 0.95);
+}
+.party-status:focus-visible {
+  outline: 2px solid #e4d486;
+  outline-offset: 2px;
+}
+.party-status:not([data-active="true"]) .party-portrait {
+  width: 25px;
+  height: 25px;
+}
+.party-status:not([data-active="true"]) .resource-label,
+.party-status:not([data-active="true"]) .mp-label,
+.party-status:not([data-active="true"]) .mp-bar {
+  display: none;
+}
+.party-status[data-active="true"] .mp-bar {
+  display: none;
+}
+.party-status[data-active="true"] .mp-label {
+  display: flex;
+  font-size: 9px;
+}
+.party-status[data-active="true"] .mp-label > span:first-child {
+  display: inline;
+}
+.party-status:not([data-active="true"]) .party-name-line strong {
+  font-size: 10px;
+}
+.party-status[data-downed="true"] .party-name-line::after {
+  content: "戦闘不能";
+  margin-left: 4px;
+  color: #ffb6a1;
+  font-size: 9px;
+  font-weight: 800;
+}
+@media (max-width: 580px) {
+  .party-panel {
+    width: min(190px, calc(100vw - 60px));
+    gap: 3px;
+  }
+  .party-status[data-active="true"] {
+    min-height: 46px;
+  }
+  .party-status:not([data-active="true"]) {
+    min-height: 29px;
+    padding: 2px;
+  }
+  .party-status:not([data-active="true"]) .party-portrait {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+/* Overlay HUD, character status, and non-modal layer entry. */
+.screen-overlay { z-index: 30; }
+.status-panel[hidden],
+.layer-entry[hidden] { display: none; }
+
+.status-panel {
+  position: absolute;
+  z-index: 20;
+  top: clamp(76px, 14%, 118px);
+  left: max(10px, env(safe-area-inset-left));
+  width: min(340px, calc(100% - 20px));
+  max-height: calc(100% - 92px);
+  overflow-y: auto;
+  padding: 14px;
+  border: 1px solid #83d6b6;
+  border-radius: 8px;
+  color: #e7f7e8;
+  background: rgba(3, 23, 20, 0.97);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.65);
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif;
+}
+.status-panel-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(118, 201, 168, 0.36);
+  padding-bottom: 8px;
+}
+.status-panel-header small { color: #8ebca7; font-size: 11px; }
+.status-panel-header h2 { margin: 2px 0 0; font-size: 20px; }
+#status-close {
+  min-width: 32px;
+  min-height: 32px;
+  border: 1px solid #80ad9f;
+  border-radius: 4px;
+  color: #ecfff2;
+  background: #10372c;
+  cursor: pointer;
+  font-size: 20px;
+}
+.status-panel > p { margin: 5px 0; font-size: 13px; }
+/* One continuous reservoir with two subtle one-segment markers. */
+.status-tech-meter {
+  position: relative;
+  height: 10px;
+  margin: 8px 0 14px;
+  border: 1px solid #508d80;
+  background: #12382f;
+  overflow: hidden;
+}
+.status-tech-meter-fill {
+  display: block;
+  width: 0;
+  height: 100%;
+  background: linear-gradient(90deg, #75c9a0, #d8eaa0);
+}
+.status-tech-meter > i { position: absolute; top: 0; bottom: 0; width: 1px; background: rgba(238, 246, 218, 0.52); }
+.status-tech-meter > i:nth-of-type(1) { left: 33.333%; }
+.status-tech-meter > i:nth-of-type(2) { left: 66.666%; }
+.status-abilities p {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 5px;
+  margin: 0;
+  border-top: 1px solid rgba(118, 201, 168, 0.18);
+  padding: 8px 0;
+  font-size: 11px;
+}
+.status-abilities strong { color: #e7d488; }
+.status-abilities small { grid-column: 2; color: #f4ae93; }
+.status-panel .status-panel-help {
+  margin: 10px 0 0;
+  color: #a6c8b7;
+  font-size: 11px;
+}
+
+.layer-entry {
+  position: absolute;
+  z-index: 14;
+  top: 30%;
+  left: 50%;
+  display: grid;
+  justify-items: center;
+  min-width: min(420px, 90%);
+  max-width: min(640px, calc(100% - 36px));
+  padding: 18px;
+  color: #f4ffe9;
+  pointer-events: none;
+  transform: translateX(-50%);
+  text-shadow: 0 2px 8px #00130e, 0 0 14px #0a493e;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif;
+  opacity: 0;
+}
+.layer-entry.is-active { animation: layer-entry 5.2s ease-out both; }
+.layer-entry span { font-size: clamp(13px, 2vw, 20px); font-weight: 800; letter-spacing: 0.18em; }
+.layer-entry strong { margin-top: 4px; max-width: 100%; font-size: clamp(24px, 4vw, 46px); font-weight: 900; letter-spacing: 0.05em; text-align: center; text-wrap: balance; overflow-wrap: anywhere; }
+.layer-entry i { display: block; width: 72%; height: 2px; margin-top: 9px; background: #9cebd5; box-shadow: 0 0 8px #55c7b3; }
+@keyframes layer-entry {
+  0% { opacity: 0; transform: translate(-50%, 7px); }
+  7.6923%, 84.6154% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, -5px); }
+}
+.cave-entry-story { position: absolute; inset: 0; z-index: 23; color: #f1fff6; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif; }
+.cave-entry-story[hidden] { display: none; }
+.velgran-return-choice { position: fixed; inset: 0; z-index: 75; display: grid; place-items: center; padding: 16px; background: rgba(2,9,10,.68); color: #effff5; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui,sans-serif; }
+.velgran-return-choice[hidden] { display: none; }
+.velgran-return-card { width: min(560px,100%); max-height: calc(100dvh - 32px); overflow-y: auto; padding: 24px; background: #071c1a; border-top: 2px solid #91cfc0; border-radius: 4px; box-shadow: 0 8px 25px #0006; }
+.velgran-return-card h2 { margin: 0 0 20px; font-size: 20px; line-height: 1.5; }
+.velgran-return-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.velgran-return-buttons button { min-height: 48px; padding: 10px 12px; color: #effff5; background: #183b30; border: 1px solid #87b9a8; border-radius: 3px; font: 600 16px/1.5 system-ui,sans-serif; cursor: pointer; }
+.velgran-return-buttons button:focus { background: #275345; box-shadow: inset 0 0 0 1px #c4ffea; }
+.velgran-return-buttons button:focus-visible { outline: 3px solid #c4ffea; outline-offset: 3px; background: #275345; }
+.velgran-return-card small { display: block; margin-top: 16px; color: #bfd8cc; font-size: 12px; line-height: 1.5; }
+@media (max-width: 520px) { .velgran-return-buttons { grid-template-columns: 1fr; } .velgran-return-card { padding: 18px; } }
+.cave-entry-caption { position: absolute; left: 4%; right: 4%; bottom: 12px; display: grid; grid-template-columns: 1fr auto; gap: 6px 18px; padding: 12px 16px; background: rgba(3,22,23,.95); border-top: 2px solid #82c6dc; border-radius: 4px; }
+.cave-entry-caption p { margin: 0; align-self: center; font-size: 18px; line-height: 1.55; }
+.cave-entry-caption button { grid-column: 2; grid-row: 1 / 3; align-self: center; min-height: 44px; padding: 8px 18px; border: 1px solid #84bca9; border-radius: 3px; background: #16372e; color: #effff4; font: 600 16px/1.4 system-ui,sans-serif; cursor: pointer; }
+.cave-entry-caption button:disabled { opacity: .5; cursor: default; }
+.cave-entry-caption button:focus-visible { outline: 2px solid #c4ffea; outline-offset: 2px; }
+.cave-entry-caption small { font-size: 12px; line-height: 1.4; color: #c7e1d7; }
+.game-shell[data-cave-entry-story="true"] :is(.touch-actions, .stick-zone) { visibility: hidden; }
+.layer-entry.is-active.is-cave-story { animation: cave-story-title 3.5s ease-out both; }
+.layer-entry.is-cave-story.is-suspended { animation-play-state: paused; }
+@keyframes cave-story-title {
+  0% { opacity: 0; transform: translate(-50%, 7px); }
+  11.4%, 90% { opacity: 1; transform: translate(-50%, 0); }
+  100% { opacity: 0; transform: translate(-50%, -5px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .layer-entry.is-active.is-cave-story { animation: none; opacity: 1; }
+}
+body[data-input="touch"] .party-panel { display: grid; width: min(190px, calc(100vw - 62px)); padding: 0; }
+body[data-input="touch"] .party-status { display: flex; }
+body[data-input="touch"] .party-portrait { display: block; }
+body[data-input="touch"] .field-shell { width: min(100vw, 177.7778dvh); height: min(100dvh, 56.25vw); max-width: none; }
+body[data-input="touch"] .combat-layout { display: grid; padding: 0; }
+body[data-input="touch"] .game-shell { display: block; }
+body[data-input="touch"] .top-info-bar { top: max(8px, env(safe-area-inset-top)); right: max(8px, env(safe-area-inset-right)); }
+@media (prefers-reduced-motion: reduce) {
+  .layer-entry.is-active { animation: layer-entry-reduced 0.4s linear both; }
+  @keyframes layer-entry-reduced { 0%, 60% { opacity: 1; } 100% { opacity: 0; } }
+}
+
+
+/* Portrait touch keeps the complete 16:9 playfield visible. */
+.game-shell,
+.combat-layout {
+  background: radial-gradient(ellipse at 50% 40%, #143029 0, #071b17 55%, #020b0a 100%);
+}
+body[data-input="touch"] .stick-zone {
+  inset: auto auto 10px 10px;
+  width: min(175px, 35%);
+  height: min(160px, 60%);
+}
+@media (orientation: portrait) and (max-width: 700px) {
+  body[data-input="touch"] .combat-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: clamp(150px, 21dvh, 220px);
+  }
+  body[data-input="touch"] .field-shell {
+    align-self: flex-start;
+    overflow: visible;
+    box-shadow: 0 0 0 1px rgba(112, 182, 153, 0.32), 0 12px 40px #00110d;
+  }
+  body[data-input="touch"] .party-panel {
+    top: max(12px, env(safe-area-inset-top));
+    left: 10px;
+  }
+  body[data-input="touch"] .stick-zone {
+    inset: auto auto auto 12px;
+    top: calc(100% + 30px);
+    width: min(160px, 40vw);
+    height: 165px;
+    border: 1px solid rgba(118, 190, 155, 0.22);
+    border-radius: 50%;
+    background: rgba(5, 33, 27, 0.34);
+  }
+  body[data-input="touch"] .touch-actions {
+    right: 10px;
+    bottom: auto;
+    top: calc(100% + 28px);
+  }
+  body[data-input="touch"] .status-panel {
+    top: 0;
+    left: 5px;
+    width: calc(100% - 10px);
+    max-height: min(380px, 65dvh);
+  }
+}
+
+
+/* Stage start keeps the field visible until the player confirms. */
+.game-shell[data-game-mode="stage"][data-phase="intro"] .screen-overlay {
+  place-items: end center;
+  background: linear-gradient(180deg, rgba(1, 10, 9, 0.08) 0%, rgba(1, 10, 9, 0.12) 45%, rgba(1, 10, 9, 0.82) 100%);
+}
+.game-shell[data-game-mode="stage"][data-phase="intro"] .overlay-card {
+  width: min(480px, 94%);
+  margin-bottom: clamp(12px, 4dvh, 38px);
+  padding: clamp(14px, 2vw, 22px);
+  border-radius: 8px;
+  clip-path: none;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.55);
+}
+.game-shell[data-game-mode="stage"][data-phase="intro"] .overlay-card h2 {
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif;
+  font-weight: 900;
+}
+
+/* Compact three-stage technique meter, visible on the active portrait. */
+.tech-readout { display: flex; align-items: center; gap: 5px; margin-top: 3px; color: #dcefe2; font: 800 10px system-ui, sans-serif; }
+.tech-meter { position: relative; display: block; flex: 1; min-width: 46px; height: 8px; border: 1px solid #568d7a; border-radius: 2px; background: #17342c; overflow: hidden; }
+.tech-meter-fill { display: block; width: 0; height: 100%; background: linear-gradient(90deg, #80d4a6, #dcdfa0); }
+.tech-meter > i { position: absolute; top: 0; bottom: 0; width: 1px; background: rgba(232, 246, 215, 0.48); }
+.tech-meter > i:nth-of-type(1) { left: 33.333%; }
+.tech-meter > i:nth-of-type(2) { left: 66.666%; }
+.party-status:not([data-active="true"]) .tech-readout { display: none; }
+.party-status[data-tech-ready="true"][data-active="true"] .tech-meter { box-shadow: 0 0 5px rgba(229, 228, 136, 0.45); }
+.party-status[data-hp-low="true"] .resource-label [data-hp-value]::before { content: "危険 "; color: #ffb9a6; }
+.party-status[data-active="true"] .mp-label [data-mp-value] { font-size: 10px; }
+
+.party-status[data-mp-low="true"][data-active="true"] .mp-label [data-mp-value]::before { content: "MP低下 "; color: #ffca9c; }
+/* Portraits are controls, including when the older touch HUD rule applies. */
+.party-panel, .party-status { pointer-events: auto; }
+
+.party-status:not([data-active="true"]) .resource-label { display: flex; margin-top: 1px; font-size: 9px; }
+.party-status:not([data-active="true"]) .resource-label > span:first-child { display: none; }
+body[data-input="touch"] .party-status:not([data-active="true"]) .resource-label { display: flex; font-size: 8px; }
+
+/* Display-resolution field notifications and the one-time Layer 1 story. */
+.field-banner[hidden], .layer1-anomaly[hidden], .anomaly-caption[hidden] { display: none !important; }
+.field-banner {
+  position: absolute; z-index: 15; margin: 0; padding: 9px 14px;
+  border-left: 3px solid #d8ba72; border-radius: 3px;
+  color: #f1fff4; background: rgba(3, 20, 19, .91);
+  font: 600 clamp(16px, 1.25vw, 20px)/1.55 "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif;
+  overflow-wrap: anywhere; white-space: normal; text-align: center; pointer-events: none;
+}
+.layer1-anomaly { position: absolute; inset: 0; z-index: 22; pointer-events: none; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif; }
+.layer1-anomaly button { pointer-events: auto; cursor: pointer; min-height: 44px; padding: 8px 15px; border: 1px solid #84bca9; border-radius: 3px; background: #16372e; color: #effff4; font: 600 16px/1.4 system-ui, sans-serif; }
+.layer1-anomaly button:focus-visible { outline: 2px solid #c5ffed; outline-offset: 3px; }
+.anomaly-skip { position: absolute; top: 58px; right: max(12px, env(safe-area-inset-right)); }
+.anomaly-skip span { font-size: 12px; opacity: .7; }
+.anomaly-caption { position: absolute; bottom: max(12px, env(safe-area-inset-bottom)); left: 4%; right: 4%; padding: 14px 18px; max-height: calc(100% - 112px); overflow-y: auto; pointer-events: auto; color: #f1fff6; background: rgba(3, 22, 23, .95); border-top: 2px solid #82c6dc; border-radius: 4px; }
+.anomaly-speaker { display: block; margin-bottom: 7px; font-size: 16px; color: #a9dedc; }
+.anomaly-copy { display: grid; }
+.anomaly-copy > p { grid-area: 1 / 1; margin: 0; font-size: clamp(18px, 1.5vw, 22px); line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; }
+.anomaly-size { visibility: hidden; pointer-events: none; }
+.anomaly-live { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.anomaly-next { display: block; margin: 12px 0 0 auto; }
+.anomaly-caption small { position: absolute; bottom: 26px; left: 18px; color: #a9c7bb; font: 11px/1.4 system-ui, sans-serif; }
+@media (max-height: 500px) {
+  .anomaly-caption { left: 3%; right: 3%; padding: 10px 14px; }
+  .anomaly-copy > p { font-size: 18px; line-height: 1.5; }
+  .anomaly-speaker { margin-bottom: 4px; }
+  .anomaly-skip { top: 53px; min-height: 36px !important; padding: 5px 10px !important; font-size: 14px !important; }
+}
+
+/* Reading text stays at display resolution above the pixel-art canvas. */
+.field-prompt[hidden], .field-dialogue[hidden], .field-boss[hidden], .field-boss-core[hidden], .field-dialogue-advance[hidden], .field-floating[hidden] { display: none !important; }
+.field-prompt, .field-dialogue, .field-boss, .field-floating {
+  position: absolute; font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", system-ui, sans-serif;
+  color: #f0fff8; pointer-events: none;
+}
+.field-prompt { z-index: 16; left: 50%; transform: translateX(-50%); width: max-content; max-width: calc(100% - 32px); margin: 0; padding: 8px 14px; border-left: 2px solid #62d8cc; border-radius: 3px; background: rgba(4,24,22,.94); font-size: clamp(16px,1.25vw,20px); font-weight: 600; line-height: 1.5; text-align: center; overflow-wrap: anywhere; }
+.field-dialogue { z-index: 18; left: 3%; right: 3%; bottom: 12px; padding: 12px 16px; max-height: calc(100% - 100px); overflow-y: auto; overscroll-behavior: contain; pointer-events: auto; touch-action: pan-y; background: rgba(3,15,20,.96); border-top: 2px solid #8deee0; border-radius: 3px; }
+.field-dialogue-heading { display: block; color: #b1e5db; font-size: 16px; line-height: 1.4; }
+.field-dialogue-copy { margin: 7px 0; min-height: 2.8em; font-size: clamp(18px,1.5vw,22px); font-weight: 600; line-height: 1.55; white-space: pre-wrap; overflow-wrap: anywhere; }
+.field-dialogue-advance { display: block; text-align: right; color: #e9bd62; font-size: 16px; line-height: 1.4; }
+.field-dialogue-live { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.field-boss { z-index: 15; padding: 7px 10px; background: rgba(3,14,12,.94); border: 1px solid #708f68; border-radius: 3px; }
+.field-boss-label { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 4px 12px; margin-bottom: 5px; color: #e9d69b; font-size: 16px; line-height: 1.4; }
+.field-boss-core { color: #83f4dd; font-weight: 700; }
+.field-boss-track { height: 8px; background: #171f1b; }
+.field-boss-track i, .field-boss-armor-track i { display: block; height: 100%; }
+.field-boss-hp { background: #c45c4d; }
+.field-boss-armor-track { height: 3px; margin-top: 3px; }
+.field-boss-armor { background: #7e927e; }
+.field-floating { inset: 0; z-index: 10; overflow: hidden; }
+.field-floating span { position: absolute; font-weight: 800; line-height: 1.2; white-space: nowrap; text-shadow: 0 1px 2px #020807, 1px 0 2px #020807, -1px 0 2px #020807, 0 -1px 2px #020807; }

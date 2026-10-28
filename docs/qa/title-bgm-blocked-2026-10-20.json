@@ -1,0 +1,93 @@
+{
+  "reports": [
+    {
+      "viewport": "blocked",
+      "size": [
+        1600,
+        900
+      ],
+      "autoplay": "actual browser restriction; music button unlock",
+      "layout": {
+        "x": 18,
+        "y": 846,
+        "right": 134,
+        "bottom": 882,
+        "width": 116,
+        "height": 36,
+        "startLeft": 704,
+        "startRight": 1184,
+        "startTop": 723.203125,
+        "startBottom": 823.5
+      },
+      "loopWrapTime": 0.645333,
+      "prologuePaused": true,
+      "confirmCount": 1,
+      "players": 1,
+      "forestTrack": "ancientForest",
+      "volume": 0.4,
+      "events": [
+        {
+          "type": "play",
+          "src": "http://127.0.0.1:4174/assets/audio/music/title-starshadow-prelude-v1.mp3",
+          "time": 0.010667,
+          "at": 888.9000000953674
+        },
+        {
+          "type": "pause",
+          "src": "http://127.0.0.1:4174/assets/audio/music/title-starshadow-prelude-v1.mp3",
+          "time": 1.282667,
+          "at": 2171.4000000953674
+        },
+        {
+          "type": "play",
+          "src": "http://127.0.0.1:4174/assets/audio/music/title-starshadow-prelude-v1.mp3",
+          "time": 1.282667,
+          "at": 2871.7000000476837
+        },
+        {
+          "type": "pause",
+          "src": "http://127.0.0.1:4174/assets/audio/music/title-starshadow-prelude-v1.mp3",
+          "time": 1.394002,
+          "at": 2988.800000190735
+        },
+        {
+          "type": "play",
+          "src": "http://127.0.0.1:4174/assets/audio/music/title-starshadow-prelude-v1.mp3",
+          "time": 1.394667,
+          "at": 3189.7000000476837
+        },
+        {
+          "type": "pause",
+          "src": "http://127.0.0.1:4174/assets/audio/music/title-starshadow-prelude-v1.mp3",
+          "time": 0,
+          "at": 4787
+        },
+        {
+          "type": "play",
+          "src": "http://127.0.0.1:4174/assets/audio/music/title-starshadow-prelude-v1.mp3",
+          "time": 0.019565,
+          "at": 4826.600000143051
+        },
+        {
+          "type": "pause",
+          "src": "http://127.0.0.1:4174/assets/audio/music/title-starshadow-prelude-v1.mp3",
+          "time": 0,
+          "at": 5656.200000047684
+        },
+        {
+          "type": "play",
+          "src": "http://127.0.0.1:4174/assets/audio/music/field-star-circling-forest-v1.mp3",
+          "time": 0,
+          "at": 9012.300000190735
+        }
+      ]
+    },
+    {
+      "autoplayBlockedStartWithoutListening": true,
+      "prologueSilent": true,
+      "skipToForest": true,
+      "players": 1
+    }
+  ],
+  "limits": "Muted headless Chrome: physical devices, Safari/WebKit, actual OS/tab suspension and listening unverified"
+}

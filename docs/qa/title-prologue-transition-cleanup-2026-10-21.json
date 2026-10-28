@@ -1,0 +1,31 @@
+{
+  "protectedFilesUnchanged": [
+    "src/main.ts",
+    "src/ui/openingSequence.ts",
+    "assets/audio/music/title-starshadow-prelude-v1.mp3",
+    "assets/audio/music/field-star-circling-forest-v1.mp3",
+    "assets/concepts/prologue/eloria-prologue-forest-departure-v1.png",
+    "assets/concepts/prologue/eloria-prologue-village-farewell-v1.png",
+    "assets/concepts/prologue/eloria-prologue-map-shard-clue-v1.png",
+    "assets/concepts/prologue/eloria-prologue-village-anomaly-v1.png",
+    "assets/concepts/prologue/eloria-prologue-village-roots-nadi-v1.png",
+    "assets/concepts/prologue/eloria-prologue-village-conversation-v1.png"
+  ],
+  "existingServerAtStart": "13264 Tue Oct 20 23:41:43 2026     node /Users/katouhideki/dev/codex/retro_game/project_eloria/node_modules/.bin/vite",
+  "existingServerAtEnd": null,
+  "port4173AtEnd": null,
+  "existingServerStopRequestedByThisTask": false,
+  "note": "Port 4173 / PID 13264 was absent at final check; this task stopped only its dedicated 4174/4175 sessions. Cause not verified.",
+  "testPortsClosed": [
+    4174,
+    4175
+  ],
+  "testChromeClosed": true,
+  "prologueTrackImported": false,
+  "musicFiles": [
+    "battle-crystal-realm-v1.mp3",
+    "field-star-circling-forest-v1.mp3",
+    "exploration-forest-crystal-ruins-v1.mp3",
+    "title-starshadow-prelude-v1.mp3"
+  ]
+}

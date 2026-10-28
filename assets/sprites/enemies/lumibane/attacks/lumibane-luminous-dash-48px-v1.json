@@ -1,0 +1,68 @@
+{
+  "enemyKind": "lumibane",
+  "action": "luminousDash",
+  "displayName": "光羽突進",
+  "version": 1,
+  "image": "lumibane-luminous-dash-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "drawScale": 0.72,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.86
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "phases": {
+    "windup": {
+      "framesWithinDirection": [0, 1],
+      "frameDurationsSeconds": [0.2, 0.25],
+      "loop": false
+    },
+    "attack": {
+      "framesWithinDirection": [2, 3, 4],
+      "frameDurationsSeconds": [0.05, 0.07, 0.12],
+      "loop": false
+    },
+    "recover": {
+      "framesWithinDirection": [4, 5],
+      "frameDurationsSeconds": [0.12, 0.3],
+      "loop": false
+    }
+  },
+  "hitEvent": {
+    "phase": "attack",
+    "frameWithinDirection": 3,
+    "timeSeconds": 0.05,
+    "maxHitsPerTarget": 1
+  },
+  "worldPositionFixed": true,
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "Use the attack direction captured when windup begins; do not change authored rows in the middle of the action.",
+    "Frames 0 and 1 are anticipation, frame 2 begins the dash, frame 3 is the compact strike, frame 4 is braking, and frame 5 settles.",
+    "Keep the world-space hover anchor stable; forward travel comes from enemy movement code, not an additional sprite offset.",
+    "The sprite contains no shadow, glow, light trail, wind arc, particles, damage number, HP bar or hit flash; keep those game-rendered.",
+    "Damage and dash impact effects must occur once when attack frame 3 begins."
+  ]
+}

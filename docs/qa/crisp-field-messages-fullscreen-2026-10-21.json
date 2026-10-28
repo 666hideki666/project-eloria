@@ -1,0 +1,421 @@
+{
+  "reports": [
+    {
+      "viewport": "desktop",
+      "room": "mossRootRuins",
+      "normal": {
+        "x": 593,
+        "y": 12,
+        "width": 640,
+        "height": 80,
+        "top": 12,
+        "right": 1233,
+        "bottom": 92,
+        "left": 593
+      },
+      "fullscreen": {
+        "x": 593,
+        "y": 12,
+        "width": 640,
+        "height": 80,
+        "top": 12,
+        "right": 1233,
+        "bottom": 92,
+        "left": 593
+      },
+      "font": 20,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "desktop",
+      "room": "lightwingCrystalCavern",
+      "normal": {
+        "x": 593,
+        "y": 12,
+        "width": 640,
+        "height": 80,
+        "top": 12,
+        "right": 1233,
+        "bottom": 92,
+        "left": 593
+      },
+      "fullscreen": {
+        "x": 593,
+        "y": 12,
+        "width": 640,
+        "height": 80,
+        "top": 12,
+        "right": 1233,
+        "bottom": 92,
+        "left": 593
+      },
+      "font": 20,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "desktop",
+      "room": "spiritClothStonescaleDepths",
+      "normal": {
+        "x": 593,
+        "y": 12,
+        "width": 640,
+        "height": 80,
+        "top": 12,
+        "right": 1233,
+        "bottom": 92,
+        "left": 593
+      },
+      "fullscreen": {
+        "x": 593,
+        "y": 12,
+        "width": 640,
+        "height": 80,
+        "top": 12,
+        "right": 1233,
+        "bottom": 92,
+        "left": 593
+      },
+      "font": 20,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "desktop",
+      "room": "crystalAltar",
+      "normal": {
+        "x": 616,
+        "y": 105,
+        "width": 640,
+        "height": 80,
+        "top": 105,
+        "right": 1256,
+        "bottom": 185,
+        "left": 616
+      },
+      "fullscreen": {
+        "x": 616,
+        "y": 105,
+        "width": 640,
+        "height": 80,
+        "top": 105,
+        "right": 1256,
+        "bottom": 185,
+        "left": 616
+      },
+      "font": 20,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "phone",
+      "room": "mossRootRuins",
+      "normal": {
+        "x": 177.328125,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 817.328125,
+        "bottom": 221.59375,
+        "left": 177.328125
+      },
+      "fullscreen": {
+        "x": 177.328125,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 817.328125,
+        "bottom": 221.59375,
+        "left": 177.328125
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "phone",
+      "room": "lightwingCrystalCavern",
+      "normal": {
+        "x": 177.328125,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 817.328125,
+        "bottom": 221.59375,
+        "left": 177.328125
+      },
+      "fullscreen": {
+        "x": 177.328125,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 817.328125,
+        "bottom": 221.59375,
+        "left": 177.328125
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "phone",
+      "room": "spiritClothStonescaleDepths",
+      "normal": {
+        "x": 177.328125,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 817.328125,
+        "bottom": 221.59375,
+        "left": 177.328125
+      },
+      "fullscreen": {
+        "x": 177.328125,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 817.328125,
+        "bottom": 221.59375,
+        "left": 177.328125
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "phone",
+      "room": "crystalAltar",
+      "normal": {
+        "x": 207,
+        "y": 51.15625,
+        "width": 623,
+        "height": 67.59375,
+        "top": 51.15625,
+        "right": 830,
+        "bottom": 118.75,
+        "left": 207
+      },
+      "fullscreen": {
+        "x": 207,
+        "y": 51.15625,
+        "width": 623,
+        "height": 67.59375,
+        "top": 51.15625,
+        "right": 830,
+        "bottom": 118.75,
+        "left": 207
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "phone-small",
+      "room": "mossRootRuins",
+      "normal": {
+        "x": 14.34375,
+        "y": 154,
+        "width": 638.65625,
+        "height": 67.59375,
+        "top": 154,
+        "right": 653,
+        "bottom": 221.59375,
+        "left": 14.34375
+      },
+      "fullscreen": {
+        "x": 14.34375,
+        "y": 154,
+        "width": 638.65625,
+        "height": 67.59375,
+        "top": 154,
+        "right": 653,
+        "bottom": 221.59375,
+        "left": 14.34375
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "phone-small",
+      "room": "lightwingCrystalCavern",
+      "normal": {
+        "x": 14.34375,
+        "y": 154,
+        "width": 638.65625,
+        "height": 67.59375,
+        "top": 154,
+        "right": 653,
+        "bottom": 221.59375,
+        "left": 14.34375
+      },
+      "fullscreen": {
+        "x": 14.34375,
+        "y": 154,
+        "width": 638.65625,
+        "height": 67.59375,
+        "top": 154,
+        "right": 653,
+        "bottom": 221.59375,
+        "left": 14.34375
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "phone-small",
+      "room": "spiritClothStonescaleDepths",
+      "normal": {
+        "x": 14.34375,
+        "y": 154,
+        "width": 638.65625,
+        "height": 67.59375,
+        "top": 154,
+        "right": 653,
+        "bottom": 221.59375,
+        "left": 14.34375
+      },
+      "fullscreen": {
+        "x": 14.34375,
+        "y": 154,
+        "width": 638.65625,
+        "height": 67.59375,
+        "top": 154,
+        "right": 653,
+        "bottom": 221.59375,
+        "left": 14.34375
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "phone-small",
+      "room": "crystalAltar",
+      "normal": {
+        "x": 207,
+        "y": 49.578125,
+        "width": 446,
+        "height": 67.59375,
+        "top": 49.578125,
+        "right": 653,
+        "bottom": 117.171875,
+        "left": 207
+      },
+      "fullscreen": {
+        "x": 207,
+        "y": 49.578125,
+        "width": 446,
+        "height": 67.59375,
+        "top": 49.578125,
+        "right": 653,
+        "bottom": 117.171875,
+        "left": 207
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "ipad",
+      "room": "mossRootRuins",
+      "normal": {
+        "x": 192,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 832,
+        "bottom": 221.59375,
+        "left": 192
+      },
+      "fullscreen": {
+        "x": 192,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 832,
+        "bottom": 221.59375,
+        "left": 192
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "ipad",
+      "room": "lightwingCrystalCavern",
+      "normal": {
+        "x": 192,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 832,
+        "bottom": 221.59375,
+        "left": 192
+      },
+      "fullscreen": {
+        "x": 192,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 832,
+        "bottom": 221.59375,
+        "left": 192
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "ipad",
+      "room": "spiritClothStonescaleDepths",
+      "normal": {
+        "x": 192,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 832,
+        "bottom": 221.59375,
+        "left": 192
+      },
+      "fullscreen": {
+        "x": 192,
+        "y": 154,
+        "width": 640,
+        "height": 67.59375,
+        "top": 154,
+        "right": 832,
+        "bottom": 221.59375,
+        "left": 192
+      },
+      "font": 16,
+      "nonOverlap": true
+    },
+    {
+      "viewport": "ipad",
+      "room": "crystalAltar",
+      "normal": {
+        "x": 288.5,
+        "y": 70.796875,
+        "width": 640,
+        "height": 67.59375,
+        "top": 70.796875,
+        "right": 928.5,
+        "bottom": 138.390625,
+        "left": 288.5
+      },
+      "fullscreen": {
+        "x": 288.5,
+        "y": 70.796875,
+        "width": 640,
+        "height": 67.59375,
+        "top": 70.796875,
+        "right": 928.5,
+        "bottom": 138.390625,
+        "left": 288.5
+      },
+      "font": 16,
+      "nonOverlap": true
+    }
+  ],
+  "limits": "Chrome native fullscreen API in emulated viewport; physical devices/Safari/VoiceOver not assessed"
+}

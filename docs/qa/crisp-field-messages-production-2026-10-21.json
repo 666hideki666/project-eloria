@@ -1,0 +1,22 @@
+{
+  "detail": {
+    "text": "クリスタルの光が根へ流れはじめた",
+    "font": 20,
+    "rect": {
+      "x": 593,
+      "y": 12,
+      "width": 640,
+      "height": 49,
+      "top": 12,
+      "right": 1233,
+      "bottom": 61,
+      "left": 593
+    },
+    "pixelated": "pixelated",
+    "canvas": [
+      640,
+      360
+    ]
+  },
+  "limits": "Synthetic banner after actual product Forest-to-Layer1 transition; story skipped by Escape; existing central title hidden for this isolated layout check"
+}

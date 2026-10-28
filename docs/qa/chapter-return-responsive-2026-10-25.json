@@ -1,0 +1,91 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "opaqueGuideBeforeTitleAndAnomaly": true,
+      "allThreeStatusHelpAndFocus": true,
+      "pauseHelpAndFocus": true,
+      "returnReentryNoGuide": true
+    },
+    {
+      "label": "desktop",
+      "sealThreeThenReturnTwoScenes": true,
+      "oneGrantAndSound": true,
+      "resourcesAndNadiPreserved": true,
+      "caveSpawn": true,
+      "forestMusic": true,
+      "noClearChoiceOrForestTitle": true
+    },
+    {
+      "label": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "opaqueGuideBeforeTitleAndAnomaly": true,
+      "allThreeStatusHelpAndFocus": true,
+      "pauseHelpAndFocus": true,
+      "returnReentryNoGuide": true
+    },
+    {
+      "label": "phone",
+      "sealThreeThenReturnTwoScenes": true,
+      "oneGrantAndSound": true,
+      "resourcesAndNadiPreserved": true,
+      "caveSpawn": true,
+      "forestMusic": true,
+      "noClearChoiceOrForestTitle": true
+    },
+    {
+      "label": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "opaqueGuideBeforeTitleAndAnomaly": true,
+      "allThreeStatusHelpAndFocus": true,
+      "pauseHelpAndFocus": true,
+      "returnReentryNoGuide": true
+    },
+    {
+      "label": "phone-small",
+      "sealThreeThenReturnTwoScenes": true,
+      "oneGrantAndSound": true,
+      "resourcesAndNadiPreserved": true,
+      "caveSpawn": true,
+      "forestMusic": true,
+      "noClearChoiceOrForestTitle": true
+    },
+    {
+      "label": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "opaqueGuideBeforeTitleAndAnomaly": true,
+      "allThreeStatusHelpAndFocus": true,
+      "pauseHelpAndFocus": true,
+      "returnReentryNoGuide": true
+    },
+    {
+      "label": "ipad",
+      "sealThreeThenReturnTwoScenes": true,
+      "oneGrantAndSound": true,
+      "resourcesAndNadiPreserved": true,
+      "caveSpawn": true,
+      "forestMusic": true,
+      "noClearChoiceOrForestTitle": true
+    },
+    {
+      "actualKeyboardCaveToSouthRoad": true,
+      "cleanUrlAfterQa": true,
+      "titleMusicAndDevWarpRestored": true,
+      "newStartFreshAndGuideReplays": true
+    }
+  ],
+  "limits": "Muted isolated headless Chrome. Cave approach and after-battle seal state placed through QA; then real keyboard/touch input. Return-to-title road walked with keyboard from actual return spawn. No full boss/whole-chapter playthrough, physical device, Safari, VoiceOver or listening assessment."
+}

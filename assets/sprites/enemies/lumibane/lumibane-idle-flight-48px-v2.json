@@ -1,0 +1,55 @@
+{
+  "enemyKind": "lumibane",
+  "displayName": "ルミバネ",
+  "action": "idleFlight",
+  "version": 2,
+  "image": "lumibane-idle-flight-48px-v2.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "drawScale": 0.72,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.86
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "clips": {
+    "idle": {
+      "framesWithinDirection": [0, 1, 2, 1],
+      "frameDurationsSeconds": [0.15, 0.12, 0.15, 0.12],
+      "loop": true
+    },
+    "move": {
+      "framesWithinDirection": [2, 3, 4, 5],
+      "frameDurationsSeconds": [0.08, 0.08, 0.08, 0.08],
+      "loop": true
+    }
+  },
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "Every row contains a fixed authored direction; never mirror rows or rotate front and back frames.",
+    "The fast wing cycle is visual only and must not alter movement speed, collision, AI timing or the world-space hover anchor.",
+    "The sprite is fully opaque and contains no shadow, glow, particles, attack, hit flash, HP bar or defeat effect; keep those game-rendered.",
+    "This sheet covers hovering idle and flying locomotion only. Continue using the existing fallback attack and hit presentation until dedicated Lumibane action sheets are added."
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "reports": [
+    {
+      "port": 4174,
+      "label": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "failureInjected": false,
+      "loaded": [
+        {
+          "id": "kyle",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "nadi",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "meru",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        }
+      ],
+      "individuals": [
+        {
+          "id": "kyle",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "nadi",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "meru",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        }
+      ],
+      "allThreeDownedAndGameover": true,
+      "allRevived": true,
+      "footYDepthOrder": true
+    },
+    {
+      "port": 4174,
+      "label": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "failureInjected": false,
+      "loaded": [
+        {
+          "id": "kyle",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "nadi",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "meru",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        }
+      ],
+      "individuals": [
+        {
+          "id": "kyle",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "nadi",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "meru",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        }
+      ],
+      "allThreeDownedAndGameover": true,
+      "allRevived": true,
+      "footYDepthOrder": true
+    },
+    {
+      "port": 4174,
+      "label": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "failureInjected": false,
+      "loaded": [
+        {
+          "id": "kyle",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "nadi",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "meru",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        }
+      ],
+      "individuals": [
+        {
+          "id": "kyle",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "nadi",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "meru",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        }
+      ],
+      "allThreeDownedAndGameover": true,
+      "allRevived": true,
+      "footYDepthOrder": true
+    },
+    {
+      "port": 4174,
+      "label": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "failureInjected": false,
+      "loaded": [
+        {
+          "id": "kyle",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "nadi",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "meru",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        }
+      ],
+      "individuals": [
+        {
+          "id": "kyle",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "nadi",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "meru",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        }
+      ],
+      "allThreeDownedAndGameover": true,
+      "allRevived": true,
+      "footYDepthOrder": true
+    },
+    {
+      "port": 4174,
+      "label": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "failureInjected": true,
+      "loaded": [
+        {
+          "id": "kyle",
+          "width": 0,
+          "height": 0,
+          "complete": true
+        },
+        {
+          "id": "nadi",
+          "width": 0,
+          "height": 0,
+          "complete": true
+        },
+        {
+          "id": "meru",
+          "width": 0,
+          "height": 0,
+          "complete": true
+        }
+      ],
+      "individuals": [
+        {
+          "id": "kyle",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": false,
+          "gameover": false
+        },
+        {
+          "id": "nadi",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": false,
+          "gameover": false
+        },
+        {
+          "id": "meru",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": false,
+          "gameover": false
+        }
+      ],
+      "allThreeDownedAndGameover": true,
+      "allRevived": true,
+      "footYDepthOrder": false
+    },
+    {
+      "port": 4175,
+      "label": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "failureInjected": false,
+      "loaded": [
+        {
+          "id": "kyle",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "nadi",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "meru",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        }
+      ],
+      "individuals": [
+        {
+          "id": "kyle",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "nadi",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "meru",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        }
+      ],
+      "allThreeDownedAndGameover": true,
+      "allRevived": true,
+      "footYDepthOrder": true
+    },
+    {
+      "port": 4175,
+      "label": "phone",
+      "size": [
+        667,
+        375
+      ],
+      "failureInjected": false,
+      "loaded": [
+        {
+          "id": "kyle",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "nadi",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        },
+        {
+          "id": "meru",
+          "width": 48,
+          "height": 48,
+          "complete": true
+        }
+      ],
+      "individuals": [
+        {
+          "id": "kyle",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "nadi",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        },
+        {
+          "id": "meru",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": true,
+          "gameover": false
+        }
+      ],
+      "allThreeDownedAndGameover": true,
+      "allRevived": true,
+      "footYDepthOrder": true
+    },
+    {
+      "port": 4175,
+      "label": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "failureInjected": true,
+      "loaded": [
+        {
+          "id": "kyle",
+          "width": 0,
+          "height": 0,
+          "complete": true
+        },
+        {
+          "id": "nadi",
+          "width": 0,
+          "height": 0,
+          "complete": true
+        },
+        {
+          "id": "meru",
+          "width": 0,
+          "height": 0,
+          "complete": true
+        }
+      ],
+      "individuals": [
+        {
+          "id": "kyle",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": false,
+          "gameover": false
+        },
+        {
+          "id": "nadi",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": false,
+          "gameover": false
+        },
+        {
+          "id": "meru",
+          "damageCausedDowned": true,
+          "revivedByExistingRecoveryHelper": true,
+          "downedDraw": false,
+          "gameover": false
+        }
+      ],
+      "allThreeDownedAndGameover": true,
+      "allRevived": true,
+      "footYDepthOrder": false
+    }
+  ],
+  "limits": "Isolated muted headless Chrome. Actual damageCharacter and existing restorePartyFully helper, controlled boss-room party positions, simulation held for deterministic render inspection. All-three damage enters actual gameover. Downed src replaced with invalid PNG before loading for error fallback (including inlined production images). Canvas draw calls verify correct approved 48px texture, dimensions, alpha, pixel smoothing, and foot-Y order. No physical devices, Safari, VoiceOver or full combat playthrough."
+}

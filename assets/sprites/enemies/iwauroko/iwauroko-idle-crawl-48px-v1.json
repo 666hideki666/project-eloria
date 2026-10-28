@@ -1,0 +1,57 @@
+{
+  "enemyKind": "iwaUroko",
+  "displayName": "イワウロコ",
+  "action": "idleCrawl",
+  "version": 1,
+  "image": "iwauroko-idle-crawl-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "drawScale": 0.94,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.82
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "clips": {
+    "idle": {
+      "framesWithinDirection": [0, 1],
+      "frameDurationsSeconds": [0.48, 0.48],
+      "loop": true
+    },
+    "move": {
+      "framesWithinDirection": [2, 3, 4, 5],
+      "frameDurationsSeconds": [0.16, 0.16, 0.16, 0.16],
+      "loop": true
+    }
+  },
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "Every row contains a fixed authored direction; never mirror rows or turn front and back frames into side views.",
+    "Keep the belly and world-space ground anchor stable while the legs and tail perform the heavy crawl.",
+    "The lower 0.82 anchor intentionally lets the feet overlap the game-rendered contact shadow so this grounded enemy never appears to float.",
+    "This sheet depicts the intact rock-armor state only. Until a broken-armor sheet is authored, use the existing simplified broken-armor fallback when armor reaches zero.",
+    "The sprite contains no shadow, dust, loose stone, charge trail, attack, hit flash, HP or armor bar, or defeat effect; keep those game-rendered.",
+    "This sheet covers armored idle and locomotion only. Reuse the current attack presentation until dedicated Iwauroko action sheets are added."
+  ]
+}

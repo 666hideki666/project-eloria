@@ -1,0 +1,134 @@
+body[data-opening] .page-shell { visibility: hidden; }
+body.opening-reveal::after {
+  content: ""; position: fixed; inset: 0; z-index: 61;
+  background: #000; pointer-events: none; animation: opening-reveal .4s linear both;
+}
+@keyframes opening-reveal { from { opacity: 1; } to { opacity: 0; } }
+.opening[hidden], .opening [hidden] { display: none !important; }
+.opening {
+  position: fixed; inset: 0; z-index: 60; overflow: hidden;
+  color: #eaf0e8; background: #081413;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  touch-action: manipulation; isolation: isolate;
+  --safe-top: max(14px, env(safe-area-inset-top));
+  --safe-right: max(18px, env(safe-area-inset-right));
+  --safe-bottom: max(18px, env(safe-area-inset-bottom));
+  --safe-left: max(18px, env(safe-area-inset-left));
+}
+.opening .sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+.opening button { cursor: pointer; color: inherit; font-family: inherit; }
+.opening button:focus-visible { outline: 2px solid #d6f7eb; outline-offset: 5px; }
+.opening button:disabled { cursor: default; opacity: .55; }
+.opening-title, .opening-prologue, .prologue-artwork { position: absolute; inset: 0; }
+.title-art {
+  position: absolute; width: 100%; height: 100%; object-fit: cover; object-position: 50% 55%;
+}
+.title-logo {
+  position: absolute; top: 7%; left: 50%; transform: translateX(-50%);
+  width: min(68%, 1240px); height: auto; max-height: 42%; object-fit: contain;
+  filter: drop-shadow(0 3px 5px #08181577); pointer-events: none;
+}
+.title-start {
+  position: absolute; left: 59%; bottom: max(8.5%, var(--safe-bottom));
+  transform: translateX(-50%); width: clamp(220px, 30vw, 500px);
+  min-height: 64px; padding: 12px 26px 10px;
+  border: 1px solid #84aaa0; border-radius: 3px;
+  background: linear-gradient(160deg, #162521eb, #081310ed);
+  box-shadow: inset 0 0 0 4px #1d302b, inset 0 0 0 5px #577c6c66, 0 6px 16px #0006;
+  transition: background .2s, border-color .2s;
+}
+.title-start::before, .title-start::after {
+  content: ""; position: absolute; top: 50%; width: 6px; height: 6px;
+  border: 1px solid #85a99d; transform: rotate(45deg);
+}
+.title-start::before { left: 15px; }
+.title-start::after { right: 15px; }
+.title-start:hover { border-color: #c5e3d6; background: #1a302aee; }
+.title-start:active { background: #081613; }
+.title-start strong { display: block; font-size: clamp(24px, 3vw, 42px); font-weight: 400; letter-spacing: .3em; padding-left: .3em; line-height: 1.15; }
+.title-start span { display: block; margin-top: 5px; color: #bdd3c8; font-size: clamp(11px, 1.1vw, 15px); letter-spacing: .3em; }
+.opening-small { min-height: 44px; padding: 8px 13px; border: 1px solid #abc7bd66; background: #081613aa; border-radius: 2px; font-size: clamp(12px, 1.1vw, 16px); }
+.opening-small:hover { background: #203c32e6; }
+.title-fullscreen { position: absolute; top: var(--safe-top); right: var(--safe-right); }
+.title-fullscreen-hint { position: absolute; top: calc(var(--safe-top) + 50px); right: var(--safe-right); max-width: 280px; text-align: right; font-size: 12px; color: #d7e7de; background: #081613aa; }
+.title-fullscreen-hint:empty { display: none; }
+.title-dev { position: absolute; right: var(--safe-right); bottom: var(--safe-bottom); min-height: 36px; padding: 6px 10px; font-size: 11px; letter-spacing: .1em; opacity: .8; }
+.title-music { position: absolute; left: var(--safe-left); bottom: var(--safe-bottom); min-height: 36px; font-size: 12px; }
+.prologue-artwork { background-size: cover; background-position: center; }
+.prologue-art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 50% 40%; opacity: 0; transition: opacity .65s ease; transform: scale(1.025); }
+.prologue-art.is-current { opacity: 1; animation: prologue-pan 32s ease-out both; }
+.prologue-art[data-scene="anomaly"] { object-position: 63% 40%; }
+.prologue-art[data-scene="village-roots-nadi"] { object-position: 50% 65%; }
+.prologue-art[data-scene="map-shard-clue"] { object-position: 50% 50%; }
+.prologue-art[data-scene="village-farewell"] { object-position: 48% 60%; }
+.prologue-art[data-scene="departure"] { object-position: 48% 40%; }
+@keyframes prologue-pan { from { transform: scale(1.025) translateX(-.3%); } to { transform: scale(1.07) translateX(.3%); } }
+.prologue-atmosphere { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse at 65% 58%, #5edbdc0d, transparent 45%); animation: prologue-light 8s ease-in-out infinite alternate; }
+.prologue-atmosphere::after { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, transparent 35%, #d5e7d908 55%, transparent 75%); animation: prologue-mist 22s ease-in-out infinite alternate; }
+@keyframes prologue-light { to { opacity: .25; } }
+@keyframes prologue-mist { to { transform: translateX(2%); opacity: .5; } }
+.prologue-back { position: absolute; top: var(--safe-top); left: var(--safe-left); }
+.prologue-skip { position: absolute; top: var(--safe-top); right: var(--safe-right); }
+.opening[data-phase="prologue"] .title-fullscreen, .opening[data-phase="leaving"] .title-fullscreen,
+.opening[data-phase="prologue"] .title-fullscreen-hint, .opening[data-phase="leaving"] .title-fullscreen-hint { display: none; }
+.prologue-scene-label { position: absolute; left: 50%; top: calc(var(--safe-top) + 12px); transform: translateX(-50%); font-size: 12px; letter-spacing: .2em; text-shadow: 0 1px 6px #000; }
+.prologue-caption {
+  position: absolute; left: max(5%, var(--safe-left)); right: max(5%, var(--safe-right));
+  bottom: var(--safe-bottom); min-height: 112px; padding: 18px 26px 18px;
+  background: linear-gradient(110deg, #081815f2, #0a1a18e8); border: 1px solid #9ab7a86b;
+  box-shadow: 0 3px 24px #0005; border-radius: 3px;
+}
+.prologue-copy { display: grid; }
+.prologue-copy > p { grid-area: 1 / 1; }
+.prologue-size { visibility: hidden; pointer-events: none; }
+.prologue-text, .prologue-size { margin: 0 140px 0 0; min-height: 3.2em; font-size: clamp(18px, 1.65vw, 24px); line-height: 1.6; letter-spacing: .035em; white-space: pre-line; overflow-wrap: anywhere; }
+.prologue-advance { position: absolute; right: 20px; bottom: 35px; min-width: 110px; min-height: 44px; padding: 8px 10px; border: 1px solid #94b3a77a; border-radius: 2px; background: #20362c; font-size: 13px; }
+.prologue-advance b { margin-left: 10px; color: #bdd9ce; }
+.prologue-caption small { position: absolute; right: 20px; bottom: 12px; font-size: 10px; color: #a9beb3; }
+.opening-fade { position: absolute; inset: 0; pointer-events: none; background: #000; opacity: 0; transition: opacity .4s linear; }
+.opening[data-phase="leaving"] .opening-fade { opacity: 1; pointer-events: auto; }
+.opening[data-transition="prologue-in"] :is(.prologue-caption, .prologue-scene-label) { visibility: hidden; }
+.opening.is-suspended *, .opening.is-suspended *::after { animation-play-state: paused !important; }
+@media (max-aspect-ratio: 3/2) {
+  .title-art { object-position: 48% 55%; }
+  .title-logo { width: 86%; top: 13%; }
+  .title-start { left: 62%; width: 36%; bottom: 9%; }
+  .prologue-art { object-fit: contain; object-position: center 30%; }
+  .prologue-artwork { background-image: none !important; background: #091512; }
+  .prologue-caption { left: var(--safe-left); right: var(--safe-right); bottom: max(4%, var(--safe-bottom)); }
+}
+@media (max-height: 500px) and (min-aspect-ratio: 3/2) {
+  .opening { --safe-top: max(8px, env(safe-area-inset-top)); --safe-bottom: max(10px, env(safe-area-inset-bottom)); }
+  .title-logo { top: 2%; width: 62%; }
+  .title-start { min-height: 50px; bottom: 6%; padding: 8px 24px; width: 28%; }
+  .title-start strong { font-size: 25px; }
+  .title-start span { margin-top: 3px; font-size: 10px; }
+  .prologue-caption { min-height: 92px; padding: 10px 16px; bottom: var(--safe-bottom); }
+  .prologue-text, .prologue-size { font-size: 18px; line-height: 1.45; min-height: 2.9em; }
+  .prologue-advance { bottom: 27px; }
+  .prologue-caption small { bottom: 9px; }
+  .opening:is([data-scene="map-shard-clue"], [data-scene="village-farewell"]) .prologue-artwork {
+    bottom: calc(var(--safe-bottom) + 110px);
+    background: #091512; background-image: none !important;
+  }
+  .opening:is([data-scene="map-shard-clue"], [data-scene="village-farewell"]) .prologue-art {
+    object-fit: contain; object-position: center;
+  }
+}
+@media (max-width: 600px) and (max-aspect-ratio: 3/2) {
+  .title-start { left: 50%; width: 66%; bottom: 14%; }
+  .title-logo { top: 19%; }
+  .prologue-caption { padding: 14px; padding-bottom: 68px; }
+  .prologue-text, .prologue-size { margin-right: 0; font-size: 18px; }
+  .prologue-advance { bottom: 20px; right: 14px; }
+  .prologue-caption small { right: auto; left: 14px; bottom: 32px; font-size: 9px; }
+  .prologue-scene-label { top: calc(var(--safe-top) + 56px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.opening-reveal::after { animation-duration: .08s; }
+  .opening *, .opening *::after { animation: none !important; transition: none !important; }
+  .prologue-art, .prologue-art.is-current { transform: none; }
+}

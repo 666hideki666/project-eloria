@@ -1,0 +1,19 @@
+{
+  "protectedFileCount": 306,
+  "changedProtectedFiles": [],
+  "existing4173Before": "COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nnode    19379 katouhideki   16u  IPv4 0xde18880c0fcb3282      0t0  TCP 127.0.0.1:4173 (LISTEN)\n",
+  "existing4173After": "COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nnode    19379 katouhideki   16u  IPv4 0xde18880c0fcb3282      0t0  TCP 127.0.0.1:4173 (LISTEN)\n",
+  "dev4174Listeners": "",
+  "preview4175Listeners": "",
+  "ownChromeProcesses": [],
+  "gates": {
+    "typecheck": "passed",
+    "testFiles": 20,
+    "testsPassed": 386,
+    "build": "passed"
+  },
+  "limits": [
+    "Headless muted Chrome; physical devices, Safari/WebKit, VoiceOver, listening and real OS/tab interruption not assessed",
+    "Notification long/short layout cases use synthetic banners; cave approach and crystal/exit regression use validated coordinates or existing DEV QA placement"
+  ]
+}

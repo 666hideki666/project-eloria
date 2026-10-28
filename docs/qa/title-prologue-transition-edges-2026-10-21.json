@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "reduced motion: no visual fades, full 1.5s music fade, immediate two-sentence text afterwards",
+    "live reduced-motion preference stops visuals without cutting the audio fade",
+    "hidden during title-out or prologue-in: visual/text clock stops, audio pauses, resume completes without catch-up",
+    "held START repeats through transition do not reveal or advance scene 1",
+    "during first-image fade: advance ignored, back restores title music and clears mask; fresh START and skip hand off once",
+    "simulated mixer unlock before and during START keeps audible fade; mute/volume persist into forest",
+    "delayed initial play resolves during fade: no late title audio and normal silent scene/forest",
+    "title audio and all prologue images fail: timed transition, narration and skip/forest still work",
+    "all DEV destinations and QA/arena bypass retain direct startup without transition or title music"
+  ],
+  "limits": "hidden, mixer-unlock, delayed play and resource failures simulated; muted headless Chrome; no actual listening/device/Safari/OS-interruption assessment"
+}

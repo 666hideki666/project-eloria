@@ -1,0 +1,157 @@
+{
+  "reports": [
+    {
+      "room": "mossRootRuins",
+      "groups": [
+        "mossIntro",
+        "mossFork",
+        "mossDeadEnd",
+        "mossGate"
+      ]
+    },
+    {
+      "room": "lightwingCrystalCavern",
+      "groups": [
+        "lightwingIntro",
+        "lightwingDraft",
+        "lightwingDeadEnd",
+        "mixedChannel",
+        "lightwingNest"
+      ]
+    },
+    {
+      "room": "spiritClothStonescaleDepths",
+      "groups": [
+        "depthsSpiritEntry",
+        "depthsSpiritLamp",
+        "depthsStonePassage",
+        "depthsStoneWedge"
+      ]
+    },
+    {
+      "character": "kyle",
+      "action": "normal",
+      "cost": 0,
+      "actual": {
+        "cooldown": 0.2768000000000001,
+        "charge": 3,
+        "banner": "",
+        "visible": false,
+        "sequence": 1
+      }
+    },
+    {
+      "character": "kyle",
+      "action": "special",
+      "cost": 1,
+      "actual": {
+        "cooldown": 0.25329999999999997,
+        "charge": 2.0133400000000004,
+        "banner": "",
+        "visible": false,
+        "sequence": 2
+      }
+    },
+    {
+      "character": "kyle",
+      "action": "ultimate",
+      "cost": 3,
+      "actual": {
+        "cooldown": 0.4334000000000001,
+        "charge": 0.013319999999999981,
+        "banner": "",
+        "visible": false,
+        "sequence": 3
+      }
+    },
+    {
+      "character": "nadi",
+      "action": "normal",
+      "cost": 0,
+      "actual": {
+        "cooldown": 0.5534,
+        "charge": 3,
+        "banner": "",
+        "visible": false,
+        "sequence": 1
+      }
+    },
+    {
+      "character": "nadi",
+      "action": "special",
+      "cost": 1,
+      "actual": {
+        "cooldown": 0.27340000000000014,
+        "charge": 2.01332,
+        "banner": "",
+        "visible": false,
+        "sequence": 2
+      }
+    },
+    {
+      "character": "nadi",
+      "action": "ultimate",
+      "cost": 3,
+      "actual": {
+        "cooldown": 0.9732999999999996,
+        "charge": 0.013340000000000055,
+        "banner": "",
+        "visible": false,
+        "sequence": 3
+      }
+    },
+    {
+      "character": "meru",
+      "action": "normal",
+      "cost": 0,
+      "actual": {
+        "cooldown": 0.4534000000000001,
+        "charge": 3,
+        "banner": "",
+        "visible": false,
+        "sequence": 1
+      }
+    },
+    {
+      "character": "meru",
+      "action": "special",
+      "cost": 1,
+      "actual": {
+        "cooldown": 0.3134000000000001,
+        "charge": 2.01332,
+        "banner": "",
+        "visible": false,
+        "sequence": 2
+      }
+    },
+    {
+      "character": "meru",
+      "action": "ultimate",
+      "cost": 3,
+      "actual": {
+        "cooldown": 1.0532000000000006,
+        "charge": 0.013359999999999945,
+        "banner": "",
+        "visible": false,
+        "sequence": 3
+      }
+    },
+    {
+      "autoHeal": {
+        "hp": 47,
+        "mp": 62,
+        "banner": ""
+      },
+      "switchNoBanner": true,
+      "shortageNearGauge": true,
+      "abilityAudioEvents": 10
+    },
+    {
+      "layer2BothCrystalsAndBridge": true
+    },
+    {
+      "layer3BothSealsAndCentralGate": true
+    }
+  ],
+  "limits": "Existing DEV encounter/landmark setup; actual skill keys and dialogue input, live combat with inflated QA enemy health/invulnerability for deterministic observation; no full chapter/boss battle playthrough or listening"
+}

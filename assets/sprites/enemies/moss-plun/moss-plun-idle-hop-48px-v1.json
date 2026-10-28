@@ -1,0 +1,55 @@
+{
+  "enemyKind": "mossPlun",
+  "displayName": "モスプルン",
+  "action": "idleHop",
+  "version": 1,
+  "image": "moss-plun-idle-hop-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "drawScale": 0.8,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.92
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "clips": {
+    "idle": {
+      "framesWithinDirection": [0, 1],
+      "frameDurationsSeconds": [0.42, 0.42],
+      "loop": true
+    },
+    "move": {
+      "framesWithinDirection": [2, 3, 4, 5],
+      "frameDurationsSeconds": [0.08, 0.18, 0.12, 0.16],
+      "loop": true
+    }
+  },
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "Frame 3 within each direction is the airborne hop frame and already contains a small visual lift inside the cell.",
+    "Keep the same world position and ground anchor while the squash, stretch and hop are drawn from the sprite.",
+    "The sprite contains no shadow, telegraph, attack, damage flash, particles, HP bar or defeat effect; keep those game-rendered.",
+    "This first sheet covers idle and locomotion only. Preserve the current attack telegraph and hit presentation until dedicated Moss Plun action sheets are added."
+  ]
+}

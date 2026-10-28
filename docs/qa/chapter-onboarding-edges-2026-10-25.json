@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "skip scene 1: one grant/sound and restored UI",
+    "skip scene 2: one grant/sound and restored UI",
+    "skip scene 3: one grant/sound and restored UI",
+    "reduced motion, back, held final confirmation and fresh return preserve one grant",
+    "double-click cannot skip a scene",
+    "all three image requests fail: full narration and completion remain available",
+    "simulated hidden state freezes typing/world and resumes without catch-up",
+    "skip initial cards still runs the existing anomaly",
+    "DEV selection and all stage/arena/forest QA starts bypass forced cards"
+  ],
+  "limits": "Muted headless Chrome, image requests actually blocked; visibility simulated, one normal-motion test shortens central room title only; physical devices/Safari/VoiceOver/listening not assessed"
+}

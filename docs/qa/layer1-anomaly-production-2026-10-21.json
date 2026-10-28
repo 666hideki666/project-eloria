@@ -1,0 +1,26 @@
+{
+  "reports": [
+    {
+      "viewport": "production",
+      "size": [
+        1600,
+        900
+      ],
+      "allFourPages": true,
+      "announcements": [
+        "苔根の遺構。洞窟の奥で、青い光が不規則に脈打った。魔物たちは苦しむように暴れ、三人の姿に気づくと、我を失ったように襲いかかってきた。",
+        "ナディ。森の魔物まで、こんなふうに……。",
+        "メル。この光、晶石が苦しんでいるみたい。",
+        "カイル。奥を確かめよう。"
+      ],
+      "titleBeforeStory": true,
+      "worldFrozenDuringStory": true,
+      "heldMovementSuppressed": true,
+      "normalReturnAndReentry": true,
+      "replay": false,
+      "input": "E/Enter",
+      "unchangedExplorationMusic": true
+    }
+  ],
+  "limits": "Forest cave approach placed at a validated floor coordinate; actual movement and room transitions used; muted Chrome; physical devices/Safari/VoiceOver/listening not assessed"
+}

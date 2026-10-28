@@ -1,0 +1,383 @@
+{
+  "viewports": [
+    {
+      "viewport": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "scenes": 6,
+      "lines": [
+        {
+          "id": "anomaly",
+          "line": 0,
+          "speaker": "村の異変",
+          "text": "村の井戸が、青く光りはじめた。"
+        },
+        {
+          "id": "anomaly",
+          "line": 1,
+          "speaker": "村の異変",
+          "text": "森から伸びる根にも、同じ光が宿る。"
+        },
+        {
+          "id": "village-roots-nadi",
+          "line": 0,
+          "speaker": "村人",
+          "text": "森の道まで、青く光っている……。"
+        },
+        {
+          "id": "village-roots-nadi",
+          "line": 1,
+          "speaker": "ナディ",
+          "text": "ここは私たちが見に行く。みんなは村に戻って。"
+        },
+        {
+          "id": "conversation",
+          "line": 0,
+          "speaker": "ナディ",
+          "text": "このままじゃ、村まで異変が広がる。"
+        },
+        {
+          "id": "conversation",
+          "line": 1,
+          "speaker": "カイル",
+          "text": "古い地図には、森の奥に遺構がある。"
+        },
+        {
+          "id": "conversation",
+          "line": 2,
+          "speaker": "メル",
+          "text": "この光……何かを伝えようとしてる。"
+        },
+        {
+          "id": "map-shard-clue",
+          "line": 0,
+          "speaker": "カイル",
+          "text": "地図の印は、あの洞窟で途切れている。"
+        },
+        {
+          "id": "map-shard-clue",
+          "line": 1,
+          "speaker": "メル",
+          "text": "晶石の声も、そこから聞こえる……苦しそうに。"
+        },
+        {
+          "id": "village-farewell",
+          "line": 0,
+          "speaker": "村人",
+          "text": "森は、もういつもの森じゃないよ。"
+        },
+        {
+          "id": "village-farewell",
+          "line": 1,
+          "speaker": "ナディ",
+          "text": "だからこそ行く。必ず戻る。"
+        },
+        {
+          "id": "departure",
+          "line": 0,
+          "speaker": "カイル",
+          "text": "確かめよう。森の奥へ。"
+        },
+        {
+          "id": "departure",
+          "line": 1,
+          "speaker": "古の森へ",
+          "text": "３人は、古の森へ踏み出した。"
+        }
+      ],
+      "confirmCount": 1,
+      "musicPlayers": 1
+    },
+    {
+      "viewport": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "scenes": 6,
+      "lines": [
+        {
+          "id": "anomaly",
+          "line": 0,
+          "speaker": "村の異変",
+          "text": "村の井戸が、青く光りはじめた。"
+        },
+        {
+          "id": "anomaly",
+          "line": 1,
+          "speaker": "村の異変",
+          "text": "森から伸びる根にも、同じ光が宿る。"
+        },
+        {
+          "id": "village-roots-nadi",
+          "line": 0,
+          "speaker": "村人",
+          "text": "森の道まで、青く光っている……。"
+        },
+        {
+          "id": "village-roots-nadi",
+          "line": 1,
+          "speaker": "ナディ",
+          "text": "ここは私たちが見に行く。みんなは村に戻って。"
+        },
+        {
+          "id": "conversation",
+          "line": 0,
+          "speaker": "ナディ",
+          "text": "このままじゃ、村まで異変が広がる。"
+        },
+        {
+          "id": "conversation",
+          "line": 1,
+          "speaker": "カイル",
+          "text": "古い地図には、森の奥に遺構がある。"
+        },
+        {
+          "id": "conversation",
+          "line": 2,
+          "speaker": "メル",
+          "text": "この光……何かを伝えようとしてる。"
+        },
+        {
+          "id": "map-shard-clue",
+          "line": 0,
+          "speaker": "カイル",
+          "text": "地図の印は、あの洞窟で途切れている。"
+        },
+        {
+          "id": "map-shard-clue",
+          "line": 1,
+          "speaker": "メル",
+          "text": "晶石の声も、そこから聞こえる……苦しそうに。"
+        },
+        {
+          "id": "village-farewell",
+          "line": 0,
+          "speaker": "村人",
+          "text": "森は、もういつもの森じゃないよ。"
+        },
+        {
+          "id": "village-farewell",
+          "line": 1,
+          "speaker": "ナディ",
+          "text": "だからこそ行く。必ず戻る。"
+        },
+        {
+          "id": "departure",
+          "line": 0,
+          "speaker": "カイル",
+          "text": "確かめよう。森の奥へ。"
+        },
+        {
+          "id": "departure",
+          "line": 1,
+          "speaker": "古の森へ",
+          "text": "３人は、古の森へ踏み出した。"
+        }
+      ],
+      "confirmCount": 1,
+      "musicPlayers": 1
+    },
+    {
+      "viewport": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "scenes": 6,
+      "lines": [
+        {
+          "id": "anomaly",
+          "line": 0,
+          "speaker": "村の異変",
+          "text": "村の井戸が、青く光りはじめた。"
+        },
+        {
+          "id": "anomaly",
+          "line": 1,
+          "speaker": "村の異変",
+          "text": "森から伸びる根にも、同じ光が宿る。"
+        },
+        {
+          "id": "village-roots-nadi",
+          "line": 0,
+          "speaker": "村人",
+          "text": "森の道まで、青く光っている……。"
+        },
+        {
+          "id": "village-roots-nadi",
+          "line": 1,
+          "speaker": "ナディ",
+          "text": "ここは私たちが見に行く。みんなは村に戻って。"
+        },
+        {
+          "id": "conversation",
+          "line": 0,
+          "speaker": "ナディ",
+          "text": "このままじゃ、村まで異変が広がる。"
+        },
+        {
+          "id": "conversation",
+          "line": 1,
+          "speaker": "カイル",
+          "text": "古い地図には、森の奥に遺構がある。"
+        },
+        {
+          "id": "conversation",
+          "line": 2,
+          "speaker": "メル",
+          "text": "この光……何かを伝えようとしてる。"
+        },
+        {
+          "id": "map-shard-clue",
+          "line": 0,
+          "speaker": "カイル",
+          "text": "地図の印は、あの洞窟で途切れている。"
+        },
+        {
+          "id": "map-shard-clue",
+          "line": 1,
+          "speaker": "メル",
+          "text": "晶石の声も、そこから聞こえる……苦しそうに。"
+        },
+        {
+          "id": "village-farewell",
+          "line": 0,
+          "speaker": "村人",
+          "text": "森は、もういつもの森じゃないよ。"
+        },
+        {
+          "id": "village-farewell",
+          "line": 1,
+          "speaker": "ナディ",
+          "text": "だからこそ行く。必ず戻る。"
+        },
+        {
+          "id": "departure",
+          "line": 0,
+          "speaker": "カイル",
+          "text": "確かめよう。森の奥へ。"
+        },
+        {
+          "id": "departure",
+          "line": 1,
+          "speaker": "古の森へ",
+          "text": "３人は、古の森へ踏み出した。"
+        }
+      ],
+      "confirmCount": 1,
+      "musicPlayers": 1
+    },
+    {
+      "viewport": "production",
+      "size": [
+        1600,
+        900
+      ],
+      "scenes": 6,
+      "lines": [
+        {
+          "id": "anomaly",
+          "line": 0,
+          "speaker": "村の異変",
+          "text": "村の井戸が、青く光りはじめた。"
+        },
+        {
+          "id": "anomaly",
+          "line": 1,
+          "speaker": "村の異変",
+          "text": "森から伸びる根にも、同じ光が宿る。"
+        },
+        {
+          "id": "village-roots-nadi",
+          "line": 0,
+          "speaker": "村人",
+          "text": "森の道まで、青く光っている……。"
+        },
+        {
+          "id": "village-roots-nadi",
+          "line": 1,
+          "speaker": "ナディ",
+          "text": "ここは私たちが見に行く。みんなは村に戻って。"
+        },
+        {
+          "id": "conversation",
+          "line": 0,
+          "speaker": "ナディ",
+          "text": "このままじゃ、村まで異変が広がる。"
+        },
+        {
+          "id": "conversation",
+          "line": 1,
+          "speaker": "カイル",
+          "text": "古い地図には、森の奥に遺構がある。"
+        },
+        {
+          "id": "conversation",
+          "line": 2,
+          "speaker": "メル",
+          "text": "この光……何かを伝えようとしてる。"
+        },
+        {
+          "id": "map-shard-clue",
+          "line": 0,
+          "speaker": "カイル",
+          "text": "地図の印は、あの洞窟で途切れている。"
+        },
+        {
+          "id": "map-shard-clue",
+          "line": 1,
+          "speaker": "メル",
+          "text": "晶石の声も、そこから聞こえる……苦しそうに。"
+        },
+        {
+          "id": "village-farewell",
+          "line": 0,
+          "speaker": "村人",
+          "text": "森は、もういつもの森じゃないよ。"
+        },
+        {
+          "id": "village-farewell",
+          "line": 1,
+          "speaker": "ナディ",
+          "text": "だからこそ行く。必ず戻る。"
+        },
+        {
+          "id": "departure",
+          "line": 0,
+          "speaker": "カイル",
+          "text": "確かめよう。森の奥へ。"
+        },
+        {
+          "id": "departure",
+          "line": 1,
+          "speaker": "古の森へ",
+          "text": "３人は、古の森へ踏み出した。"
+        }
+      ],
+      "confirmCount": 1,
+      "musicPlayers": 1
+    }
+  ],
+  "scope": "headless Chrome, no listening assessment",
+  "checks": {
+    "allSceneSkips": 6,
+    "addedSceneReset": true,
+    "heldInputIsolation": true,
+    "duplicateClickSuppression": true,
+    "threeNewImageFailuresWithTextAndSkip": true,
+    "reducedMotion": true,
+    "hiddenEventSimulation": true,
+    "mutePreservedIntoForest": true,
+    "allDevWarpDestinations": 5,
+    "qaAndArenaBypasses": true,
+    "originalImageHashesUnchanged": 6,
+    "typecheck": "passed",
+    "tests": 356,
+    "build": "passed",
+    "listeningAssessment": "not performed",
+    "physicalDevicesAndSafari": "not tested"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "reduced motion skips camera/pulse and types immediately; Escape restores control",
+    "skip during central title consumes the first event without changing the original title",
+    "hidden during pulse or narration freezes story and world; resume has no text catch-up",
+    "held confirm and double-click cannot skip pages; held attack is suppressed until release, fresh attack works",
+    "all stage QA starts and QA/DEV Forest-to-Layer1 routes bypass the story"
+  ],
+  "limits": "Visibility simulated; pulse/text visibility check shortens central title in that one case; muted Chrome; physical devices/Safari/VoiceOver/listening not assessed"
+}

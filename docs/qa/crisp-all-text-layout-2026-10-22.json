@@ -1,0 +1,331 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "room": "mossRootRuins",
+      "size": [
+        1600,
+        900
+      ],
+      "hintFont": 20,
+      "dialogueFont": 22,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "desktop",
+      "room": "lightwingCrystalCavern",
+      "size": [
+        1600,
+        900
+      ],
+      "hintFont": 20,
+      "dialogueFont": 22,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "desktop",
+      "room": "spiritClothStonescaleDepths",
+      "size": [
+        1600,
+        900
+      ],
+      "hintFont": 20,
+      "dialogueFont": 22,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "desktop",
+      "room": "crystalAltar",
+      "size": [
+        1600,
+        900
+      ],
+      "hintFont": 20,
+      "dialogueFont": 22,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "desktop",
+      "room": "arena",
+      "size": [
+        1600,
+        900
+      ],
+      "hintFont": 20,
+      "dialogueFont": 22,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone",
+      "room": "mossRootRuins",
+      "size": [
+        844,
+        390
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone",
+      "room": "lightwingCrystalCavern",
+      "size": [
+        844,
+        390
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone",
+      "room": "spiritClothStonescaleDepths",
+      "size": [
+        844,
+        390
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone",
+      "room": "crystalAltar",
+      "size": [
+        844,
+        390
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone",
+      "room": "arena",
+      "size": [
+        844,
+        390
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone-small",
+      "room": "mossRootRuins",
+      "size": [
+        667,
+        375
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone-small",
+      "room": "lightwingCrystalCavern",
+      "size": [
+        667,
+        375
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone-small",
+      "room": "spiritClothStonescaleDepths",
+      "size": [
+        667,
+        375
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone-small",
+      "room": "crystalAltar",
+      "size": [
+        667,
+        375
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "phone-small",
+      "room": "arena",
+      "size": [
+        667,
+        375
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "ipad",
+      "room": "mossRootRuins",
+      "size": [
+        1024,
+        768
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "ipad",
+      "room": "lightwingCrystalCavern",
+      "size": [
+        1024,
+        768
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "ipad",
+      "room": "spiritClothStonescaleDepths",
+      "size": [
+        1024,
+        768
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "ipad",
+      "room": "crystalAltar",
+      "size": [
+        1024,
+        768
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "ipad",
+      "room": "arena",
+      "size": [
+        1024,
+        768
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "zoom200",
+      "room": "mossRootRuins",
+      "size": [
+        800,
+        450
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "zoom200",
+      "room": "lightwingCrystalCavern",
+      "size": [
+        800,
+        450
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "zoom200",
+      "room": "spiritClothStonescaleDepths",
+      "size": [
+        800,
+        450
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "zoom200",
+      "room": "crystalAltar",
+      "size": [
+        800,
+        450
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    },
+    {
+      "label": "zoom200",
+      "room": "arena",
+      "size": [
+        800,
+        450
+      ],
+      "hintFont": 16,
+      "dialogueFont": 18,
+      "bossFont": 16,
+      "canvasTextPaints": [],
+      "fullScreen": true
+    }
+  ],
+  "setup": "Synthetic prompts/dialogues/effects on actual rendered rooms, world update frozen for layout. Native fullscreen. 200% equivalent CSS800x450 DPR2.",
+  "limits": "Muted headless Chrome; physical devices, actual browser zoom, Safari/WebKit and VoiceOver not assessed"
+}

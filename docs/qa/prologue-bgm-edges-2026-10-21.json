@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "actual decoded PCM reaches the shared mixer for prologue and forest; both reusable sources remain attached",
+    "three back/reSTART cycles reverse or reuse the same two slots; old sources cleared, skip blends once",
+    "reduced motion keeps 1.5s music timing, full narration and the forest crossfade",
+    "hidden during either crossfade pauses all audio, releases the outgoing source and resumes one target at the same position",
+    "mute and volume apply to both sides; unmute and forest handoff preserve the setting",
+    "prologue play/prime repeatedly rejected: narration proceeds, next gesture recovers, no stale title audio",
+    "prepared/incoming play resolves after skip: forest remains the only audible source",
+    "prologue media load fails: timed images/text, skip and forest playback recover",
+    "all DEV choices and QA/arena direct starts allocate only the ordinary player and never select prologue"
+  ],
+  "energy": [
+    {
+      "track": "prologue",
+      "rms": 0.02290016226807899,
+      "source": true,
+      "standbySource": true,
+      "context": "running"
+    },
+    {
+      "track": "forest",
+      "rms": 0.04504234767050284,
+      "source": true,
+      "standbySource": true,
+      "context": "running"
+    }
+  ],
+  "limits": "hidden, rejections, late promises and load failure simulated; PCM/mixer state verified in muted Chrome; listening/physical devices/Safari/WebKit/VoiceOver/actual OS suspension not assessed"
+}

@@ -1,0 +1,23 @@
+{
+  "reports": [
+    {
+      "productionOpaqueGuideThenTitleThenAnomaly": true,
+      "devAbsent": true
+    },
+    {
+      "productionTouchStatusHelpFocusAndFreeze": true
+    },
+    {
+      "productionSealThreeThenReturnTwo": true,
+      "returnArtworkLoaded": 2,
+      "oneGrantAndSound": true,
+      "forestBgmOnePlayer": true
+    },
+    {
+      "productionRealKeyboardCaveToVillageEdge": true,
+      "titleAndMusicRestored": true,
+      "newStartFreshAndGuideReplays": true
+    }
+  ],
+  "limits": "Final vite production build served with vite preview. Isolated muted headless Chrome. Normal title/prologue/cave entry and real controls; cave approach placement. Ending uses existing runtime boss room and seal-ready controller setup, followed by real seal approach and input; cave-to-village road walked with keyboard. No complete boss/chapter playthrough or physical device/Safari/VoiceOver/listening assessment."
+}

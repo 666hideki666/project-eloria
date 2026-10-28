@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "reducedMotionReadableAutoTitle": true,
+      "elapsedMs": 3536,
+      "pulseOmitted": true
+    },
+    {
+      "heldFinalGuideKeyDoesNotSkipTitleOrFirstPage": true,
+      "newKeyPressWorks": true
+    },
+    {
+      "doubleClickIgnored": true,
+      "enterAdvancesOnlyTitle": true
+    },
+    {
+      "tapAnywhereAdvancesTitle": true,
+      "tapBurstCannotSkipFirstPage": true,
+      "freshReadAndAdvanceAfterQuiet": true
+    },
+    {
+      "simulatedHiddenTitleClockAndCssPaused": true,
+      "wallMs": 6867
+    },
+    {
+      "escapeSkipsWholePresentationAndRestoresControl": true
+    },
+    {
+      "manualStatusAndPauseHelpUnchanged": true
+    },
+    {
+      "devForestThenCaveHasRegularTitleAndNoNarration": true
+    }
+  ],
+  "limits": "Muted isolated headless Chrome. Normal UI with validated cave approach placement; pointer/touch and held/repeated keys. document.hidden and visibilitychange simulated. No physical devices/Safari/VoiceOver/listening assessment."
+}

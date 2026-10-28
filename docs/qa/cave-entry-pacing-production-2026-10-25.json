@@ -1,0 +1,69 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "manual": false,
+      "reduced": false,
+      "titleMs": 3524,
+      "pulseMs": 398,
+      "fullNarration": true,
+      "noLayoutOverlap": true,
+      "worldFrozen": true,
+      "controlRestored": true,
+      "devAbsent": true
+    },
+    {
+      "label": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "manual": true,
+      "reduced": false,
+      "titleMs": 945,
+      "pulseMs": 451,
+      "fullNarration": true,
+      "noLayoutOverlap": true,
+      "worldFrozen": true,
+      "controlRestored": true,
+      "devAbsent": true
+    },
+    {
+      "label": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "manual": true,
+      "reduced": false,
+      "titleMs": 964,
+      "pulseMs": 455,
+      "fullNarration": true,
+      "noLayoutOverlap": true,
+      "worldFrozen": true,
+      "controlRestored": true,
+      "devAbsent": true
+    },
+    {
+      "label": "ipad-reduced",
+      "size": [
+        1024,
+        768
+      ],
+      "manual": false,
+      "reduced": true,
+      "titleMs": 3511,
+      "pulseMs": 1,
+      "fullNarration": true,
+      "noLayoutOverlap": true,
+      "worldFrozen": true,
+      "controlRestored": true,
+      "devAbsent": true
+    }
+  ],
+  "limits": "Final production build served by vite preview. Isolated muted headless Chrome, keyboard/touch emulation and actual PC fullscreen. Normal UI and validated cave-approach placement followed by real movement. No physical devices/Safari/VoiceOver/listening assessment."
+}

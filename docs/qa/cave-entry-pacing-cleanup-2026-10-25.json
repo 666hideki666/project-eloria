@@ -1,0 +1,34 @@
+{
+  "protectedFileCount": 336,
+  "protectedChanged": [],
+  "protectedScopes": [
+    "assets",
+    "src/game",
+    "src/stage",
+    "src/audio",
+    "src/render"
+  ],
+  "listenersAtStart": {
+    "4173": ""
+  },
+  "listenersAtFinish": {
+    "4173": "",
+    "4174": "",
+    "4175": ""
+  },
+  "ownChromeProcessesAtFinish": [],
+  "ownChromeProfilesAtFinish": [],
+  "typecheck": "passed",
+  "tests": {
+    "files": 24,
+    "passed": 408
+  },
+  "build": "passed; Vite chunk-size advisory approximately 506 kB",
+  "qaFiles": [
+    "cave-entry-pacing-responsive-2026-10-25.json",
+    "cave-entry-pacing-edges-2026-10-25.json",
+    "cave-entry-pacing-production-2026-10-25.json",
+    "cave-entry-pacing-visibility-2026-10-25.json"
+  ],
+  "cleanup": "Stopped only own dev 4174/session9269 and preview 4175/session9956. Isolated browser close ran in finally, no own browser left. No stop operation against 4173."
+}

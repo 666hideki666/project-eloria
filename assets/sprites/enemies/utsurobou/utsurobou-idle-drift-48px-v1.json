@@ -1,0 +1,56 @@
+{
+  "enemyKind": "utsurobou",
+  "displayName": "ウツロボウ",
+  "action": "idleDrift",
+  "version": 1,
+  "image": "utsurobou-idle-drift-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "drawScale": 0.8,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.92
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "clips": {
+    "idle": {
+      "framesWithinDirection": [0, 1],
+      "frameDurationsSeconds": [0.5, 0.5],
+      "loop": true
+    },
+    "move": {
+      "framesWithinDirection": [2, 3, 4, 5],
+      "frameDurationsSeconds": [0.12, 0.18, 0.14, 0.18],
+      "loop": true
+    }
+  },
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "The mask is fully visible from the front, hidden from the back and shown in profile from the sides; never mirror rows or draw a second mask.",
+    "The sprite is stored fully opaque. Any spectral translucency or phase-state alpha must be controlled by game code.",
+    "Keep the world ground point fixed while the robe, hands and tails float subtly inside the frames.",
+    "The sprite contains no shadow, attack, phase aura, damage flash, particles, HP bar or defeat effect; keep those game-rendered.",
+    "This first sheet covers idle and locomotion only. Use existing fallback attack and hit presentation until dedicated Utsurobou action sheets are added."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "seal scene 1 skip: one acquisition and automatic return",
+    "seal scene 2 skip: one acquisition and automatic return",
+    "seal scene 3 skip: one acquisition and automatic return",
+    "return scene 1 skip, reduced motion and restored control",
+    "return scene 2 skip, reduced motion and restored control",
+    "held seal confirmation does not advance return; back/double-click/repeated Escape cannot leak to gameplay",
+    "actual image failure for all five pictures still permits narration and one completion",
+    "simulated hidden state freezes return typing/world and resumes without catch-up",
+    "all five QA stage starts and arena bypass forced screens",
+    "DEV warp forest and subsequent cave entry bypass initial explanation",
+    "real keyboard movement rejects village road before acquisition",
+    "skipped initial guide remains available from status; focus trap blocks attack/switch while preserving selected character"
+  ],
+  "limits": "Muted headless Chrome; existing QA seal-ready setup, real controls, actual image request failures. Visibility simulated. Physical devices, Safari, VoiceOver and listening not assessed."
+}

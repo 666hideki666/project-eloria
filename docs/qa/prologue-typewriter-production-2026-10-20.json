@@ -1,0 +1,90 @@
+{
+  "viewports": [
+    {
+      "viewport": "production",
+      "size": [
+        1600,
+        900
+      ],
+      "scenes": [
+        {
+          "scene": "anomaly",
+          "completion": "automatic continuous two sentences",
+          "layout": {
+            "font": 24,
+            "captionTop": 767.203125,
+            "captionBottom": 882,
+            "textRight": 1353,
+            "buttonLeft": 1389
+          }
+        },
+        {
+          "scene": "village-roots-nadi",
+          "completion": "reveal input",
+          "layout": {
+            "font": 24,
+            "captionTop": 767.203125,
+            "captionBottom": 882,
+            "textRight": 1353,
+            "buttonLeft": 1389
+          }
+        },
+        {
+          "scene": "conversation",
+          "completion": "automatic continuous two sentences",
+          "layout": {
+            "font": 24,
+            "captionTop": 767.203125,
+            "captionBottom": 882,
+            "textRight": 1353,
+            "buttonLeft": 1389
+          }
+        },
+        {
+          "scene": "map-shard-clue",
+          "completion": "automatic continuous two sentences",
+          "layout": {
+            "font": 24,
+            "captionTop": 767.203125,
+            "captionBottom": 882,
+            "textRight": 1353,
+            "buttonLeft": 1389
+          }
+        },
+        {
+          "scene": "village-farewell",
+          "completion": "reveal input",
+          "layout": {
+            "font": 24,
+            "captionTop": 767.203125,
+            "captionBottom": 882,
+            "textRight": 1353,
+            "buttonLeft": 1389
+          }
+        },
+        {
+          "scene": "departure",
+          "completion": "automatic continuous two sentences",
+          "layout": {
+            "font": 24,
+            "captionTop": 767.203125,
+            "captionBottom": 882,
+            "textRight": 1353,
+            "buttonLeft": 1389
+          }
+        }
+      ],
+      "announcements": [
+        "それは、村の井戸に灯った青い光から始まった。 輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+        "森へ続く道にまで異変が現れ、人々は足を止めた。 ナディは村人を守り、その源を確かめると決めた。",
+        "井戸のほとりに集まったのは、思いの異なる三人だった。 ナディは村を、カイルは封印石を、メルは晶石の声を追っていた。",
+        "古い地図の印と、小さな晶片の光が示す先は同じ。 それは、古の森の奥にある洞窟だった。",
+        "ナディは心配する村人に、少し森の様子を見てくると伝えた。 カイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+        "村の喧騒が遠ざかるほど、森は深い静けさに包まれた。 三人は青い光を追い、木々の奥へ足を踏み入れた。"
+      ],
+      "forestConfirm": 1,
+      "musicPlayers": 1
+    }
+  ],
+  "listening": "not assessed: muted headless Chrome"
+}

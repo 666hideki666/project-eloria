@@ -1,0 +1,25 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "normalInitialIntroAndFinalBlow": true,
+      "skip": false,
+      "oneRewardAndSealGrant": true,
+      "peacefulRevisitViaDoor": true,
+      "threePageConversationTwice": true,
+      "explorationMusicAndNoBossGauge": true,
+      "exitAndReenterStillPeaceful": true
+    },
+    {
+      "label": "phone",
+      "normalInitialIntroAndFinalBlow": true,
+      "skip": true,
+      "oneRewardAndSealGrant": true,
+      "peacefulRevisitViaDoor": true,
+      "threePageConversationTwice": true,
+      "explorationMusicAndNoBossGauge": true,
+      "exitAndReenterStillPeaceful": true
+    }
+  ],
+  "limits": "Final production build via vite preview in isolated muted headless Chrome. Normal title/START/prologue UI; controlled boss room placement and runtime core/final-blow state. Seal and forest return use normal/skip UI; completed gates and suppression of ordinary field encounters isolate travel. Real runtime movement via normal input buffer and actual keys/touch for doors and conversations. No complete boss/chapter combat playthrough, physical devices/Safari/VoiceOver/listening assessment."
+}

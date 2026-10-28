@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "autoplay and first manual playback rejected: next music click recovers; START/silent prologue/forest work",
+    "title play promise resolves after START: stays paused, gain 0, scene 1; later forest plays once",
+    "title media load failure: music retry does not block START, silent prologue or forest music",
+    "fullscreen in/out keeps title track; DEV selector stops title and cancel restores it",
+    "all five DEV WARP destinations replace title with the destination track on one player",
+    "QA and arena direct starts never select title track"
+  ],
+  "limits": "play rejection/delay and media failure simulated; muted headless Chrome; no listening/physical Safari checks"
+}

@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "held final dialogue input cannot select; default stay, Tab/arrow navigation and held confirmation restore control",
+    "native double-click is ignored; repeated pointer decisions cause one shortcut and no cinematic",
+    "held navigation/confirmation does not move or reenter after arrival; new movement works",
+    "simulated hidden choice stays frozen and cannot commit; Escape chooses stay",
+    "initial normal chapter return never shows revisit choice",
+    "initial skip chapter return never shows revisit choice"
+  ],
+  "limits": "Muted isolated headless Chrome. NPC state/completed gates set for isolated modal tests; initial boss intro and controlled core/final-blow setup use existing QA followed by real scene/input flow. Visibility mocked. No physical devices/Safari/VoiceOver/listening assessment."
+}

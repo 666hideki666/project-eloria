@@ -1,0 +1,16 @@
+{
+  "protectedFiles": 309,
+  "changedProtectedFiles": [],
+  "existing4173AtStart": "",
+  "existing4173AtFinish": "",
+  "existing4173StoppedByTask": false,
+  "test4174": "",
+  "test4175": "",
+  "ownChrome": [],
+  "gates": {
+    "typecheck": "pass",
+    "testFiles": 22,
+    "testsPassed": 397,
+    "build": "pass"
+  }
+}

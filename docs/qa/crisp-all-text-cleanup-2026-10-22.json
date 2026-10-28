@@ -1,0 +1,19 @@
+{
+  "protectedCount": 317,
+  "intentionalTextPauseChanges": [
+    "src/game/GameWorld.ts",
+    "src/effects/EffectPool.ts"
+  ],
+  "otherProtectedChanges": [],
+  "existingServerBefore": "COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nnode    19379 katouhideki   16u  IPv4 0xde18880c0fcb3282      0t0  TCP 127.0.0.1:4173 (LISTEN)\n",
+  "existingServerAfter": "COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nnode    19379 katouhideki   16u  IPv4 0xde18880c0fcb3282      0t0  TCP 127.0.0.1:4173 (LISTEN)\n",
+  "test4174": "",
+  "test4175": "",
+  "ownChrome": [],
+  "gates": {
+    "typecheck": "pass",
+    "testFiles": 21,
+    "testsPassed": 390,
+    "build": "pass"
+  }
+}

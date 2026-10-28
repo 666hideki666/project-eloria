@@ -1,0 +1,58 @@
+{
+  "source": {
+    "source": "/Users/katouhideki/Desktop/森が呼ぶ、その前に.mp3",
+    "bytes": 3368084,
+    "sha256": "467e97e13758ca24ebfdbdcc51056252a790b5dbf477c34ae21b205e1d0d7c69",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "mjpeg",
+          "codec_type": "video"
+        }
+      ],
+      "format": {
+        "format_name": "mp3",
+        "duration": "143.600000"
+      }
+    }
+  },
+  "sourcePreserved": true,
+  "copyHashMatches": true,
+  "unchangedFiles": [
+    "src/ui/openingSequence.ts",
+    "src/ui/opening.css",
+    "assets/concepts/prologue/eloria-prologue-forest-departure-v1.png",
+    "assets/concepts/prologue/eloria-prologue-village-farewell-v1.png",
+    "assets/concepts/prologue/eloria-prologue-map-shard-clue-v1.png",
+    "assets/concepts/prologue/eloria-prologue-village-anomaly-v1.png",
+    "assets/concepts/prologue/eloria-prologue-village-roots-nadi-v1.png",
+    "assets/concepts/prologue/eloria-prologue-village-conversation-v1.png",
+    "assets/audio/music/battle-crystal-realm-v1.mp3",
+    "assets/audio/music/field-star-circling-forest-v1.mp3",
+    "assets/audio/music/prologue-before-forest-calls-v1.mp3",
+    "assets/audio/music/exploration-forest-crystal-ruins-v1.mp3",
+    "assets/audio/music/title-starshadow-prelude-v1.mp3"
+  ],
+  "transitionVisualTimingSeconds": [
+    1,
+    1.5,
+    0.8
+  ],
+  "testChromeClosed": true,
+  "testPortsClosed": [
+    4174,
+    4175
+  ],
+  "existingServerAtStart": "15869 Wed Oct 21 00:43:35 2026     node /Users/katouhideki/dev/codex/retro_game/project_eloria/node_modules/.bin/vite",
+  "existingServerAtEnd": "15869 Wed Oct 21 00:43:35 2026     node /Users/katouhideki/dev/codex/retro_game/project_eloria/node_modules/.bin/vite",
+  "existingServerUnchanged": true,
+  "existingServerStopRequested": false
+}

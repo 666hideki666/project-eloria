@@ -1,0 +1,6 @@
+{
+  "checks": [
+    "existing crystal dialogue still opens the root gate; northern room transition and normal dialogues remain usable"
+  ],
+  "limits": "Crystal approach and north-exit setup use existing DEV QA placement; interactions, root animation, northern exit dialogue and room transition use real keyboard input; muted Chrome; no full-chapter handplay"
+}

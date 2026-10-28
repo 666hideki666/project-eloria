@@ -1,0 +1,12 @@
+{
+  "reports": [
+    {
+      "pulseRemainsPausedPastItsDuration": true
+    },
+    {
+      "firstPageTypingAndWorldPauseWhileHidden": true,
+      "typingResumes": true
+    }
+  ],
+  "limits": "Visibility mocked via document.hidden and visibilitychange in isolated muted Chrome; not a physical OS/tab suspension."
+}

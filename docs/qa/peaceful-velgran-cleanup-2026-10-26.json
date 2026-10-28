@@ -1,0 +1,42 @@
+{
+  "comparedFileCount": 311,
+  "unchangedFileCount": 310,
+  "approvedDynamicCollisionChanges": [
+    "src/stage/crystalAltarCollision.ts"
+  ],
+  "unexpectedProtectedChanges": [],
+  "protectedScopes": [
+    "assets",
+    "src/stage",
+    "src/audio"
+  ],
+  "assetsAndNativeRedlineMasksUnchanged": true,
+  "listenersAtStart": {
+    "4173": "COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nnode    49078 katouhideki   16u  IPv4 0x5188dd388486a263      0t0  TCP 127.0.0.1:4173 (LISTEN)"
+  },
+  "listenersAtFinish": {
+    "4173": "COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nnode    49078 katouhideki   16u  IPv4 0x5188dd388486a263      0t0  TCP 127.0.0.1:4173 (LISTEN)",
+    "4174": "",
+    "4175": ""
+  },
+  "existingUserServer": {
+    "pid": 49078,
+    "expectedStart": "Sun Oct 25 23:38:00 2026",
+    "actualStartAndCommand": "Sun Oct 25 23:38:00 2026     node /Users/katouhideki/dev/codex/retro_game/project_eloria/node_modules/.bin/vite",
+    "preserved": true
+  },
+  "ownChromeProcessesAtFinish": [],
+  "ownChromeProfilesAtFinish": [],
+  "typecheck": "passed",
+  "tests": {
+    "files": 25,
+    "passed": 415
+  },
+  "build": "passed; Vite chunk-size advisory approximately 507.5 kB",
+  "qaFiles": [
+    "peaceful-velgran-core-2026-10-26.json",
+    "peaceful-velgran-production-2026-10-26.json",
+    "peaceful-velgran-layout-2026-10-26.json"
+  ],
+  "cleanup": "Stopped only own dev 4174/session93597 and preview 4175/session77775. Every isolated test browser closed in finally. No stop/navigation/close operation against user server 4173 or existing user browser tabs."
+}

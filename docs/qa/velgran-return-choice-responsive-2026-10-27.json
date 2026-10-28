@@ -1,0 +1,176 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "defaultStayAndVisibleFocus": true,
+      "dialogueOnlyThenChoice": true,
+      "worldFrozen": true,
+      "stayThenRepeat": true,
+      "oneShortcutToExactForestSpawn": true,
+      "progressHpMpActivePreserved": true,
+      "noCinematicOrEntryTitle": true,
+      "noDuplicateWarpOrReward": true
+    },
+    {
+      "label": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "defaultStayAndVisibleFocus": true,
+      "dialogueOnlyThenChoice": true,
+      "worldFrozen": true,
+      "stayThenRepeat": true,
+      "oneShortcutToExactForestSpawn": true,
+      "progressHpMpActivePreserved": true,
+      "noCinematicOrEntryTitle": true,
+      "noDuplicateWarpOrReward": true
+    },
+    {
+      "label": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "defaultStayAndVisibleFocus": true,
+      "dialogueOnlyThenChoice": true,
+      "worldFrozen": true,
+      "stayThenRepeat": true,
+      "oneShortcutToExactForestSpawn": true,
+      "progressHpMpActivePreserved": true,
+      "noCinematicOrEntryTitle": true,
+      "noDuplicateWarpOrReward": true
+    },
+    {
+      "label": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "defaultStayAndVisibleFocus": true,
+      "dialogueOnlyThenChoice": true,
+      "worldFrozen": true,
+      "stayThenRepeat": true,
+      "oneShortcutToExactForestSpawn": true,
+      "progressHpMpActivePreserved": true,
+      "noCinematicOrEntryTitle": true,
+      "noDuplicateWarpOrReward": true
+    },
+    {
+      "fullRevisitAfterShortcut": [
+        {
+          "label": "L1 north",
+          "count": 215,
+          "visited": 2429,
+          "step": 8,
+          "margin": 4,
+          "room": "mossRootRuins",
+          "pos": {
+            "x": 1026.0000000000002,
+            "y": 145.53827655437965
+          },
+          "points": 215
+        },
+        {
+          "label": "L2 across bridge",
+          "count": 279,
+          "visited": 3044,
+          "step": 8,
+          "margin": 4,
+          "room": "lightwingCrystalCavern",
+          "pos": {
+            "x": 2044.9644111495936,
+            "y": 205.62853212286228
+          },
+          "points": 279
+        },
+        {
+          "label": "L3 north",
+          "count": 189,
+          "visited": 3755,
+          "step": 8,
+          "margin": 4,
+          "room": "spiritClothStonescaleDepths",
+          "pos": {
+            "x": 1270.1565998764204,
+            "y": 47.21021250306791
+          },
+          "points": 189
+        },
+        {
+          "label": "altar guardian",
+          "count": 88,
+          "visited": 673,
+          "step": 8,
+          "margin": 4,
+          "room": "crystalAltar",
+          "pos": {
+            "x": 749.0849638124593,
+            "y": 253.0130857388846
+          },
+          "points": 88
+        }
+      ],
+      "stayAndFullWalkingReturn": [
+        {
+          "label": "altar south",
+          "count": 91,
+          "visited": 91,
+          "step": 8,
+          "margin": 4,
+          "room": "crystalAltar",
+          "pos": {
+            "x": 749.0849638124593,
+            "y": 971.1806857388967
+          },
+          "points": 91
+        },
+        {
+          "label": "L3 south",
+          "count": 181,
+          "visited": 4930,
+          "step": 8,
+          "margin": 4,
+          "room": "spiritClothStonescaleDepths",
+          "pos": {
+            "x": 2142.1124554584226,
+            "y": 1400.761126806603
+          },
+          "points": 181
+        },
+        {
+          "label": "L2 bridge return",
+          "count": 262,
+          "visited": 3653,
+          "step": 8,
+          "margin": 4,
+          "room": "lightwingCrystalCavern",
+          "pos": {
+            "x": 664.18931924793,
+            "y": 1287.3689648204813
+          },
+          "points": 262
+        },
+        {
+          "label": "L1 south",
+          "count": 212,
+          "visited": 3267,
+          "step": 8,
+          "margin": 4,
+          "room": "mossRootRuins",
+          "pos": {
+            "x": 1026.1362432293643,
+            "y": 1850.8930353304886
+          },
+          "points": 212
+        }
+      ],
+      "gatesAndPeacefulGuardianPreserved": true
+    }
+  ],
+  "limits": "Isolated muted headless Chrome. NPC acquired state and completed gates set to isolate the choice. Actual keys/touch for conversation and choices; full layer travel follows the normal input buffer/movement resolver with ordinary field encounters suppressed. PC fullscreen, landscape touch emulation; no physical devices/Safari/VoiceOver/listening assessment."
+}

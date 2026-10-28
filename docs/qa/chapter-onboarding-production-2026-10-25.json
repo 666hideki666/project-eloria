@@ -1,0 +1,22 @@
+{
+  "reports": [
+    {
+      "normalOpeningForestCave": true,
+      "twoCardsThenExistingAnomaly": true,
+      "devUiAbsent": true
+    },
+    {
+      "productionTouchHelpMode": true,
+      "manualCloseKeepsPause": true
+    },
+    {
+      "productionEpilogueThreeScenes": true,
+      "loadedArtwork": 3,
+      "grantCount": 1,
+      "soundCount": 1,
+      "guardianSurvives": true,
+      "worldFrozen": true
+    }
+  ],
+  "limits": "Muted headless Chrome. Normal title/prologue/forest-to-cave UI and real cave movement; validated cave approach placement. Boss room initialized through the existing runtime room definition and seal-ready controller state to isolate the ending, then real walking/input. No full boss/chapter playthrough or physical device/Safari/VoiceOver/listening assessment."
+}

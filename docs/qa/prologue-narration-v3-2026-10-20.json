@@ -1,0 +1,214 @@
+{
+  "viewports": [
+    {
+      "viewport": "desktop",
+      "size": [
+        1600,
+        900
+      ],
+      "input": "Enter/E/Space",
+      "sceneClicks": 6,
+      "narrationImmediatelyVisible": [
+        {
+          "scene": "anomaly",
+          "text": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。"
+        },
+        {
+          "scene": "village-roots-nadi",
+          "text": "森へ続く道にまで異変が現れ、人々は足を止めた。\nナディは村人を守り、その源を確かめると決めた。"
+        },
+        {
+          "scene": "conversation",
+          "text": "井戸のほとりに集まったのは、思いの異なる三人だった。\nナディは村を、カイルは封印石を、メルは晶石の声を追っていた。"
+        },
+        {
+          "scene": "map-shard-clue",
+          "text": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。"
+        },
+        {
+          "scene": "village-farewell",
+          "text": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。"
+        },
+        {
+          "scene": "departure",
+          "text": "村の喧騒が遠ざかるほど、森は深い静けさに包まれた。\n三人は青い光を追い、木々の奥へ足を踏み入れた。"
+        }
+      ],
+      "liveAnnouncements": 6,
+      "forestConfirmCount": 1,
+      "musicPlayers": 1
+    },
+    {
+      "viewport": "phone",
+      "size": [
+        844,
+        390
+      ],
+      "input": "touch",
+      "sceneClicks": 6,
+      "narrationImmediatelyVisible": [
+        {
+          "scene": "anomaly",
+          "text": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。"
+        },
+        {
+          "scene": "village-roots-nadi",
+          "text": "森へ続く道にまで異変が現れ、人々は足を止めた。\nナディは村人を守り、その源を確かめると決めた。"
+        },
+        {
+          "scene": "conversation",
+          "text": "井戸のほとりに集まったのは、思いの異なる三人だった。\nナディは村を、カイルは封印石を、メルは晶石の声を追っていた。"
+        },
+        {
+          "scene": "map-shard-clue",
+          "text": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。"
+        },
+        {
+          "scene": "village-farewell",
+          "text": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。"
+        },
+        {
+          "scene": "departure",
+          "text": "村の喧騒が遠ざかるほど、森は深い静けさに包まれた。\n三人は青い光を追い、木々の奥へ足を踏み入れた。"
+        }
+      ],
+      "liveAnnouncements": 6,
+      "forestConfirmCount": 1,
+      "musicPlayers": 1
+    },
+    {
+      "viewport": "phone-small",
+      "size": [
+        667,
+        375
+      ],
+      "input": "mouse",
+      "sceneClicks": 6,
+      "narrationImmediatelyVisible": [
+        {
+          "scene": "anomaly",
+          "text": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。"
+        },
+        {
+          "scene": "village-roots-nadi",
+          "text": "森へ続く道にまで異変が現れ、人々は足を止めた。\nナディは村人を守り、その源を確かめると決めた。"
+        },
+        {
+          "scene": "conversation",
+          "text": "井戸のほとりに集まったのは、思いの異なる三人だった。\nナディは村を、カイルは封印石を、メルは晶石の声を追っていた。"
+        },
+        {
+          "scene": "map-shard-clue",
+          "text": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。"
+        },
+        {
+          "scene": "village-farewell",
+          "text": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。"
+        },
+        {
+          "scene": "departure",
+          "text": "村の喧騒が遠ざかるほど、森は深い静けさに包まれた。\n三人は青い光を追い、木々の奥へ足を踏み入れた。"
+        }
+      ],
+      "liveAnnouncements": 6,
+      "forestConfirmCount": 1,
+      "musicPlayers": 1
+    },
+    {
+      "viewport": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "input": "touch",
+      "sceneClicks": 6,
+      "narrationImmediatelyVisible": [
+        {
+          "scene": "anomaly",
+          "text": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。"
+        },
+        {
+          "scene": "village-roots-nadi",
+          "text": "森へ続く道にまで異変が現れ、人々は足を止めた。\nナディは村人を守り、その源を確かめると決めた。"
+        },
+        {
+          "scene": "conversation",
+          "text": "井戸のほとりに集まったのは、思いの異なる三人だった。\nナディは村を、カイルは封印石を、メルは晶石の声を追っていた。"
+        },
+        {
+          "scene": "map-shard-clue",
+          "text": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。"
+        },
+        {
+          "scene": "village-farewell",
+          "text": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。"
+        },
+        {
+          "scene": "departure",
+          "text": "村の喧騒が遠ざかるほど、森は深い静けさに包まれた。\n三人は青い光を追い、木々の奥へ足を踏み入れた。"
+        }
+      ],
+      "liveAnnouncements": 6,
+      "forestConfirmCount": 1,
+      "musicPlayers": 1
+    },
+    {
+      "viewport": "production",
+      "size": [
+        1600,
+        900
+      ],
+      "input": "mouse",
+      "sceneClicks": 6,
+      "narrationImmediatelyVisible": [
+        {
+          "scene": "anomaly",
+          "text": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。"
+        },
+        {
+          "scene": "village-roots-nadi",
+          "text": "森へ続く道にまで異変が現れ、人々は足を止めた。\nナディは村人を守り、その源を確かめると決めた。"
+        },
+        {
+          "scene": "conversation",
+          "text": "井戸のほとりに集まったのは、思いの異なる三人だった。\nナディは村を、カイルは封印石を、メルは晶石の声を追っていた。"
+        },
+        {
+          "scene": "map-shard-clue",
+          "text": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。"
+        },
+        {
+          "scene": "village-farewell",
+          "text": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。"
+        },
+        {
+          "scene": "departure",
+          "text": "村の喧騒が遠ざかるほど、森は深い静けさに包まれた。\n三人は青い光を追い、木々の奥へ足を踏み入れた。"
+        }
+      ],
+      "liveAnnouncements": 6,
+      "forestConfirmCount": 1,
+      "musicPlayers": 1
+    }
+  ],
+  "listening": "not assessed (muted headless Chrome)",
+  "checks": {
+    "allSceneSkips": 6,
+    "reset": true,
+    "rapidAndHeldInputsBlocked": true,
+    "allImagesFailWithFullNarration": 6,
+    "reducedMotion": true,
+    "hiddenFadeSimulation": true,
+    "mutePreserved": true,
+    "devWarpDestinations": 5,
+    "qaAndArenaBypasses": true,
+    "typecheck": "passed",
+    "tests": 356,
+    "build": "passed",
+    "unchangedOriginalImages": 6,
+    "existingUserServer": [
+      "9059"
+    ],
+    "testBrowsersAndServersClosed": true
+  }
+}

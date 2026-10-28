@@ -1,0 +1,51 @@
+{
+  "character": "kyle",
+  "action": "ultimate",
+  "ability": "rekkuDan",
+  "displayName": "裂空断",
+  "version": 1,
+  "image": "kyle-ultimate-rekku-dan-48px-v1.png",
+  "sheetWidth": 288,
+  "sheetHeight": 192,
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "columns": 6,
+  "rows": 4,
+  "anchor": {
+    "x": 0.5,
+    "y": 0.92
+  },
+  "directions": {
+    "down": {
+      "row": 0,
+      "frames": [0, 1, 2, 3, 4, 5]
+    },
+    "up": {
+      "row": 1,
+      "frames": [6, 7, 8, 9, 10, 11]
+    },
+    "left": {
+      "row": 2,
+      "frames": [12, 13, 14, 15, 16, 17]
+    },
+    "right": {
+      "row": 3,
+      "frames": [18, 19, 20, 21, 22, 23]
+    }
+  },
+  "animation": {
+    "loop": false,
+    "durationSeconds": 0.5,
+    "frameDurationsSeconds": [0.06, 0.08, 0.11, 0.09, 0.09, 0.07],
+    "visualImpactFrame": 3,
+    "worldPositionFixed": true
+  },
+  "notes": [
+    "Render with nearest-neighbor scaling.",
+    "Keep the facing captured at ultimate start for the whole non-looping animation.",
+    "Keep Kyle at a fixed world position; the planted step is contained inside the sprite frames.",
+    "The sword is included once in every frame and must not be drawn separately.",
+    "The wind blade projectile, wind wakes, slash light, floor crack, debris, impact flash and ground shadow remain game-rendered effects.",
+    "Do not delay or otherwise change the existing projectile gameplay timing to match the visual impact frame."
+  ]
+}

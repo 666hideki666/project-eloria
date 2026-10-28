@@ -1,0 +1,11 @@
+{
+  "sourceAndAssetSha256": "5a0f9be3ce6da96adbf8c1bce4e331354cbc538532797459bc2014343e9cad07",
+  "sourcePreserved": true,
+  "singleAudioPlayerVerified": true,
+  "testChromeClosed": true,
+  "testPortsClosed": [
+    4174,
+    4175
+  ],
+  "existingServerPreserved": "COMMAND   PID        USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME\nnode    13264 katouhideki   16u  IPv4 0x1bcd932ecab9b548      0t0  TCP 127.0.0.1:4173 (LISTEN)"
+}
