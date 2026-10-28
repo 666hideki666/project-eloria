@@ -2,6 +2,13 @@
 
 最終更新：2026-10-28。新しい `work` / `コード実装` チャットはまずこのファイルとルートの `AGENTS.md` を読む。これは**現在の状況を把握するための入口**であり、細かな仕様の一次資料は下記の画像・設計書・コードを参照する。ユーザー承認のない仕様変更を、この文書だけを根拠に行わない。
 
+## 2026-10-28 承認済み・実装中：GitHub Pagesでゲームを公開
+
+- ユーザーがGitHub Pages公開の指示書案を「進めて」と明示承認。公開先は `https://666hideki666.github.io/project-eloria/`。公開リポジトリ `666hideki666/project-eloria` の `main` からGitHub Actionsで公開する。推奨モデルは Sol High。
+- Viteのbuild／previewだけbaseを `/project-eloria/` とし、通常devは `/` を保つ。画像・音源は既存のimport経由、タイトル復帰は現在のpathname経由のため、ゲーム挙動や素材は変更しない。
+- `.github/workflows/pages.yml` はNode.js 22、Python 3.12、Pillow 12.2.0を用意し、`npm ci`→型検査→全テスト→既存prebuild込みのbuild→`dist`だけをupload-pages-artifact／deploy-pagesへ渡す。Actionsは確認した公式リリースのSHAに固定。PagesのSourceはGitHub Actionsに設定する。
+- **実装・ローカル／Actions検証・実URLの画面確認は進行中**。公開成功としては未確定。タイトル→START→プロローグ→森→第１層、画像／音の読込、直アクセス／再読込、PC／横スマホと後片付けを確認してから更新する。
+
 ## 2026-10-28 第１章チェックポイントのGit管理
 
 - ユーザーが「プッシュして」、続けて公開リポジトリの新規作成と名前の選定を明示承認。既存のプロジェクトと親には `.git` がなかったため、履歴のない初回チェックポイントとしてGit管理を開始した。既存のユーザーファイルは削除・リセットしていない。
