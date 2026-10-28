@@ -1,0 +1,125 @@
+{
+  "reports": [
+    {
+      "label": "desktop",
+      "reload": false,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 1324,
+      "images": [
+        {
+          "url": "https://666hideki666.github.io/project-eloria/assets/project-eloria-title-key-art-v2-CJIPGU8t.png",
+          "loaded": true
+        },
+        {
+          "url": "https://666hideki666.github.io/project-eloria/assets/eloria-title-logo-transparent-v4-DoqBgF91.png",
+          "loaded": true
+        }
+      ],
+      "button": {
+        "x": 704,
+        "y": 723.203125,
+        "width": 480,
+        "height": 100.296875,
+        "top": 723.203125,
+        "right": 1184,
+        "bottom": 823.5,
+        "left": 704
+      },
+      "phase": "title"
+    },
+    {
+      "label": "desktop",
+      "reload": true,
+      "size": [
+        1600,
+        900
+      ],
+      "loadMs": 617,
+      "images": [
+        {
+          "url": "https://666hideki666.github.io/project-eloria/assets/project-eloria-title-key-art-v2-CJIPGU8t.png",
+          "loaded": true
+        },
+        {
+          "url": "https://666hideki666.github.io/project-eloria/assets/eloria-title-logo-transparent-v4-DoqBgF91.png",
+          "loaded": true
+        }
+      ],
+      "button": {
+        "x": 704,
+        "y": 723.203125,
+        "width": 480,
+        "height": 100.296875,
+        "top": 723.203125,
+        "right": 1184,
+        "bottom": 823.5,
+        "left": 704
+      },
+      "phase": "title"
+    },
+    {
+      "label": "phone",
+      "reload": false,
+      "size": [
+        667,
+        375
+      ],
+      "loadMs": 1701,
+      "images": [
+        {
+          "url": "https://666hideki666.github.io/project-eloria/assets/project-eloria-title-key-art-v2-CJIPGU8t.png",
+          "loaded": true
+        },
+        {
+          "url": "https://666hideki666.github.io/project-eloria/assets/eloria-title-logo-transparent-v4-DoqBgF91.png",
+          "loaded": true
+        }
+      ],
+      "button": {
+        "x": 300.140625,
+        "y": 287.75,
+        "width": 186.75,
+        "height": 64.75,
+        "top": 287.75,
+        "right": 486.890625,
+        "bottom": 352.5,
+        "left": 300.140625
+      },
+      "phase": "title"
+    },
+    {
+      "label": "phone",
+      "reload": true,
+      "size": [
+        667,
+        375
+      ],
+      "loadMs": 318,
+      "images": [
+        {
+          "url": "https://666hideki666.github.io/project-eloria/assets/project-eloria-title-key-art-v2-CJIPGU8t.png",
+          "loaded": true
+        },
+        {
+          "url": "https://666hideki666.github.io/project-eloria/assets/eloria-title-logo-transparent-v4-DoqBgF91.png",
+          "loaded": true
+        }
+      ],
+      "button": {
+        "x": 300.140625,
+        "y": 287.75,
+        "width": 186.75,
+        "height": 64.75,
+        "top": 287.75,
+        "right": 486.890625,
+        "bottom": 352.5,
+        "left": 300.140625
+      },
+      "phase": "title"
+    }
+  ],
+  "limits": "Muted isolated headless Chrome. Waited for both adopted title artwork/logo to decode before visual capture; initial network latency varies. No loading-flow or artwork changes."
+}

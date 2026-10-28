@@ -1,0 +1,31 @@
+{
+  "url": "https://666hideki666.github.io/project-eloria/",
+  "status": 200,
+  "base": "/project-eloria/",
+  "bundles": [
+    "/project-eloria/assets/index-iOM3GUJG.js",
+    "/project-eloria/assets/index-WiNQKqpO.css"
+  ],
+  "buildRun": "https://github.com/666hideki666/project-eloria/actions/runs/40642966861",
+  "initialCommit": "9b93d1a3b86e67a5cca9c768047969eae2908f0c",
+  "pagesSource": "workflow",
+  "localDevelopmentRoot": "http://127.0.0.1:4174/",
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200
+    },
+    {
+      "path": "src/main.ts",
+      "status": 404
+    },
+    {
+      "path": "docs/project-handoff.md",
+      "status": 404
+    },
+    {
+      "path": ".git/config",
+      "status": 404
+    }
+  ]
+}

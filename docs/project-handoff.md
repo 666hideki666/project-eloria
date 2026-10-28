@@ -2,12 +2,17 @@
 
 最終更新：2026-10-28。新しい `work` / `コード実装` チャットはまずこのファイルとルートの `AGENTS.md` を読む。これは**現在の状況を把握するための入口**であり、細かな仕様の一次資料は下記の画像・設計書・コードを参照する。ユーザー承認のない仕様変更を、この文書だけを根拠に行わない。
 
-## 2026-10-28 承認済み・実装中：GitHub Pagesでゲームを公開
+## 2026-10-28 実装・公開・技術検証済み：GitHub Pages
 
-- ユーザーがGitHub Pages公開の指示書案を「進めて」と明示承認。公開先は `https://666hideki666.github.io/project-eloria/`。公開リポジトリ `666hideki666/project-eloria` の `main` からGitHub Actionsで公開する。推奨モデルは Sol High。
-- Viteのbuild／previewだけbaseを `/project-eloria/` とし、通常devは `/` を保つ。画像・音源は既存のimport経由、タイトル復帰は現在のpathname経由のため、ゲーム挙動や素材は変更しない。
-- `.github/workflows/pages.yml` はNode.js 22、Python 3.12、Pillow 12.2.0を用意し、`npm ci`→型検査→全テスト→既存prebuild込みのbuild→`dist`だけをupload-pages-artifact／deploy-pagesへ渡す。Actionsは確認した公式リリースのSHAに固定。PagesのSourceはGitHub Actionsに設定する。
-- **実装・ローカル／Actions検証・実URLの画面確認は進行中**。公開成功としては未確定。タイトル→START→プロローグ→森→第１層、画像／音の読込、直アクセス／再読込、PC／横スマホと後片付けを確認してから更新する。
+- ユーザーがGitHub Pages公開の指示書案を「進めて」と明示承認。ゲームURL：**https://666hideki666.github.io/project-eloria/**。公開リポジトリ `666hideki666/project-eloria` の `main` からGitHub Actionsで公開する。推奨モデルは Sol High。
+- Viteのbuild／previewだけbaseを `/project-eloria/` とし、通常devは `/` を保持。画像・音源・JS・CSSはViteのimport経由で公開用パスへ解決される。タイトル復帰は既存のpathname経由。ゲームコード・採用済みアート／音源・移動・戦闘・開発ワープは変更していない。
+- `.github/workflows/pages.yml` はmainへのpush／手動実行を契機に、Node.js 22・Python 3.12・Pillow 12.2.0で `npm ci`→型検査→全テスト→既存prebuild込みのbuildを実施し、**`dist`だけ**をupload-pages-artifact／deploy-pagesへ渡す。公式Actionは確認したリリースのSHA固定。公開元設定はGitHub Actions (`build_type=workflow`)、HTTPS。リポジトリ側のdocsやsrcをPagesの公開ルートにしない。
+- ローカルとActionsの型検査・**全427テスト（27ファイル）**・buildが通過。公開コードの初回デプロイ `9b93d1a3b86e67a5cca9c768047969eae2908f0c` のbuild／deployとも成功：[Actions記録](https://github.com/666hideki666/project-eloria/actions/runs/40642966861)。ローカルdev `/` とpreview `/project-eloria/` をHTTP 200で確認。
+- 実URLでHTTP 200、index.html直アクセスとブラウザーの新規アクセス／再読込を確認。公開JS/CSSはローカルの製品ビルドとSHA256一致。Pages側の `/src/main.ts`・`/docs/project-handoff.md`・`/.git/config` は404で、ビルド出力だけの公開を確認した（公開GitHubリポジトリ自体のソース閲覧とは別）。
+- 公開URLとローカル製品previewのPC1600×900／横スマホ相当667×375で、通常START→序章６画像・各２文→古の森→初期スポーンから洞窟前まで通常の実移動→初回操作カード→第１層タイトル→異変４ページ→自由操作を通過。テレポートや進行フラグの書換えはしていない。森の経路追従だけ通常入力バッファへ移動方向を渡し、画面送りは実クリック／キー／タッチを使った。
+- 各画面のゲーム素材131リクエストは `/project-eloria/` 内に解決し、画像・メディアのエラー、JS例外、通信失敗は0。BGMは森・第１層の曲への切替と再生状態、HTTP 200／206・デコード成功を確認。聴感は未確認。ブラウザーが自動要求する未設定の `/favicon.ico` は404（ローカルpreviewでも同様）だが、ゲーム素材の失敗ではない。初回の画像読込待ちは回線で変動するため、タイトル絵／ロゴの読込完了後と再読込後も別途目視した。
+- 記録：`docs/qa/github-pages-{http,local,live,title,deployment}-2026-10-28.json`、画面：ローカル保持の `docs/screenshots/eloria-pages-*.png`。保護対象406ファイル（既存source・素材・scripts・tests）はハッシュ不変。検証用Chromeと4174／4175番は終了し、開始・終了とも4173番のリスナーなし。ユーザーのタブ／音楽は操作していない。
+- **未確認**：実機・Safari/WebKit・VoiceOver・聴感・全章／ボス戦の手動通しプレイ。隔離したミュートChromeと画面サイズ／タッチ模擬での公開確認。初回ダウンロード速度は利用者の回線・キャッシュに依存する。
 
 ## 2026-10-28 第１章チェックポイントのGit管理
 

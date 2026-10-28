@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-28",
+  "site": "https://666hideki666.github.io/project-eloria/",
+  "httpStatus": 200,
+  "testedDeploymentCommit": "9b93d1a3b86e67a5cca9c768047969eae2908f0c",
+  "actions": {
+    "url": "https://github.com/666hideki666/project-eloria/actions/runs/40642966861",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "conclusion": "success",
+        "url": "https://github.com/666hideki666/project-eloria/actions/runs/40642966861/job/122665141657"
+      },
+      {
+        "name": "deploy",
+        "conclusion": "success",
+        "url": "https://github.com/666hideki666/project-eloria/actions/runs/40642966861/job/122665467309"
+      }
+    ]
+  },
+  "localTests": {
+    "files": 27,
+    "tests": 427,
+    "typecheck": "passed",
+    "build": "passed"
+  },
+  "pagesSource": "workflow",
+  "publishedPath": "dist only",
+  "bundleIntegrity": [
+    {
+      "path": "/project-eloria/assets/index-iOM3GUJG.js",
+      "sha256": "0fc905fd806fe23633260046242a19e9c80359c3b8e6cac664c677961d934539",
+      "matchesLocalProductionBuild": true
+    },
+    {
+      "path": "/project-eloria/assets/index-WiNQKqpO.css",
+      "sha256": "4121e7872115d435f48299143e6ad45d95c89882556f2c05a6c3171de1044cad",
+      "matchesLocalProductionBuild": true
+    }
+  ],
+  "developmentBase": "/",
+  "productionAndPreviewBase": "/project-eloria/",
+  "protectedSourceAssetScriptTestFiles": 406,
+  "protectedHashesUnchanged": true,
+  "initialListeners4173to4175": "",
+  "finalListeners4173to4175": "",
+  "ownChromeProfilesRemaining": "",
+  "cleanup": "All task-owned muted Chrome sessions and 4174/4175 servers closed; no 4173 stop action. User browser tabs/music not controlled.",
+  "nonGameObservation": "Browser default /favicon.ico request returns 404 (also present in local preview); no game image/media/script/style or JS runtime errors. Initial uncached title image latency varies; loaded and reloaded title artwork captured.",
+  "limits": "Muted headless Chrome at PC1600x900 and landscape667x375 touch emulation. Normal START, all six prologue scenes, real runtime forest movement from spawn, normal cave guide and four anomaly pages. No teleport or progress flag changes. No physical devices, Safari/WebKit, VoiceOver, listening review or full manual chapter/boss combat."
+}

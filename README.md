@@ -6,6 +6,12 @@
 
 現状・承認済み仕様・検証の限界は [引き継ぎ資料](docs/project-handoff.md) を参照してください。
 
+## ブラウザで遊ぶ
+
+**[Project Eloriaをプレイ](https://666hideki666.github.io/project-eloria/)**
+
+友達にはこのゲームURLを共有してください。PCと横向きスマホ相当のChromeで、タイトルから第１層への入場まで公開サイト上で確認しています。実機・Safari等は未確認です。
+
 ## 起動
 
 Finderから起動する場合は、プロジェクト直下の
@@ -76,3 +82,16 @@ npm run build
 - コード・テスト・起動／素材調整スクリプト、ゲーム素材と制作原版・デザイン履歴、ユーザーの赤線原本、設計／引き継ぎ資料、テキストのQA記録を保存します。
 - `assets/concepts/` には旧案や制作履歴も含まれます。現行ゲームへの採用はコードと最新の引き継ぎ資料を確認してください。
 - `node_modules/`、`dist/`、実行時データ、キャッシュ、バックアップ、環境設定と秘密情報、`docs/screenshots/` の検証画像はGit管理から除外します。資料中の検証画像リンクは、ローカルの制作環境にのみ存在する場合があります。ゲーム用素材と赤線原本は除外していません。
+
+## GitHub Pagesへの更新
+
+`main` にpushすると、GitHub Actionsが依存物の導入・型検査・テスト・既存prebuild検査込みのビルドを行い、`dist` のみを公開します。PagesのSourceはGitHub Actionsです。
+
+公開と製品previewのbaseは `/project-eloria/`、通常の開発サーバーは `/` です。ローカルで公開用ビルドを確認する場合：
+
+```bash
+npm run build
+npx vite preview
+```
+
+表示されたサーバーの `/project-eloria/` を開いてください。公開検証の範囲と記録は引き継ぎ資料のGitHub Pages節を参照してください。
