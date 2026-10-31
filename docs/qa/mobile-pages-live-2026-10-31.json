@@ -1,0 +1,853 @@
+{
+  "baseUrl": "https://666hideki666.github.io/project-eloria/",
+  "viewport": [
+    844,
+    390
+  ],
+  "initial": {
+    "audio": {
+      "musicTrack": "title",
+      "musicVolume": 0.4,
+      "sfxVolume": 0.65,
+      "muted": false,
+      "sfxMuted": false,
+      "unlocked": true,
+      "awaitingGesture": false,
+      "playing": true,
+      "crossfading": false,
+      "activeMusicPlayers": 1,
+      "loop": true,
+      "musicDuckGain": 1,
+      "currentTime": 0.057333,
+      "duration": 153.2,
+      "audioContextState": "running",
+      "errorMessage": null
+    },
+    "label": "♪ 音楽ON・止める",
+    "manifest": "https://666hideki666.github.io/project-eloria/manifest.webmanifest",
+    "script": "https://666hideki666.github.io/project-eloria/assets/index-iQF52YWM.js"
+  },
+  "mutedAfterReload": {
+    "muted": true,
+    "label": "♪ 音楽OFF"
+  },
+  "scenes": [
+    {
+      "scene": "map-shard-clue",
+      "fit": "cover",
+      "artwork": {
+        "x": 0,
+        "y": 0,
+        "width": 844,
+        "height": 390,
+        "top": 0,
+        "right": 844,
+        "bottom": 390,
+        "left": 0
+      },
+      "caption": {
+        "x": 42.1875,
+        "y": 288,
+        "width": 759.625,
+        "height": 92,
+        "top": 288,
+        "right": 801.8125,
+        "bottom": 380,
+        "left": 42.1875
+      },
+      "decoded": true,
+      "text": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+      "muted": true
+    },
+    {
+      "scene": "village-farewell",
+      "fit": "cover",
+      "artwork": {
+        "x": 0,
+        "y": 0,
+        "width": 844,
+        "height": 390,
+        "top": 0,
+        "right": 844,
+        "bottom": 390,
+        "left": 0
+      },
+      "caption": {
+        "x": 42.1875,
+        "y": 279.71875,
+        "width": 759.625,
+        "height": 100.28125,
+        "top": 279.71875,
+        "right": 801.8125,
+        "bottom": 380,
+        "left": 42.1875
+      },
+      "decoded": true,
+      "text": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+      "muted": true
+    }
+  ],
+  "gameGeometry": {
+    "field": {
+      "x": 75.328125,
+      "y": 0,
+      "width": 693.328125,
+      "height": 390,
+      "top": 0,
+      "right": 768.65625,
+      "bottom": 390,
+      "left": 75.328125
+    },
+    "scale": 1,
+    "scroll": [
+      0,
+      0,
+      844,
+      844
+    ],
+    "touchAction": "none",
+    "guard": "playing",
+    "canvas": [
+      640,
+      360
+    ],
+    "muted": true
+  },
+  "taps": [
+    {
+      "name": "J",
+      "count": 24,
+      "attackEdges": 24,
+      "scale": 1,
+      "scroll": [
+        0,
+        0,
+        844,
+        844
+      ]
+    },
+    {
+      "name": "outside-J",
+      "count": 24,
+      "attackEdges": 0,
+      "scale": 1,
+      "scroll": [
+        0,
+        0,
+        844,
+        844
+      ]
+    },
+    {
+      "name": "letterbox",
+      "count": 24,
+      "attackEdges": 0,
+      "scale": 1,
+      "scroll": [
+        0,
+        0,
+        844,
+        844
+      ]
+    }
+  ],
+  "pauseResume": true,
+  "jsErrors": [],
+  "imageErrors": [],
+  "failed": [
+    {
+      "type": "Media",
+      "error": "net::ERR_ABORTED",
+      "canceled": true
+    },
+    {
+      "type": "Media",
+      "error": "net::ERR_ABORTED",
+      "canceled": true
+    },
+    {
+      "type": "Media",
+      "error": "net::ERR_ABORTED",
+      "canceled": true
+    }
+  ],
+  "assetResponseCount": 135,
+  "responses": [
+    {
+      "url": "https://666hideki666.github.io/project-eloria/",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/manifest.webmanifest",
+      "status": 200,
+      "type": "Manifest"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/index-B0RfbOUG.css",
+      "status": 200,
+      "type": "Stylesheet"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/index-iQF52YWM.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-idle-walk-48px-v1-BDsh1QDu.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/iwauroko-idle-crawl-48px-v1-xNxB6Tyu.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-switch-senjin-giri-48px-v1-D0LTqmpS.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-plun-jump-slam-48px-v1-Cavc510o.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/garacrow-dive-strike-48px-v2-zFRmJEU8.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/spirit-lamp-stele-concept-v1-Bf8YOvOh.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-root-seal-v1-B6zH1Tlb.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-defeat-collapse-sheet-v1-BV1WIEoC.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/forest-seal-stone-formation-sheet-v1--N9hd5Jy.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lightwing-crystal-cavern-full-map-concept-v3-82WWugaW.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-ganju-tosai-attack-sheet-v1-DKj1xG7v.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-special-engetsu-spin-48px-v1-DC33-ZVt.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-nebashiri-attack-sheet-v1-hZvHClye.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-hud-portrait-64px-v1-anfM64s0.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-special-hajin-thrust-48px-v1-HmRVPZHi.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-shohen-tobashi-attack-sheet-v1-CROlsc8k.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-hud-portrait-64px-v1--KH4IDzc.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lumibane-idle-flight-48px-v2-DzG_GOFv.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-root-ruins-background-v2-B8d_eJbZ.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/iwauroko-rock-armor-charge-48px-v2-BzjmVvk-.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/project-eloria-title-key-art-v2-CJIPGU8t.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/utsurobou-mask-curse-wave-48px-v1-DXAxQqct.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/garacrow-idle-flight-48px-v1-DhfUzrWx.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-normal-moonblade-throw-48px-v1-CLYRJwbs.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-hud-portrait-64px-v1-Bl3Szbmk.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-stagger-core-exposed-sheet-v1-BKjskYc0.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-direction-walk-sheet-v1-biGTpTUS.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-seal-stone-entrusted-v1-DiSEmLaO.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-switch-rinko-so-48px-v1-6wOueoBB.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/utsurobou-idle-drift-48px-v1-fOXuvfVp.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-ultimate-tensei-horaku-48px-v1-B7Z7ZWXr.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-forest-cave-return-v1-OW4N1A5Z.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-boss-arena-production-layout-concept-v1-BK7fQy7D.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-switch-shunko-shoheki-48px-v1-jhmEUs3q.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-special-healing-ring-48px-v1-Dr_ckoyR.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lumibane-luminous-dash-48px-v1-CkSMhT2D.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/stone-wedge-stele-concept-v1-M3mq0hw9.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-normal-phosphor-bolt-48px-v1-CYHspL5h.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-forest-departure-v1-CnrP2tRL.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-village-roots-nadi-v1-C45JtCwV.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-root-unlock-crystal-v1-FXkc0-0H.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/preboss-restoration-crystal-concept-v1-B8GJwvgK.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lightwing-crystal-bridge-layer-v2-CgxZdwIm.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-plun-idle-hop-48px-v1-wPNKjxer.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-idle-walk-48px-v1-B2JP-nIQ.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/title-starshadow-prelude-v1-DjiXMYl3.mp3",
+      "status": 206,
+      "type": "Media"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/spirit-cloth-stonescale-depths-full-map-concept-v2-3Z5l5DCC.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-awakening-body-sheet-v1-nXfaYY4S.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-ultimate-rekku-dan-48px-v1-Br_WeZUl.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-normal-renjinken-48px-v1-B7YZdn1b.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-village-conversation-v1-DJXfby9l.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-idle-walk-48px-v1-DTZ0UybV.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-map-shard-clue-v1-grMkhcNR.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/star-circling-forest-intro-map-redline-base-v1--5HV04Ku.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lightwing-unlock-crystal-v1-DJWA650I.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-ultimate-geshoku-ranbu-48px-v1-BFeVuhh-.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-village-farewell-v1-YHlLZ0vY.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-village-anomaly-v1-BnVwjBF7.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-village-road-v1-Bqek-Bij.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-title-logo-transparent-v4-DoqBgF91.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-meru-speaks-to-stone-v1-D-TTJGgF.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-guardian-after-battle-v1-DRnj5VCn.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/",
+      "status": 200,
+      "type": "Document"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/index-B0RfbOUG.css",
+      "status": 200,
+      "type": "Stylesheet"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/manifest.webmanifest",
+      "status": 200,
+      "type": "Manifest"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/index-iQF52YWM.js",
+      "status": 200,
+      "type": "Script"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lightwing-crystal-bridge-layer-v2-CgxZdwIm.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lightwing-crystal-cavern-full-map-concept-v3-82WWugaW.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/project-eloria-title-key-art-v2-CJIPGU8t.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-root-seal-v1-B6zH1Tlb.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lightwing-unlock-crystal-v1-DJWA650I.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-root-ruins-background-v2-B8d_eJbZ.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-root-unlock-crystal-v1-FXkc0-0H.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/spirit-cloth-stonescale-depths-full-map-concept-v2-3Z5l5DCC.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-title-logo-transparent-v4-DoqBgF91.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/star-circling-forest-intro-map-redline-base-v1--5HV04Ku.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/spirit-lamp-stele-concept-v1-Bf8YOvOh.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/stone-wedge-stele-concept-v1-M3mq0hw9.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-forest-departure-v1-CnrP2tRL.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-village-roots-nadi-v1-C45JtCwV.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-village-farewell-v1-YHlLZ0vY.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-map-shard-clue-v1-grMkhcNR.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-village-anomaly-v1-BnVwjBF7.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-prologue-village-conversation-v1-DJXfby9l.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-direction-walk-sheet-v1-biGTpTUS.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/preboss-restoration-crystal-concept-v1-B8GJwvgK.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-awakening-body-sheet-v1-nXfaYY4S.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-ganju-tosai-attack-sheet-v1-DKj1xG7v.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-nebashiri-attack-sheet-v1-hZvHClye.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-shohen-tobashi-attack-sheet-v1-CROlsc8k.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-stagger-core-exposed-sheet-v1-BKjskYc0.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-defeat-collapse-sheet-v1-BV1WIEoC.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/forest-seal-stone-formation-sheet-v1--N9hd5Jy.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/velgran-boss-arena-production-layout-concept-v1-BK7fQy7D.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-idle-walk-48px-v1-BDsh1QDu.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-normal-renjinken-48px-v1-B7YZdn1b.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/icons/eloria-192.png",
+      "status": 200,
+      "type": "Other"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-special-hajin-thrust-48px-v1-HmRVPZHi.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-ultimate-rekku-dan-48px-v1-Br_WeZUl.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-switch-senjin-giri-48px-v1-D0LTqmpS.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-idle-walk-48px-v1-DTZ0UybV.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-normal-moonblade-throw-48px-v1-CLYRJwbs.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-special-engetsu-spin-48px-v1-DC33-ZVt.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-ultimate-geshoku-ranbu-48px-v1-BFeVuhh-.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-switch-rinko-so-48px-v1-6wOueoBB.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-idle-walk-48px-v1-B2JP-nIQ.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-normal-phosphor-bolt-48px-v1-CYHspL5h.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-special-healing-ring-48px-v1-Dr_ckoyR.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-ultimate-tensei-horaku-48px-v1-B7Z7ZWXr.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-switch-shunko-shoheki-48px-v1-jhmEUs3q.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-plun-idle-hop-48px-v1-wPNKjxer.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/moss-plun-jump-slam-48px-v1-Cavc510o.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/garacrow-idle-flight-48px-v1-DhfUzrWx.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/garacrow-dive-strike-48px-v2-zFRmJEU8.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lumibane-idle-flight-48px-v2-DzG_GOFv.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/lumibane-luminous-dash-48px-v1-CkSMhT2D.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/utsurobou-idle-drift-48px-v1-fOXuvfVp.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/utsurobou-mask-curse-wave-48px-v1-DXAxQqct.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/iwauroko-idle-crawl-48px-v1-xNxB6Tyu.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/iwauroko-rock-armor-charge-48px-v2-BzjmVvk-.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/kyle-hud-portrait-64px-v1--KH4IDzc.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/nadi-hud-portrait-64px-v1-anfM64s0.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/mel-hud-portrait-64px-v1-Bl3Szbmk.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-guardian-after-battle-v1-DRnj5VCn.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-meru-speaks-to-stone-v1-D-TTJGgF.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-seal-stone-entrusted-v1-DiSEmLaO.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-village-road-v1-Bqek-Bij.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/eloria-epilogue-forest-cave-return-v1-OW4N1A5Z.png",
+      "status": 200,
+      "type": "Image"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/assets/field-star-circling-forest-v1-DvLVdGEQ.mp3",
+      "status": 206,
+      "type": "Media"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/icons/eloria-192.png",
+      "status": 200,
+      "type": "Other"
+    },
+    {
+      "url": "https://666hideki666.github.io/project-eloria/icons/eloria-192.png",
+      "status": 200,
+      "type": "Other"
+    }
+  ],
+  "limits": "Fresh isolated muted Chromium with disabled cache, touch/viewport emulation. Actual published JS/CSS, native click/touch UI. Not real iPhone, WebKit, OS home-screen launch or listening test."
+}

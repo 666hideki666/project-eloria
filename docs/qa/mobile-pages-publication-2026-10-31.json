@@ -1,5 +1,5 @@
 {
-  "status": "approved-publication-in-progress",
+  "status": "published-and-public-chromium-verified",
   "approval": "User explicitly requested push on 2026-10-31",
   "recordedAt": "2026-10-31T06:45:23.105216+00:00",
   "repository": "666hideki666/project-eloria",
@@ -49,5 +49,67 @@
     "Real iPhone / Safari / WebKit untested",
     "Actual home-screen installation and OS gestures untested",
     "Listening experience untested"
-  ]
+  ],
+  "verifiedAt": "2026-10-31T06:50:51.700119+00:00",
+  "releaseCommit": "86b698f598fd4e05bf035e6717b590cb5e529132",
+  "originMainAtReleaseVerification": "86b698f598fd4e05bf035e6717b590cb5e529132",
+  "workflow": {
+    "databaseId": 41177919545,
+    "url": "https://github.com/666hideki666/project-eloria/actions/runs/41177919545",
+    "headSha": "86b698f598fd4e05bf035e6717b590cb5e529132",
+    "status": "completed",
+    "conclusion": "success",
+    "jobs": [
+      {
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "ciGates": {
+    "typecheck": "passed",
+    "tests": 441,
+    "testFiles": 29,
+    "build": "passed"
+  },
+  "publicHttp": {
+    "evidence": "docs/qa/mobile-pages-http-2026-10-31.json",
+    "matchingFiles": 7,
+    "allMatchLocalBuild": true
+  },
+  "publicBrowser": {
+    "evidence": "docs/qa/mobile-pages-live-2026-10-31.json",
+    "viewport": [
+      844,
+      390
+    ],
+    "normalStartToForest": true,
+    "defaultMusicOnAndExplicitOffPersistsReload": true,
+    "prologue04And05FullWidth": true,
+    "fieldCentered": true,
+    "taps": 72,
+    "jAttackEdges": 24,
+    "outsideTaps": 48,
+    "outsideAttackEdges": 0,
+    "scale": 1,
+    "pauseResume": true,
+    "jsErrors": [],
+    "imageErrors": [],
+    "unexpectedNetworkFailures": [],
+    "canceledMediaRequests": 3
+  },
+  "cleanup": {
+    "listenersBefore": "",
+    "listenersAfter": "",
+    "remainingOwnedChrome": "",
+    "user4173Stopped": false
+  },
+  "publicationIncludes": "Implementation plus related proposals, textual QA records, manifest and 3 small icons; no screenshots/dependencies/dist/credentials",
+  "applicationChangesDuringPublication": []
 }

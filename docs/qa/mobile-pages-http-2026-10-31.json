@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-31T06:47:46.935231+00:00",
+  "baseUrl": "https://666hideki666.github.io/project-eloria/",
+  "allMatchLocalBuild": true,
+  "checks": [
+    {
+      "path": "index.html",
+      "url": "https://666hideki666.github.io/project-eloria/index.html",
+      "http": 200,
+      "sha256": "65ecdb8b92fc4926cdf3956c015f2a6aa9fa22469ac123d06fecd4349f0ea8b3",
+      "matchesLocalBuild": true,
+      "bytes": 15968,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "manifest.webmanifest",
+      "url": "https://666hideki666.github.io/project-eloria/manifest.webmanifest",
+      "http": 200,
+      "sha256": "484b1b6e6b6c52d44a370340e4f09ce8d02af4431426d608af75c41ade5f8a7f",
+      "matchesLocalBuild": true,
+      "bytes": 426,
+      "contentType": "application/manifest+json; charset=utf-8"
+    },
+    {
+      "path": "icons/eloria-192.png",
+      "url": "https://666hideki666.github.io/project-eloria/icons/eloria-192.png",
+      "http": 200,
+      "sha256": "9bd0eb2bf69ca20509459e2612bc3bc3b0d77cafea922c022509d325b252f8ae",
+      "matchesLocalBuild": true,
+      "bytes": 10283,
+      "contentType": "image/png"
+    },
+    {
+      "path": "icons/eloria-180.png",
+      "url": "https://666hideki666.github.io/project-eloria/icons/eloria-180.png",
+      "http": 200,
+      "sha256": "b0354dbc6162b32797861dd72a4a54e0af9dbc71f2d65fcf29653f7eea886f16",
+      "matchesLocalBuild": true,
+      "bytes": 10355,
+      "contentType": "image/png"
+    },
+    {
+      "path": "icons/eloria-512.png",
+      "url": "https://666hideki666.github.io/project-eloria/icons/eloria-512.png",
+      "http": 200,
+      "sha256": "2945cb84523da288940591220d984bcbba98b50218e0941dac0e46d596ff9740",
+      "matchesLocalBuild": true,
+      "bytes": 13706,
+      "contentType": "image/png"
+    },
+    {
+      "path": "assets/index-iQF52YWM.js",
+      "url": "https://666hideki666.github.io/project-eloria/assets/index-iQF52YWM.js",
+      "http": 200,
+      "sha256": "5255c556ab1f4d51f3753a23d678116f771675de8c5726ebd8a9d55095296448",
+      "matchesLocalBuild": true,
+      "bytes": 527886,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "assets/index-B0RfbOUG.css",
+      "url": "https://666hideki666.github.io/project-eloria/assets/index-B0RfbOUG.css",
+      "http": 200,
+      "sha256": "5a691179f7c0e440327d2a4cf4d294cbe2bca642753df2769d1a689753ac93ea",
+      "matchesLocalBuild": true,
+      "bytes": 58505,
+      "contentType": "text/css; charset=utf-8"
+    }
+  ]
+}
