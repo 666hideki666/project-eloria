@@ -1784,3 +1784,59 @@ body[data-input="touch"] .party-status:not([data-active="true"]) .resource-label
 .field-boss-armor { background: #7e927e; }
 .field-floating { inset: 0; z-index: 10; overflow: hidden; }
 .field-floating span { position: absolute; font-weight: 800; line-height: 1.2; white-space: nowrap; text-shadow: 0 1px 2px #020807, 1px 0 2px #020807, -1px 0 2px #020807, 0 -1px 2px #020807; }
+
+/* Visible viewport centering; safe areas belong to controls, not body geometry. */
+:root {
+  --device-safe-top: env(safe-area-inset-top, 0px);
+  --device-safe-right: env(safe-area-inset-right, 0px);
+  --device-safe-bottom: env(safe-area-inset-bottom, 0px);
+  --device-safe-left: env(safe-area-inset-left, 0px);
+}
+body[data-input="touch"] { padding: 0; }
+.page-shell, body[data-input="touch"] .page-shell {
+  position: fixed;
+  left: var(--view-left, 0px); top: var(--view-top, 0px);
+  width: var(--view-width, 100vw); height: var(--view-height, 100dvh);
+  min-height: 0; display: block;
+}
+.game-shell, body[data-input="touch"] .game-shell { position: relative; height: 100%; }
+.combat-layout, body[data-input="touch"] .combat-layout {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 0; padding: 0;
+}
+.field-shell, body[data-input="touch"] .field-shell {
+  width: var(--view-field-width, min(100vw, 177.7778dvh));
+  height: var(--view-field-height, min(100dvh, 56.25vw));
+  align-self: center; margin: 0; overflow: hidden;
+}
+.party-panel, body[data-input="touch"] .party-panel {
+  top: calc(var(--view-field-top, 0px) + max(10px, var(--device-safe-top)));
+  left: calc(var(--view-field-left, 0px) + max(10px, var(--device-safe-left)));
+}
+.top-info-bar, body[data-input="touch"] .top-info-bar {
+  top: calc(var(--view-field-top, 0px) + max(8px, var(--device-safe-top)));
+  right: calc(var(--view-field-left, 0px) + max(8px, var(--device-safe-right)));
+  left: auto; width: auto; height: auto; padding: 0;
+}
+body[data-input="touch"] .pause-toggle { width: 44px; height: 44px; padding: 0; }
+body[data-input="touch"] .touch-actions {
+  right: max(3.5%, var(--device-safe-right));
+  bottom: max(7%, var(--device-safe-bottom)); top: auto;
+}
+body[data-input="touch"] .stick-zone {
+  inset: auto auto max(10px, var(--device-safe-bottom)) max(12px, var(--device-safe-left));
+  width: min(175px, 35%); height: min(160px, 60%);
+}
+.touch-action, .stick-zone { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+
+/* Reading panels can still scroll and pinch zoom independently of game input. */
+.field-dialogue { touch-action: pan-y pinch-zoom; }
+@media (orientation: portrait) and (max-width: 700px) {
+  body[data-input="touch"] .field-shell { overflow: visible; }
+}
+
+/* Only active play owns browser gestures; this includes the visible margins.
+   Remove the ancestor restriction while reading; descendants cannot override none. */
+.game-shell[data-game-gestures="playing"] {
+  touch-action: none;
+  -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+}

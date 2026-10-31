@@ -360,6 +360,37 @@ describe("AudioManager", () => {
     manager.destroy();
   });
 
+  it("keeps rejected title autoplay requested and starts on the next ordinary gesture", async () => {
+    const storage = new MemoryStorage();
+    const { manager, audio, gestures } = createManager(storage);
+    audio.rejectNextPlay = true;
+    manager.setMusicTrack("title", { fadeOut: 0 });
+    expect(await manager.tryAutoplay()).toBe(false);
+    expect(manager.state.muted).toBe(false);
+    expect(storage.getItem("project-eloria.audio.music-muted")).toBeNull();
+    gestures.dispatchEvent(new Event("pointerdown"));
+    await flushPromises();
+    expect(manager.state.playing).toBe(true);
+    expect(audio.playCalls).toBe(2);
+    manager.destroy();
+  });
+
+  it("keeps explicit mute through autoplay retry and changing to the forest", async () => {
+    const storage = new MemoryStorage();
+    storage.setItem("project-eloria.audio.music-muted", "true");
+    const { manager, audio, gestures } = createManager(storage);
+    manager.setMusicTrack("title", { fadeOut: 0 });
+    audio.rejectNextPlay = true;
+    await manager.tryAutoplay();
+    gestures.dispatchEvent(new Event("pointerdown")); await flushPromises();
+    expect(manager.state.muted).toBe(true); expect(audio.muted).toBe(true);
+    manager.setMusicTrack("ancientForest", { fadeOut: 0 });
+    manager.syncGamePhase("playing"); await flushPromises();
+    expect(manager.state.muted).toBe(true); expect(audio.muted).toBe(true);
+    expect(storage.getItem("project-eloria.audio.music-muted")).toBe("true");
+    manager.destroy();
+  });
+
   it("cannot resume a delayed title activation after START has stopped it", async () => {
     const { manager, audio } = createManager();
     let finish!: () => void;

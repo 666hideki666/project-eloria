@@ -1,0 +1,2745 @@
+{
+  "reports": [
+    {
+      "name": "pc",
+      "size": [
+        1600,
+        1000
+      ],
+      "help": {
+        "hidden": false,
+        "disabled": false,
+        "text": "⛶ 全画面",
+        "hint": ""
+      },
+      "safeAreaInjected": null,
+      "initial": {
+        "viewport": {
+          "width": 1600,
+          "height": 1000,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 50,
+          "width": 1600,
+          "height": 900,
+          "top": 50,
+          "right": 1600,
+          "bottom": 950,
+          "left": 0
+        },
+        "hud": {
+          "x": 10,
+          "y": 60,
+          "width": 264,
+          "height": 120,
+          "top": 60,
+          "right": 274,
+          "bottom": 180,
+          "left": 10
+        },
+        "pause": {
+          "x": 1554,
+          "y": 58,
+          "width": 38,
+          "height": 38,
+          "top": 58,
+          "right": 1592,
+          "bottom": 96,
+          "left": 1554
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          {
+            "action": "ultimate",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          {
+            "action": "special",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          {
+            "action": "attack",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        ],
+        "stick": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "scroll": [
+          0,
+          0,
+          1600,
+          1600
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "rotated": {
+        "viewport": {
+          "width": 1000,
+          "height": 1600,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 518.75,
+          "width": 1000,
+          "height": 562.5,
+          "top": 518.75,
+          "right": 1000,
+          "bottom": 1081.25,
+          "left": 0
+        },
+        "hud": {
+          "x": 10,
+          "y": 528.75,
+          "width": 264,
+          "height": 120,
+          "top": 528.75,
+          "right": 274,
+          "bottom": 648.75,
+          "left": 10
+        },
+        "pause": {
+          "x": 954,
+          "y": 526.75,
+          "width": 38,
+          "height": 38,
+          "top": 526.75,
+          "right": 992,
+          "bottom": 564.75,
+          "left": 954
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          {
+            "action": "ultimate",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          {
+            "action": "special",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          {
+            "action": "attack",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        ],
+        "stick": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "scroll": [
+          0,
+          0,
+          1000,
+          1000
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "shorter": {
+        "viewport": {
+          "width": 1600,
+          "height": 956,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 28,
+          "width": 1600,
+          "height": 900,
+          "top": 28,
+          "right": 1600,
+          "bottom": 928,
+          "left": 0
+        },
+        "hud": {
+          "x": 10,
+          "y": 38,
+          "width": 264,
+          "height": 120,
+          "top": 38,
+          "right": 274,
+          "bottom": 158,
+          "left": 10
+        },
+        "pause": {
+          "x": 1554,
+          "y": 36,
+          "width": 38,
+          "height": 38,
+          "top": 36,
+          "right": 1592,
+          "bottom": 74,
+          "left": 1554
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          {
+            "action": "ultimate",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          {
+            "action": "special",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          },
+          {
+            "action": "attack",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        ],
+        "stick": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "scroll": [
+          0,
+          0,
+          1600,
+          1600
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "fullscreenApiExercised": true,
+      "standaloneSimulation": null,
+      "jsErrors": []
+    },
+    {
+      "name": "iphone-chrome-left-notch",
+      "size": [
+        844,
+        390
+      ],
+      "help": {
+        "hidden": false,
+        "disabled": false,
+        "text": "ホーム画面で遊ぶ",
+        "hint": "共有 → ホーム画面に追加 → 追加したアイコンから起動。Chromeのタブ内では全画面にできません。"
+      },
+      "safeAreaInjected": [
+        0,
+        0,
+        21,
+        47
+      ],
+      "initial": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 75.328125,
+          "y": 0,
+          "width": 693.328125,
+          "height": 390,
+          "top": 0,
+          "right": 768.65625,
+          "bottom": 390,
+          "left": 75.328125
+        },
+        "hud": {
+          "x": 122.328125,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 312.328125,
+          "bottom": 120,
+          "left": 122.328125
+        },
+        "pause": {
+          "x": 716.671875,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 760.671875,
+          "bottom": 52,
+          "left": 716.671875
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 566.390625,
+            "y": 235.703125,
+            "width": 52,
+            "height": 52,
+            "top": 235.703125,
+            "right": 618.390625,
+            "bottom": 287.703125,
+            "left": 566.390625
+          },
+          {
+            "action": "ultimate",
+            "x": 628.390625,
+            "y": 238.703125,
+            "width": 58,
+            "height": 58,
+            "top": 238.703125,
+            "right": 686.390625,
+            "bottom": 296.703125,
+            "left": 628.390625
+          },
+          {
+            "action": "special",
+            "x": 620.390625,
+            "y": 304.703125,
+            "width": 58,
+            "height": 58,
+            "top": 304.703125,
+            "right": 678.390625,
+            "bottom": 362.703125,
+            "left": 620.390625
+          },
+          {
+            "action": "attack",
+            "x": 676.390625,
+            "y": 284.703125,
+            "width": 68,
+            "height": 68,
+            "top": 284.703125,
+            "right": 744.390625,
+            "bottom": 352.703125,
+            "left": 676.390625
+          }
+        ],
+        "stick": {
+          "x": 122.328125,
+          "y": 209,
+          "width": 175,
+          "height": 160,
+          "top": 209,
+          "right": 297.328125,
+          "bottom": 369,
+          "left": 122.328125
+        },
+        "scroll": [
+          0,
+          0,
+          844,
+          844
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "rotated": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 312.3125,
+          "width": 390,
+          "height": 219.375,
+          "top": 312.3125,
+          "right": 390,
+          "bottom": 531.6875,
+          "left": 0
+        },
+        "hud": {
+          "x": 47,
+          "y": 322.3125,
+          "width": 190,
+          "height": 110,
+          "top": 322.3125,
+          "right": 237,
+          "bottom": 432.3125,
+          "left": 47
+        },
+        "pause": {
+          "x": 338,
+          "y": 320.3125,
+          "width": 44,
+          "height": 44,
+          "top": 320.3125,
+          "right": 382,
+          "bottom": 364.3125,
+          "left": 338
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 198.359375,
+            "y": 383.6875,
+            "width": 52,
+            "height": 52,
+            "top": 383.6875,
+            "right": 250.359375,
+            "bottom": 435.6875,
+            "left": 198.359375
+          },
+          {
+            "action": "ultimate",
+            "x": 260.359375,
+            "y": 386.6875,
+            "width": 58,
+            "height": 58,
+            "top": 386.6875,
+            "right": 318.359375,
+            "bottom": 444.6875,
+            "left": 260.359375
+          },
+          {
+            "action": "special",
+            "x": 252.359375,
+            "y": 452.6875,
+            "width": 58,
+            "height": 58,
+            "top": 452.6875,
+            "right": 310.359375,
+            "bottom": 510.6875,
+            "left": 252.359375
+          },
+          {
+            "action": "attack",
+            "x": 308.359375,
+            "y": 432.6875,
+            "width": 68,
+            "height": 68,
+            "top": 432.6875,
+            "right": 376.359375,
+            "bottom": 500.6875,
+            "left": 308.359375
+          }
+        ],
+        "stick": {
+          "x": 47,
+          "y": 379.0625,
+          "width": 136.5,
+          "height": 131.625,
+          "top": 379.0625,
+          "right": 183.5,
+          "bottom": 510.6875,
+          "left": 47
+        },
+        "scroll": [
+          0,
+          0,
+          390,
+          390
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "shorter": {
+        "viewport": {
+          "width": 844,
+          "height": 346,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 114.4375,
+          "y": 0,
+          "width": 615.109375,
+          "height": 346,
+          "top": 0,
+          "right": 729.546875,
+          "bottom": 346,
+          "left": 114.4375
+        },
+        "hud": {
+          "x": 161.4375,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 351.4375,
+          "bottom": 120,
+          "left": 161.4375
+        },
+        "pause": {
+          "x": 677.5625,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 721.5625,
+          "bottom": 52,
+          "left": 677.5625
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 530.03125,
+            "y": 194.78125,
+            "width": 52,
+            "height": 52,
+            "top": 194.78125,
+            "right": 582.03125,
+            "bottom": 246.78125,
+            "left": 530.03125
+          },
+          {
+            "action": "ultimate",
+            "x": 592.03125,
+            "y": 197.78125,
+            "width": 58,
+            "height": 58,
+            "top": 197.78125,
+            "right": 650.03125,
+            "bottom": 255.78125,
+            "left": 592.03125
+          },
+          {
+            "action": "special",
+            "x": 584.03125,
+            "y": 263.78125,
+            "width": 58,
+            "height": 58,
+            "top": 263.78125,
+            "right": 642.03125,
+            "bottom": 321.78125,
+            "left": 584.03125
+          },
+          {
+            "action": "attack",
+            "x": 640.03125,
+            "y": 243.78125,
+            "width": 68,
+            "height": 68,
+            "top": 243.78125,
+            "right": 708.03125,
+            "bottom": 311.78125,
+            "left": 640.03125
+          }
+        ],
+        "stick": {
+          "x": 161.4375,
+          "y": 165,
+          "width": 175,
+          "height": 160,
+          "top": 165,
+          "right": 336.4375,
+          "bottom": 325,
+          "left": 161.4375
+        },
+        "scroll": [
+          0,
+          0,
+          844,
+          844
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "taps": {
+        "count": 24,
+        "allReachedInput": true,
+        "legacyTouchEndCancelled": true,
+        "scaleBefore": 1,
+        "scaleAfter": 1
+      },
+      "fullscreenApiExercised": false,
+      "standaloneSimulation": null,
+      "jsErrors": []
+    },
+    {
+      "name": "iphone-chrome-right-notch",
+      "size": [
+        844,
+        390
+      ],
+      "help": {
+        "hidden": false,
+        "disabled": false,
+        "text": "ホーム画面で遊ぶ",
+        "hint": "共有 → ホーム画面に追加 → 追加したアイコンから起動。Chromeのタブ内では全画面にできません。"
+      },
+      "safeAreaInjected": [
+        0,
+        47,
+        21,
+        0
+      ],
+      "initial": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 75.328125,
+          "y": 0,
+          "width": 693.328125,
+          "height": 390,
+          "top": 0,
+          "right": 768.65625,
+          "bottom": 390,
+          "left": 75.328125
+        },
+        "hud": {
+          "x": 85.328125,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 275.328125,
+          "bottom": 120,
+          "left": 85.328125
+        },
+        "pause": {
+          "x": 677.671875,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 721.671875,
+          "bottom": 52,
+          "left": 677.671875
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 543.65625,
+            "y": 235.703125,
+            "width": 52,
+            "height": 52,
+            "top": 235.703125,
+            "right": 595.65625,
+            "bottom": 287.703125,
+            "left": 543.65625
+          },
+          {
+            "action": "ultimate",
+            "x": 605.65625,
+            "y": 238.703125,
+            "width": 58,
+            "height": 58,
+            "top": 238.703125,
+            "right": 663.65625,
+            "bottom": 296.703125,
+            "left": 605.65625
+          },
+          {
+            "action": "special",
+            "x": 597.65625,
+            "y": 304.703125,
+            "width": 58,
+            "height": 58,
+            "top": 304.703125,
+            "right": 655.65625,
+            "bottom": 362.703125,
+            "left": 597.65625
+          },
+          {
+            "action": "attack",
+            "x": 653.65625,
+            "y": 284.703125,
+            "width": 68,
+            "height": 68,
+            "top": 284.703125,
+            "right": 721.65625,
+            "bottom": 352.703125,
+            "left": 653.65625
+          }
+        ],
+        "stick": {
+          "x": 87.328125,
+          "y": 209,
+          "width": 175,
+          "height": 160,
+          "top": 209,
+          "right": 262.328125,
+          "bottom": 369,
+          "left": 87.328125
+        },
+        "scroll": [
+          0,
+          0,
+          844,
+          844
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "rotated": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 312.3125,
+          "width": 390,
+          "height": 219.375,
+          "top": 312.3125,
+          "right": 390,
+          "bottom": 531.6875,
+          "left": 0
+        },
+        "hud": {
+          "x": 10,
+          "y": 322.3125,
+          "width": 190,
+          "height": 110,
+          "top": 322.3125,
+          "right": 200,
+          "bottom": 432.3125,
+          "left": 10
+        },
+        "pause": {
+          "x": 299,
+          "y": 320.3125,
+          "width": 44,
+          "height": 44,
+          "top": 320.3125,
+          "right": 343,
+          "bottom": 364.3125,
+          "left": 299
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 165,
+            "y": 383.6875,
+            "width": 52,
+            "height": 52,
+            "top": 383.6875,
+            "right": 217,
+            "bottom": 435.6875,
+            "left": 165
+          },
+          {
+            "action": "ultimate",
+            "x": 227,
+            "y": 386.6875,
+            "width": 58,
+            "height": 58,
+            "top": 386.6875,
+            "right": 285,
+            "bottom": 444.6875,
+            "left": 227
+          },
+          {
+            "action": "special",
+            "x": 219,
+            "y": 452.6875,
+            "width": 58,
+            "height": 58,
+            "top": 452.6875,
+            "right": 277,
+            "bottom": 510.6875,
+            "left": 219
+          },
+          {
+            "action": "attack",
+            "x": 275,
+            "y": 432.6875,
+            "width": 68,
+            "height": 68,
+            "top": 432.6875,
+            "right": 343,
+            "bottom": 500.6875,
+            "left": 275
+          }
+        ],
+        "stick": {
+          "x": 12,
+          "y": 379.0625,
+          "width": 136.5,
+          "height": 131.625,
+          "top": 379.0625,
+          "right": 148.5,
+          "bottom": 510.6875,
+          "left": 12
+        },
+        "scroll": [
+          0,
+          0,
+          390,
+          390
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "shorter": {
+        "viewport": {
+          "width": 844,
+          "height": 346,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 114.4375,
+          "y": 0,
+          "width": 615.109375,
+          "height": 346,
+          "top": 0,
+          "right": 729.546875,
+          "bottom": 346,
+          "left": 114.4375
+        },
+        "hud": {
+          "x": 124.4375,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 314.4375,
+          "bottom": 120,
+          "left": 124.4375
+        },
+        "pause": {
+          "x": 638.5625,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 682.5625,
+          "bottom": 52,
+          "left": 638.5625
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 504.546875,
+            "y": 194.78125,
+            "width": 52,
+            "height": 52,
+            "top": 194.78125,
+            "right": 556.546875,
+            "bottom": 246.78125,
+            "left": 504.546875
+          },
+          {
+            "action": "ultimate",
+            "x": 566.546875,
+            "y": 197.78125,
+            "width": 58,
+            "height": 58,
+            "top": 197.78125,
+            "right": 624.546875,
+            "bottom": 255.78125,
+            "left": 566.546875
+          },
+          {
+            "action": "special",
+            "x": 558.546875,
+            "y": 263.78125,
+            "width": 58,
+            "height": 58,
+            "top": 263.78125,
+            "right": 616.546875,
+            "bottom": 321.78125,
+            "left": 558.546875
+          },
+          {
+            "action": "attack",
+            "x": 614.546875,
+            "y": 243.78125,
+            "width": 68,
+            "height": 68,
+            "top": 243.78125,
+            "right": 682.546875,
+            "bottom": 311.78125,
+            "left": 614.546875
+          }
+        ],
+        "stick": {
+          "x": 126.4375,
+          "y": 165,
+          "width": 175,
+          "height": 160,
+          "top": 165,
+          "right": 301.4375,
+          "bottom": 325,
+          "left": 126.4375
+        },
+        "scroll": [
+          0,
+          0,
+          844,
+          844
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "taps": {
+        "count": 24,
+        "allReachedInput": true,
+        "legacyTouchEndCancelled": true,
+        "scaleBefore": 1,
+        "scaleAfter": 1
+      },
+      "fullscreenApiExercised": false,
+      "standaloneSimulation": null,
+      "jsErrors": []
+    },
+    {
+      "name": "iphone-safari-small",
+      "size": [
+        667,
+        375
+      ],
+      "help": {
+        "hidden": false,
+        "disabled": false,
+        "text": "ホーム画面で遊ぶ",
+        "hint": "共有 → ホーム画面に追加 → 追加したアイコンから起動。Chromeのタブ内では全画面にできません。"
+      },
+      "safeAreaInjected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "initial": {
+        "viewport": {
+          "width": 667,
+          "height": 375,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0.171875,
+          "y": 0,
+          "width": 666.65625,
+          "height": 375,
+          "top": 0,
+          "right": 666.828125,
+          "bottom": 375,
+          "left": 0.171875
+        },
+        "hud": {
+          "x": 10.15625,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 200.15625,
+          "bottom": 120,
+          "left": 10.15625
+        },
+        "pause": {
+          "x": 614.84375,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 658.84375,
+          "bottom": 52,
+          "left": 614.84375
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 465.5,
+            "y": 221.75,
+            "width": 52,
+            "height": 52,
+            "top": 221.75,
+            "right": 517.5,
+            "bottom": 273.75,
+            "left": 465.5
+          },
+          {
+            "action": "ultimate",
+            "x": 527.5,
+            "y": 224.75,
+            "width": 58,
+            "height": 58,
+            "top": 224.75,
+            "right": 585.5,
+            "bottom": 282.75,
+            "left": 527.5
+          },
+          {
+            "action": "special",
+            "x": 519.5,
+            "y": 290.75,
+            "width": 58,
+            "height": 58,
+            "top": 290.75,
+            "right": 577.5,
+            "bottom": 348.75,
+            "left": 519.5
+          },
+          {
+            "action": "attack",
+            "x": 575.5,
+            "y": 270.75,
+            "width": 68,
+            "height": 68,
+            "top": 270.75,
+            "right": 643.5,
+            "bottom": 338.75,
+            "left": 575.5
+          }
+        ],
+        "stick": {
+          "x": 12.171875,
+          "y": 205,
+          "width": 175,
+          "height": 160,
+          "top": 205,
+          "right": 187.171875,
+          "bottom": 365,
+          "left": 12.171875
+        },
+        "scroll": [
+          0,
+          0,
+          667,
+          667
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "rotated": {
+        "viewport": {
+          "width": 375,
+          "height": 667,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 228.03125,
+          "width": 375,
+          "height": 210.9375,
+          "top": 228.03125,
+          "right": 375,
+          "bottom": 438.96875,
+          "left": 0
+        },
+        "hud": {
+          "x": 10,
+          "y": 238.03125,
+          "width": 190,
+          "height": 110,
+          "top": 238.03125,
+          "right": 200,
+          "bottom": 348.03125,
+          "left": 10
+        },
+        "pause": {
+          "x": 323,
+          "y": 236.03125,
+          "width": 44,
+          "height": 44,
+          "top": 236.03125,
+          "right": 367,
+          "bottom": 280.03125,
+          "left": 323
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 183.875,
+            "y": 297.203125,
+            "width": 52,
+            "height": 52,
+            "top": 297.203125,
+            "right": 235.875,
+            "bottom": 349.203125,
+            "left": 183.875
+          },
+          {
+            "action": "ultimate",
+            "x": 245.875,
+            "y": 300.203125,
+            "width": 58,
+            "height": 58,
+            "top": 300.203125,
+            "right": 303.875,
+            "bottom": 358.203125,
+            "left": 245.875
+          },
+          {
+            "action": "special",
+            "x": 237.875,
+            "y": 366.203125,
+            "width": 58,
+            "height": 58,
+            "top": 366.203125,
+            "right": 295.875,
+            "bottom": 424.203125,
+            "left": 237.875
+          },
+          {
+            "action": "attack",
+            "x": 293.875,
+            "y": 346.203125,
+            "width": 68,
+            "height": 68,
+            "top": 346.203125,
+            "right": 361.875,
+            "bottom": 414.203125,
+            "left": 293.875
+          }
+        ],
+        "stick": {
+          "x": 12,
+          "y": 302.40625,
+          "width": 131.25,
+          "height": 126.5625,
+          "top": 302.40625,
+          "right": 143.25,
+          "bottom": 428.96875,
+          "left": 12
+        },
+        "scroll": [
+          0,
+          0,
+          375,
+          375
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "shorter": {
+        "viewport": {
+          "width": 667,
+          "height": 331,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 39.28125,
+          "y": 0,
+          "width": 588.4375,
+          "height": 331,
+          "top": 0,
+          "right": 627.71875,
+          "bottom": 331,
+          "left": 39.28125
+        },
+        "hud": {
+          "x": 49.265625,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 239.265625,
+          "bottom": 120,
+          "left": 49.265625
+        },
+        "pause": {
+          "x": 575.734375,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 619.734375,
+          "bottom": 52,
+          "left": 575.734375
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 429.125,
+            "y": 180.84375,
+            "width": 52,
+            "height": 52,
+            "top": 180.84375,
+            "right": 481.125,
+            "bottom": 232.84375,
+            "left": 429.125
+          },
+          {
+            "action": "ultimate",
+            "x": 491.125,
+            "y": 183.84375,
+            "width": 58,
+            "height": 58,
+            "top": 183.84375,
+            "right": 549.125,
+            "bottom": 241.84375,
+            "left": 491.125
+          },
+          {
+            "action": "special",
+            "x": 483.125,
+            "y": 249.84375,
+            "width": 58,
+            "height": 58,
+            "top": 249.84375,
+            "right": 541.125,
+            "bottom": 307.84375,
+            "left": 483.125
+          },
+          {
+            "action": "attack",
+            "x": 539.125,
+            "y": 229.84375,
+            "width": 68,
+            "height": 68,
+            "top": 229.84375,
+            "right": 607.125,
+            "bottom": 297.84375,
+            "left": 539.125
+          }
+        ],
+        "stick": {
+          "x": 51.28125,
+          "y": 161,
+          "width": 175,
+          "height": 160,
+          "top": 161,
+          "right": 226.28125,
+          "bottom": 321,
+          "left": 51.28125
+        },
+        "scroll": [
+          0,
+          0,
+          667,
+          667
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "taps": {
+        "count": 24,
+        "allReachedInput": true,
+        "legacyTouchEndCancelled": true,
+        "scaleBefore": 1,
+        "scaleAfter": 1
+      },
+      "fullscreenApiExercised": false,
+      "standaloneSimulation": null,
+      "jsErrors": []
+    },
+    {
+      "name": "iphone-standalone-navigator",
+      "size": [
+        932,
+        430
+      ],
+      "help": {
+        "hidden": true,
+        "disabled": true,
+        "text": "全画面は非対応",
+        "hint": ""
+      },
+      "safeAreaInjected": [
+        0,
+        0,
+        21,
+        59
+      ],
+      "initial": {
+        "viewport": {
+          "width": 932,
+          "height": 430,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 83.78125,
+          "y": 0,
+          "width": 764.4375,
+          "height": 430,
+          "top": 0,
+          "right": 848.21875,
+          "bottom": 430,
+          "left": 83.78125
+        },
+        "hud": {
+          "x": 142.765625,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 332.765625,
+          "bottom": 120,
+          "left": 142.765625
+        },
+        "pause": {
+          "x": 796.234375,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 840.234375,
+          "bottom": 52,
+          "left": 796.234375
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 643.46875,
+            "y": 272.90625,
+            "width": 52,
+            "height": 52,
+            "top": 272.90625,
+            "right": 695.46875,
+            "bottom": 324.90625,
+            "left": 643.46875
+          },
+          {
+            "action": "ultimate",
+            "x": 705.46875,
+            "y": 275.90625,
+            "width": 58,
+            "height": 58,
+            "top": 275.90625,
+            "right": 763.46875,
+            "bottom": 333.90625,
+            "left": 705.46875
+          },
+          {
+            "action": "special",
+            "x": 697.46875,
+            "y": 341.90625,
+            "width": 58,
+            "height": 58,
+            "top": 341.90625,
+            "right": 755.46875,
+            "bottom": 399.90625,
+            "left": 697.46875
+          },
+          {
+            "action": "attack",
+            "x": 753.46875,
+            "y": 321.90625,
+            "width": 68,
+            "height": 68,
+            "top": 321.90625,
+            "right": 821.46875,
+            "bottom": 389.90625,
+            "left": 753.46875
+          }
+        ],
+        "stick": {
+          "x": 142.78125,
+          "y": 249,
+          "width": 175,
+          "height": 160,
+          "top": 249,
+          "right": 317.78125,
+          "bottom": 409,
+          "left": 142.78125
+        },
+        "scroll": [
+          0,
+          0,
+          932,
+          932
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "rotated": {
+        "viewport": {
+          "width": 430,
+          "height": 932,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 345.0625,
+          "width": 430,
+          "height": 241.875,
+          "top": 345.0625,
+          "right": 430,
+          "bottom": 586.9375,
+          "left": 0
+        },
+        "hud": {
+          "x": 59,
+          "y": 355.0625,
+          "width": 190,
+          "height": 110,
+          "top": 355.0625,
+          "right": 249,
+          "bottom": 465.0625,
+          "left": 59
+        },
+        "pause": {
+          "x": 378,
+          "y": 353.0625,
+          "width": 44,
+          "height": 44,
+          "top": 353.0625,
+          "right": 422,
+          "bottom": 397.0625,
+          "left": 378
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 236.953125,
+            "y": 438.9375,
+            "width": 52,
+            "height": 52,
+            "top": 438.9375,
+            "right": 288.953125,
+            "bottom": 490.9375,
+            "left": 236.953125
+          },
+          {
+            "action": "ultimate",
+            "x": 298.953125,
+            "y": 441.9375,
+            "width": 58,
+            "height": 58,
+            "top": 441.9375,
+            "right": 356.953125,
+            "bottom": 499.9375,
+            "left": 298.953125
+          },
+          {
+            "action": "special",
+            "x": 290.953125,
+            "y": 507.9375,
+            "width": 58,
+            "height": 58,
+            "top": 507.9375,
+            "right": 348.953125,
+            "bottom": 565.9375,
+            "left": 290.953125
+          },
+          {
+            "action": "attack",
+            "x": 346.953125,
+            "y": 487.9375,
+            "width": 68,
+            "height": 68,
+            "top": 487.9375,
+            "right": 414.953125,
+            "bottom": 555.9375,
+            "left": 346.953125
+          }
+        ],
+        "stick": {
+          "x": 59,
+          "y": 420.8125,
+          "width": 150.5,
+          "height": 145.125,
+          "top": 420.8125,
+          "right": 209.5,
+          "bottom": 565.9375,
+          "left": 59
+        },
+        "scroll": [
+          0,
+          0,
+          430,
+          430
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "shorter": {
+        "viewport": {
+          "width": 932,
+          "height": 386,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 122.890625,
+          "y": 0,
+          "width": 686.21875,
+          "height": 386,
+          "top": 0,
+          "right": 809.109375,
+          "bottom": 386,
+          "left": 122.890625
+        },
+        "hud": {
+          "x": 181.875,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 371.875,
+          "bottom": 120,
+          "left": 181.875
+        },
+        "pause": {
+          "x": 757.125,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 801.125,
+          "bottom": 52,
+          "left": 757.125
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 607.09375,
+            "y": 231.984375,
+            "width": 52,
+            "height": 52,
+            "top": 231.984375,
+            "right": 659.09375,
+            "bottom": 283.984375,
+            "left": 607.09375
+          },
+          {
+            "action": "ultimate",
+            "x": 669.09375,
+            "y": 234.984375,
+            "width": 58,
+            "height": 58,
+            "top": 234.984375,
+            "right": 727.09375,
+            "bottom": 292.984375,
+            "left": 669.09375
+          },
+          {
+            "action": "special",
+            "x": 661.09375,
+            "y": 300.984375,
+            "width": 58,
+            "height": 58,
+            "top": 300.984375,
+            "right": 719.09375,
+            "bottom": 358.984375,
+            "left": 661.09375
+          },
+          {
+            "action": "attack",
+            "x": 717.09375,
+            "y": 280.984375,
+            "width": 68,
+            "height": 68,
+            "top": 280.984375,
+            "right": 785.09375,
+            "bottom": 348.984375,
+            "left": 717.09375
+          }
+        ],
+        "stick": {
+          "x": 181.890625,
+          "y": 205,
+          "width": 175,
+          "height": 160,
+          "top": 205,
+          "right": 356.890625,
+          "bottom": 365,
+          "left": 181.890625
+        },
+        "scroll": [
+          0,
+          0,
+          932,
+          932
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "taps": {
+        "count": 24,
+        "allReachedInput": true,
+        "legacyTouchEndCancelled": true,
+        "scaleBefore": 1,
+        "scaleAfter": 1
+      },
+      "fullscreenApiExercised": false,
+      "standaloneSimulation": "navigator",
+      "jsErrors": []
+    },
+    {
+      "name": "iphone-standalone-media",
+      "size": [
+        844,
+        390
+      ],
+      "help": {
+        "hidden": true,
+        "disabled": true,
+        "text": "全画面は非対応",
+        "hint": ""
+      },
+      "safeAreaInjected": [
+        0,
+        0,
+        21,
+        47
+      ],
+      "initial": {
+        "viewport": {
+          "width": 844,
+          "height": 390,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 75.328125,
+          "y": 0,
+          "width": 693.328125,
+          "height": 390,
+          "top": 0,
+          "right": 768.65625,
+          "bottom": 390,
+          "left": 75.328125
+        },
+        "hud": {
+          "x": 122.328125,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 312.328125,
+          "bottom": 120,
+          "left": 122.328125
+        },
+        "pause": {
+          "x": 716.671875,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 760.671875,
+          "bottom": 52,
+          "left": 716.671875
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 566.390625,
+            "y": 235.703125,
+            "width": 52,
+            "height": 52,
+            "top": 235.703125,
+            "right": 618.390625,
+            "bottom": 287.703125,
+            "left": 566.390625
+          },
+          {
+            "action": "ultimate",
+            "x": 628.390625,
+            "y": 238.703125,
+            "width": 58,
+            "height": 58,
+            "top": 238.703125,
+            "right": 686.390625,
+            "bottom": 296.703125,
+            "left": 628.390625
+          },
+          {
+            "action": "special",
+            "x": 620.390625,
+            "y": 304.703125,
+            "width": 58,
+            "height": 58,
+            "top": 304.703125,
+            "right": 678.390625,
+            "bottom": 362.703125,
+            "left": 620.390625
+          },
+          {
+            "action": "attack",
+            "x": 676.390625,
+            "y": 284.703125,
+            "width": 68,
+            "height": 68,
+            "top": 284.703125,
+            "right": 744.390625,
+            "bottom": 352.703125,
+            "left": 676.390625
+          }
+        ],
+        "stick": {
+          "x": 122.328125,
+          "y": 209,
+          "width": 175,
+          "height": 160,
+          "top": 209,
+          "right": 297.328125,
+          "bottom": 369,
+          "left": 122.328125
+        },
+        "scroll": [
+          0,
+          0,
+          844,
+          844
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "rotated": {
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 312.3125,
+          "width": 390,
+          "height": 219.375,
+          "top": 312.3125,
+          "right": 390,
+          "bottom": 531.6875,
+          "left": 0
+        },
+        "hud": {
+          "x": 47,
+          "y": 322.3125,
+          "width": 190,
+          "height": 110,
+          "top": 322.3125,
+          "right": 237,
+          "bottom": 432.3125,
+          "left": 47
+        },
+        "pause": {
+          "x": 338,
+          "y": 320.3125,
+          "width": 44,
+          "height": 44,
+          "top": 320.3125,
+          "right": 382,
+          "bottom": 364.3125,
+          "left": 338
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 198.359375,
+            "y": 383.6875,
+            "width": 52,
+            "height": 52,
+            "top": 383.6875,
+            "right": 250.359375,
+            "bottom": 435.6875,
+            "left": 198.359375
+          },
+          {
+            "action": "ultimate",
+            "x": 260.359375,
+            "y": 386.6875,
+            "width": 58,
+            "height": 58,
+            "top": 386.6875,
+            "right": 318.359375,
+            "bottom": 444.6875,
+            "left": 260.359375
+          },
+          {
+            "action": "special",
+            "x": 252.359375,
+            "y": 452.6875,
+            "width": 58,
+            "height": 58,
+            "top": 452.6875,
+            "right": 310.359375,
+            "bottom": 510.6875,
+            "left": 252.359375
+          },
+          {
+            "action": "attack",
+            "x": 308.359375,
+            "y": 432.6875,
+            "width": 68,
+            "height": 68,
+            "top": 432.6875,
+            "right": 376.359375,
+            "bottom": 500.6875,
+            "left": 308.359375
+          }
+        ],
+        "stick": {
+          "x": 47,
+          "y": 379.0625,
+          "width": 136.5,
+          "height": 131.625,
+          "top": 379.0625,
+          "right": 183.5,
+          "bottom": 510.6875,
+          "left": 47
+        },
+        "scroll": [
+          0,
+          0,
+          390,
+          390
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "shorter": {
+        "viewport": {
+          "width": 844,
+          "height": 346,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 114.4375,
+          "y": 0,
+          "width": 615.109375,
+          "height": 346,
+          "top": 0,
+          "right": 729.546875,
+          "bottom": 346,
+          "left": 114.4375
+        },
+        "hud": {
+          "x": 161.4375,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 351.4375,
+          "bottom": 120,
+          "left": 161.4375
+        },
+        "pause": {
+          "x": 677.5625,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 721.5625,
+          "bottom": 52,
+          "left": 677.5625
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 530.03125,
+            "y": 194.78125,
+            "width": 52,
+            "height": 52,
+            "top": 194.78125,
+            "right": 582.03125,
+            "bottom": 246.78125,
+            "left": 530.03125
+          },
+          {
+            "action": "ultimate",
+            "x": 592.03125,
+            "y": 197.78125,
+            "width": 58,
+            "height": 58,
+            "top": 197.78125,
+            "right": 650.03125,
+            "bottom": 255.78125,
+            "left": 592.03125
+          },
+          {
+            "action": "special",
+            "x": 584.03125,
+            "y": 263.78125,
+            "width": 58,
+            "height": 58,
+            "top": 263.78125,
+            "right": 642.03125,
+            "bottom": 321.78125,
+            "left": 584.03125
+          },
+          {
+            "action": "attack",
+            "x": 640.03125,
+            "y": 243.78125,
+            "width": 68,
+            "height": 68,
+            "top": 243.78125,
+            "right": 708.03125,
+            "bottom": 311.78125,
+            "left": 640.03125
+          }
+        ],
+        "stick": {
+          "x": 161.4375,
+          "y": 165,
+          "width": 175,
+          "height": 160,
+          "top": 165,
+          "right": 336.4375,
+          "bottom": 325,
+          "left": 161.4375
+        },
+        "scroll": [
+          0,
+          0,
+          844,
+          844
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "taps": {
+        "count": 24,
+        "allReachedInput": true,
+        "legacyTouchEndCancelled": true,
+        "scaleBefore": 1,
+        "scaleAfter": 1
+      },
+      "fullscreenApiExercised": false,
+      "standaloneSimulation": "media",
+      "jsErrors": []
+    },
+    {
+      "name": "android",
+      "size": [
+        915,
+        412
+      ],
+      "help": {
+        "hidden": false,
+        "disabled": false,
+        "text": "⛶ 全画面",
+        "hint": ""
+      },
+      "safeAreaInjected": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "initial": {
+        "viewport": {
+          "width": 915,
+          "height": 412,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 91.28125,
+          "y": 0,
+          "width": 732.4375,
+          "height": 412,
+          "top": 0,
+          "right": 823.71875,
+          "bottom": 412,
+          "left": 91.28125
+        },
+        "hud": {
+          "x": 101.265625,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 291.265625,
+          "bottom": 120,
+          "left": 101.265625
+        },
+        "pause": {
+          "x": 771.734375,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 815.734375,
+          "bottom": 52,
+          "left": 771.734375
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 620.09375,
+            "y": 256.171875,
+            "width": 52,
+            "height": 52,
+            "top": 256.171875,
+            "right": 672.09375,
+            "bottom": 308.171875,
+            "left": 620.09375
+          },
+          {
+            "action": "ultimate",
+            "x": 682.09375,
+            "y": 259.171875,
+            "width": 58,
+            "height": 58,
+            "top": 259.171875,
+            "right": 740.09375,
+            "bottom": 317.171875,
+            "left": 682.09375
+          },
+          {
+            "action": "special",
+            "x": 674.09375,
+            "y": 325.171875,
+            "width": 58,
+            "height": 58,
+            "top": 325.171875,
+            "right": 732.09375,
+            "bottom": 383.171875,
+            "left": 674.09375
+          },
+          {
+            "action": "attack",
+            "x": 730.09375,
+            "y": 305.171875,
+            "width": 68,
+            "height": 68,
+            "top": 305.171875,
+            "right": 798.09375,
+            "bottom": 373.171875,
+            "left": 730.09375
+          }
+        ],
+        "stick": {
+          "x": 103.28125,
+          "y": 242,
+          "width": 175,
+          "height": 160,
+          "top": 242,
+          "right": 278.28125,
+          "bottom": 402,
+          "left": 103.28125
+        },
+        "scroll": [
+          0,
+          0,
+          915,
+          915
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "rotated": {
+        "viewport": {
+          "width": 412,
+          "height": 915,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 341.625,
+          "width": 412,
+          "height": 231.75,
+          "top": 341.625,
+          "right": 412,
+          "bottom": 573.375,
+          "left": 0
+        },
+        "hud": {
+          "x": 10,
+          "y": 351.625,
+          "width": 190,
+          "height": 110,
+          "top": 351.625,
+          "right": 200,
+          "bottom": 461.625,
+          "left": 10
+        },
+        "pause": {
+          "x": 360,
+          "y": 349.625,
+          "width": 44,
+          "height": 44,
+          "top": 349.625,
+          "right": 404,
+          "bottom": 393.625,
+          "left": 360
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 219.59375,
+            "y": 430.15625,
+            "width": 52,
+            "height": 52,
+            "top": 430.15625,
+            "right": 271.59375,
+            "bottom": 482.15625,
+            "left": 219.59375
+          },
+          {
+            "action": "ultimate",
+            "x": 281.59375,
+            "y": 433.15625,
+            "width": 58,
+            "height": 58,
+            "top": 433.15625,
+            "right": 339.59375,
+            "bottom": 491.15625,
+            "left": 281.59375
+          },
+          {
+            "action": "special",
+            "x": 273.59375,
+            "y": 499.15625,
+            "width": 58,
+            "height": 58,
+            "top": 499.15625,
+            "right": 331.59375,
+            "bottom": 557.15625,
+            "left": 273.59375
+          },
+          {
+            "action": "attack",
+            "x": 329.59375,
+            "y": 479.15625,
+            "width": 68,
+            "height": 68,
+            "top": 479.15625,
+            "right": 397.59375,
+            "bottom": 547.15625,
+            "left": 329.59375
+          }
+        ],
+        "stick": {
+          "x": 12,
+          "y": 424.328125,
+          "width": 144.1875,
+          "height": 139.046875,
+          "top": 424.328125,
+          "right": 156.1875,
+          "bottom": 563.375,
+          "left": 12
+        },
+        "scroll": [
+          0,
+          0,
+          412,
+          412
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "shorter": {
+        "viewport": {
+          "width": 915,
+          "height": 368,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 130.390625,
+          "y": 0,
+          "width": 654.21875,
+          "height": 368,
+          "top": 0,
+          "right": 784.609375,
+          "bottom": 368,
+          "left": 130.390625
+        },
+        "hud": {
+          "x": 140.375,
+          "y": 10,
+          "width": 190,
+          "height": 110,
+          "top": 10,
+          "right": 330.375,
+          "bottom": 120,
+          "left": 140.375
+        },
+        "pause": {
+          "x": 732.625,
+          "y": 8,
+          "width": 44,
+          "height": 44,
+          "top": 8,
+          "right": 776.625,
+          "bottom": 52,
+          "left": 732.625
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 583.71875,
+            "y": 215.25,
+            "width": 52,
+            "height": 52,
+            "top": 215.25,
+            "right": 635.71875,
+            "bottom": 267.25,
+            "left": 583.71875
+          },
+          {
+            "action": "ultimate",
+            "x": 645.71875,
+            "y": 218.25,
+            "width": 58,
+            "height": 58,
+            "top": 218.25,
+            "right": 703.71875,
+            "bottom": 276.25,
+            "left": 645.71875
+          },
+          {
+            "action": "special",
+            "x": 637.71875,
+            "y": 284.25,
+            "width": 58,
+            "height": 58,
+            "top": 284.25,
+            "right": 695.71875,
+            "bottom": 342.25,
+            "left": 637.71875
+          },
+          {
+            "action": "attack",
+            "x": 693.71875,
+            "y": 264.25,
+            "width": 68,
+            "height": 68,
+            "top": 264.25,
+            "right": 761.71875,
+            "bottom": 332.25,
+            "left": 693.71875
+          }
+        ],
+        "stick": {
+          "x": 142.390625,
+          "y": 198,
+          "width": 175,
+          "height": 160,
+          "top": 198,
+          "right": 317.390625,
+          "bottom": 358,
+          "left": 142.390625
+        },
+        "scroll": [
+          0,
+          0,
+          915,
+          915
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "taps": {
+        "count": 24,
+        "allReachedInput": true,
+        "legacyTouchEndCancelled": true,
+        "scaleBefore": 1,
+        "scaleAfter": 1
+      },
+      "fullscreenApiExercised": true,
+      "standaloneSimulation": null,
+      "jsErrors": []
+    },
+    {
+      "name": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "help": {
+        "hidden": false,
+        "disabled": false,
+        "text": "⛶ 全画面",
+        "hint": ""
+      },
+      "safeAreaInjected": [
+        0,
+        0,
+        20,
+        0
+      ],
+      "initial": {
+        "viewport": {
+          "width": 1024,
+          "height": 768,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 96,
+          "width": 1024,
+          "height": 576,
+          "top": 96,
+          "right": 1024,
+          "bottom": 672,
+          "left": 0
+        },
+        "hud": {
+          "x": 10,
+          "y": 106,
+          "width": 190,
+          "height": 110,
+          "top": 106,
+          "right": 200,
+          "bottom": 216,
+          "left": 10
+        },
+        "pause": {
+          "x": 972,
+          "y": 104,
+          "width": 44,
+          "height": 44,
+          "top": 104,
+          "right": 1016,
+          "bottom": 148,
+          "left": 972
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 810.171875,
+            "y": 504.6875,
+            "width": 52,
+            "height": 52,
+            "top": 504.6875,
+            "right": 862.171875,
+            "bottom": 556.6875,
+            "left": 810.171875
+          },
+          {
+            "action": "ultimate",
+            "x": 872.171875,
+            "y": 507.6875,
+            "width": 58,
+            "height": 58,
+            "top": 507.6875,
+            "right": 930.171875,
+            "bottom": 565.6875,
+            "left": 872.171875
+          },
+          {
+            "action": "special",
+            "x": 864.171875,
+            "y": 573.6875,
+            "width": 58,
+            "height": 58,
+            "top": 573.6875,
+            "right": 922.171875,
+            "bottom": 631.6875,
+            "left": 864.171875
+          },
+          {
+            "action": "attack",
+            "x": 920.171875,
+            "y": 553.6875,
+            "width": 68,
+            "height": 68,
+            "top": 553.6875,
+            "right": 988.171875,
+            "bottom": 621.6875,
+            "left": 920.171875
+          }
+        ],
+        "stick": {
+          "x": 12,
+          "y": 492,
+          "width": 175,
+          "height": 160,
+          "top": 492,
+          "right": 187,
+          "bottom": 652,
+          "left": 12
+        },
+        "scroll": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "rotated": {
+        "viewport": {
+          "width": 768,
+          "height": 1024,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 296,
+          "width": 768,
+          "height": 432,
+          "top": 296,
+          "right": 768,
+          "bottom": 728,
+          "left": 0
+        },
+        "hud": {
+          "x": 10,
+          "y": 306,
+          "width": 190,
+          "height": 110,
+          "top": 306,
+          "right": 200,
+          "bottom": 416,
+          "left": 10
+        },
+        "pause": {
+          "x": 716,
+          "y": 304,
+          "width": 44,
+          "height": 44,
+          "top": 304,
+          "right": 760,
+          "bottom": 348,
+          "left": 716
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 563.125,
+            "y": 570.765625,
+            "width": 52,
+            "height": 52,
+            "top": 570.765625,
+            "right": 615.125,
+            "bottom": 622.765625,
+            "left": 563.125
+          },
+          {
+            "action": "ultimate",
+            "x": 625.125,
+            "y": 573.765625,
+            "width": 58,
+            "height": 58,
+            "top": 573.765625,
+            "right": 683.125,
+            "bottom": 631.765625,
+            "left": 625.125
+          },
+          {
+            "action": "special",
+            "x": 617.125,
+            "y": 639.765625,
+            "width": 58,
+            "height": 58,
+            "top": 639.765625,
+            "right": 675.125,
+            "bottom": 697.765625,
+            "left": 617.125
+          },
+          {
+            "action": "attack",
+            "x": 673.125,
+            "y": 619.765625,
+            "width": 68,
+            "height": 68,
+            "top": 619.765625,
+            "right": 741.125,
+            "bottom": 687.765625,
+            "left": 673.125
+          }
+        ],
+        "stick": {
+          "x": 12,
+          "y": 548,
+          "width": 175,
+          "height": 160,
+          "top": 548,
+          "right": 187,
+          "bottom": 708,
+          "left": 12
+        },
+        "scroll": [
+          0,
+          0,
+          768,
+          768
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "shorter": {
+        "viewport": {
+          "width": 1024,
+          "height": 724,
+          "left": 0,
+          "top": 0,
+          "scale": 1
+        },
+        "field": {
+          "x": 0,
+          "y": 74,
+          "width": 1024,
+          "height": 576,
+          "top": 74,
+          "right": 1024,
+          "bottom": 650,
+          "left": 0
+        },
+        "hud": {
+          "x": 10,
+          "y": 84,
+          "width": 190,
+          "height": 110,
+          "top": 84,
+          "right": 200,
+          "bottom": 194,
+          "left": 10
+        },
+        "pause": {
+          "x": 972,
+          "y": 82,
+          "width": 44,
+          "height": 44,
+          "top": 82,
+          "right": 1016,
+          "bottom": 126,
+          "left": 972
+        },
+        "buttons": [
+          {
+            "action": "switch",
+            "x": 810.171875,
+            "y": 482.6875,
+            "width": 52,
+            "height": 52,
+            "top": 482.6875,
+            "right": 862.171875,
+            "bottom": 534.6875,
+            "left": 810.171875
+          },
+          {
+            "action": "ultimate",
+            "x": 872.171875,
+            "y": 485.6875,
+            "width": 58,
+            "height": 58,
+            "top": 485.6875,
+            "right": 930.171875,
+            "bottom": 543.6875,
+            "left": 872.171875
+          },
+          {
+            "action": "special",
+            "x": 864.171875,
+            "y": 551.6875,
+            "width": 58,
+            "height": 58,
+            "top": 551.6875,
+            "right": 922.171875,
+            "bottom": 609.6875,
+            "left": 864.171875
+          },
+          {
+            "action": "attack",
+            "x": 920.171875,
+            "y": 531.6875,
+            "width": 68,
+            "height": 68,
+            "top": 531.6875,
+            "right": 988.171875,
+            "bottom": 599.6875,
+            "left": 920.171875
+          }
+        ],
+        "stick": {
+          "x": 12,
+          "y": 470,
+          "width": 175,
+          "height": 160,
+          "top": 470,
+          "right": 187,
+          "bottom": 630,
+          "left": 12
+        },
+        "scroll": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "canvas": [
+          640,
+          360
+        ]
+      },
+      "taps": {
+        "count": 24,
+        "allReachedInput": true,
+        "legacyTouchEndCancelled": true,
+        "scaleBefore": 1,
+        "scaleAfter": 1
+      },
+      "fullscreenApiExercised": true,
+      "standaloneSimulation": null,
+      "jsErrors": []
+    }
+  ],
+  "limits": "Muted isolated Chromium production preview. UA/Fullscreen-unavailable and navigator/media standalone branches simulated, not real iOS engines or installation. Safe-area values injected as the CSS variables consumed by controls. Actual pointer/touch events for 24 J taps, real supported Fullscreen API, CDP rotation/viewport-height/page-scale changes. No device/browser-chrome/OS notch/real double-tap-zoom certification."
+}

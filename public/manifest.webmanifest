@@ -1,0 +1,15 @@
+{
+  "id": "./",
+  "name": "Project Eloria",
+  "short_name": "ELORIA",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#081413",
+  "theme_color": "#081413",
+  "icons": [
+    { "src": "icons/eloria-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/eloria-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

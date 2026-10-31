@@ -1,0 +1,58 @@
+{
+  "reports": [
+    {
+      "firstOrdinaryKeyStartsMusic": true,
+      "globalMuteUpdatesTitle": true,
+      "storedMuteSurvivesActualTitleReturnControllerReload": true,
+      "controlledReturnFlag": true
+    },
+    {
+      "devWarpToLayer1StillWorks": true,
+      "visibleViewportOffsetAndScrollRecalculate": {
+        "first": {
+          "v": {
+            "width": 820,
+            "height": 340,
+            "left": 12,
+            "top": 24
+          },
+          "f": {
+            "x": 119.78125,
+            "y": 24,
+            "width": 604.4375,
+            "height": 340,
+            "top": 24,
+            "right": 724.21875,
+            "bottom": 364,
+            "left": 119.78125
+          }
+        },
+        "moved": {
+          "v": {
+            "width": 800,
+            "height": 320,
+            "left": 18,
+            "top": 30
+          },
+          "f": {
+            "x": 133.5625,
+            "y": 30,
+            "width": 568.875,
+            "height": 320,
+            "top": 30,
+            "right": 702.4375,
+            "bottom": 350,
+            "left": 133.5625
+          }
+        }
+      },
+      "touchCancelReleasesActualInput": true,
+      "menuAndTextZoomNotGloballyBlocked": {
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover",
+        "bodyTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom"
+      }
+    }
+  ],
+  "limits": "Isolated muted Chrome. One title-return pending flag set to exercise the existing real reload controller; no full chapter walk for return. VisibleViewport offsets explicitly simulated as an EventTarget. DEV selector used through real clicks. CDP touchCancel; no real iOS OS/gesture certification."
+}

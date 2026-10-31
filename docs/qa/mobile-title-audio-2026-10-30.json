@@ -1,0 +1,229 @@
+{
+  "reports": [
+    {
+      "id": "allowed-pc-ordinary",
+      "initial": {
+        "text": "♪ 音楽ON・止める",
+        "pressed": "true",
+        "playback": "playing",
+        "saved": null,
+        "audio": {
+          "musicTrack": "title",
+          "musicVolume": 0.4,
+          "sfxVolume": 0.65,
+          "muted": false,
+          "sfxMuted": false,
+          "unlocked": true,
+          "awaitingGesture": false,
+          "playing": true,
+          "crossfading": false,
+          "activeMusicPlayers": 1,
+          "loop": true,
+          "musicDuckGain": 1,
+          "currentTime": 0.973298,
+          "duration": 153.2,
+          "audioContextState": "running",
+          "errorMessage": null
+        }
+      },
+      "firstInput": "ordinary",
+      "off": {
+        "text": "♪ 音楽OFF",
+        "pressed": "false",
+        "playback": "off",
+        "saved": "true",
+        "audio": {
+          "musicTrack": "title",
+          "musicVolume": 0.4,
+          "sfxVolume": 0.65,
+          "muted": true,
+          "sfxMuted": false,
+          "unlocked": true,
+          "awaitingGesture": false,
+          "playing": true,
+          "crossfading": false,
+          "activeMusicPlayers": 1,
+          "loop": true,
+          "musicDuckGain": 1,
+          "currentTime": 1.257061,
+          "duration": 153.2,
+          "audioContextState": "running",
+          "errorMessage": null
+        }
+      },
+      "offPersistsAcrossReloadAndBack": true,
+      "explicitOnPersists": true,
+      "prologueThenForestTrack": true,
+      "noJsErrors": true
+    },
+    {
+      "id": "blocked-pc-ordinary",
+      "initial": {
+        "text": "♪ 音楽ON・操作で再生",
+        "pressed": "true",
+        "playback": "waiting",
+        "saved": null,
+        "audio": {
+          "musicTrack": "title",
+          "musicVolume": 0.4,
+          "sfxVolume": 0.65,
+          "muted": false,
+          "sfxMuted": false,
+          "unlocked": false,
+          "awaitingGesture": true,
+          "playing": false,
+          "crossfading": false,
+          "activeMusicPlayers": 0,
+          "loop": true,
+          "musicDuckGain": 1,
+          "currentTime": 0,
+          "duration": 153.2,
+          "audioContextState": "suspended",
+          "errorMessage": "BGMを開始できませんでした。もう一度クリックまたはキー操作をしてください。"
+        }
+      },
+      "firstInput": "ordinary",
+      "off": {
+        "text": "♪ 音楽OFF",
+        "pressed": "false",
+        "playback": "off",
+        "saved": "true",
+        "audio": {
+          "musicTrack": "title",
+          "musicVolume": 0.4,
+          "sfxVolume": 0.65,
+          "muted": true,
+          "sfxMuted": false,
+          "unlocked": true,
+          "awaitingGesture": false,
+          "playing": true,
+          "crossfading": false,
+          "activeMusicPlayers": 1,
+          "loop": true,
+          "musicDuckGain": 1,
+          "currentTime": 0.303008,
+          "duration": 153.2,
+          "audioContextState": "running",
+          "errorMessage": null
+        }
+      },
+      "offPersistsAcrossReloadAndBack": true,
+      "explicitOnPersists": true,
+      "prologueThenForestTrack": true,
+      "noJsErrors": true
+    },
+    {
+      "id": "blocked-phone-music",
+      "initial": {
+        "text": "♪ 音楽ON・操作で再生",
+        "pressed": "true",
+        "playback": "waiting",
+        "saved": null,
+        "audio": {
+          "musicTrack": "title",
+          "musicVolume": 0.4,
+          "sfxVolume": 0.65,
+          "muted": false,
+          "sfxMuted": false,
+          "unlocked": false,
+          "awaitingGesture": true,
+          "playing": false,
+          "crossfading": false,
+          "activeMusicPlayers": 0,
+          "loop": true,
+          "musicDuckGain": 1,
+          "currentTime": 0,
+          "duration": 153.2,
+          "audioContextState": "suspended",
+          "errorMessage": "BGMを開始できませんでした。もう一度クリックまたはキー操作をしてください。"
+        }
+      },
+      "firstInput": "music",
+      "off": {
+        "text": "♪ 音楽OFF",
+        "pressed": "false",
+        "playback": "off",
+        "saved": "true",
+        "audio": {
+          "musicTrack": "title",
+          "musicVolume": 0.4,
+          "sfxVolume": 0.65,
+          "muted": true,
+          "sfxMuted": false,
+          "unlocked": false,
+          "awaitingGesture": true,
+          "playing": false,
+          "crossfading": false,
+          "activeMusicPlayers": 0,
+          "loop": true,
+          "musicDuckGain": 1,
+          "currentTime": 0,
+          "duration": 153.2,
+          "audioContextState": "suspended",
+          "errorMessage": "BGMを開始できませんでした。もう一度クリックまたはキー操作をしてください。"
+        }
+      },
+      "offPersistsAcrossReloadAndBack": true,
+      "explicitOnPersists": true,
+      "prologueThenForestTrack": true,
+      "noJsErrors": true
+    },
+    {
+      "id": "allowed-phone-music",
+      "initial": {
+        "text": "♪ 音楽ON・止める",
+        "pressed": "true",
+        "playback": "playing",
+        "saved": null,
+        "audio": {
+          "musicTrack": "title",
+          "musicVolume": 0.4,
+          "sfxVolume": 0.65,
+          "muted": false,
+          "sfxMuted": false,
+          "unlocked": true,
+          "awaitingGesture": false,
+          "playing": true,
+          "crossfading": false,
+          "activeMusicPlayers": 1,
+          "loop": true,
+          "musicDuckGain": 1,
+          "currentTime": 1.024875,
+          "duration": 153.2,
+          "audioContextState": "running",
+          "errorMessage": null
+        }
+      },
+      "firstInput": "music",
+      "off": {
+        "text": "♪ 音楽OFF",
+        "pressed": "false",
+        "playback": "off",
+        "saved": "true",
+        "audio": {
+          "musicTrack": "title",
+          "musicVolume": 0.4,
+          "sfxVolume": 0.65,
+          "muted": true,
+          "sfxMuted": false,
+          "unlocked": true,
+          "awaitingGesture": false,
+          "playing": true,
+          "crossfading": false,
+          "activeMusicPlayers": 1,
+          "loop": true,
+          "musicDuckGain": 1,
+          "currentTime": 1.329739,
+          "duration": 153.2,
+          "audioContextState": "running",
+          "errorMessage": null
+        }
+      },
+      "offPersistsAcrossReloadAndBack": true,
+      "explicitOnPersists": true,
+      "prologueThenForestTrack": true,
+      "noJsErrors": true
+    }
+  ],
+  "limits": "Muted isolated headless Chrome production preview. Browser autoplay policy explicitly allowed/blocked with fresh profiles. Actual mouse/touch for OFF/ON, START, title back, skip; local storage preserved per profile. Audio play/mute/decode state observed, no listening or iPhone engine verification."
+}

@@ -1,6 +1,38 @@
 # Project Eloria 引き継ぎ・現状
 
-最終更新：2026-10-28。新しい `work` / `コード実装` チャットはまずこのファイルとルートの `AGENTS.md` を読む。これは**現在の状況を把握するための入口**であり、細かな仕様の一次資料は下記の画像・設計書・コードを参照する。ユーザー承認のない仕様変更を、この文書だけを根拠に行わない。
+最終更新：2026-10-31。新しい `work` / `コード実装` チャットはまずこのファイルとルートの `AGENTS.md` を読む。これは**現在の状況を把握するための入口**であり、細かな仕様の一次資料は下記の画像・設計書・コードを参照する。ユーザー承認のない仕様変更を、この文書だけを根拠に行わない。
+
+## 2026-10-31 公開承認・進行中：スマホ表示／音楽／序章と誤拡大対策
+
+- ユーザーが「プッシュお願い！」と明示承認。前回のタイトル音楽・ホーム画面案内／manifest・可視領域への中央配置・操作解除と、今回の序章04／05全幅・プレイ中の余白を含む誤拡大対策を、既存の公開リポジトリ `666hideki666/project-eloria` の `main` へ公開する。
+- 公開直前に型検査・全441テスト（29ファイル）・製品buildを再実行し通過。対象差分と追加ファイル、秘密情報パターン、スクリーンショットの除外を確認。既存ゲーム素材・ゲーム内座標・歩行・戦闘の変更は追加していない。
+- この記録の時点ではコミット／push／Pages反映の検証は進行中。成功後にこの節と `docs/qa/mobile-pages-publication-2026-10-31.json` を更新する。実機iPhone／WebKit、実ホーム画面起動とOSの拡大ジェスチャー、聴感は引き続き未確認。
+
+## 2026-10-31 実装・ローカル技術検証済み：序章04／05の画像サイズとゲーム中の拡大
+
+- 2026-10-30にユーザーが「実装に移って！」と明示承認した `docs/codex-proposal-prologue-art-scale-game-zoom-2026-10-30-v1.md` を実装。前回の未公開スマホ修正を保持したローカル最新版が土台。実機写真 `IMG_6722.PNG`〜`IMG_6725.PNG` は旧公開Pagesのものであり、前回ローカル修正の再発とは判定していない。推奨モデルは Sol High。
+- 序章04 `map-shard-clue`／05 `village-farewell` だけにあった、横向き・高さ500px以下で絵領域を字幕手前まで縮める規則と `contain` を撤去。01と同じ全画面の `cover` に戻した。横844×390／小型横667×375、PC1600×900、縦390×844、standalone分岐の模擬932×430で01／04／05を確認。04の３人と地図、05のナディ・村人・同行者の顔、字幕と送り／戻る／スキップの範囲を目視・矩形で確認。小型横05は18pxで４行となり、ボタンと重ならない。既存object-position、文字サイズ、パン演出で見せ場が保たれたため、追加調整していない。縦向きの従来containも維持。素材・台詞は不変。
+- 新しい `GameGestureGuard` は自由操作中だけ `game-shell` 全体（映像と余白）へ `touch-action: none` と選択／長押し抑止を適用。touchend・dblclick・contextmenuとWebKit系gestureイベントには、範囲を限定した非passiveの補助抑止を追加。ボタン外へのアクション注入やヒット領域拡張はしていない。ポーズ、状態メニュー、会話、操作案内／演出の入力ロック中は祖先の制限を外す。ネイティブボタン／HUDのtouchendは消費せず、ポーズ・状態表示の合成clickを保持。会話は従来の `pan-y pinch-zoom`、タイトル／序章も従来の拡大可能な設定。全ページのuser-scalable禁止は追加していない。
+- 型検査・**全441テスト（29ファイル）**・製品buildが通過。追加４件で、自由操作／読み取りの切替、背景・操作面の抑止、ネイティブUIと読み取りの例外、イベント伝播・入力を追加しないこと、破棄時の解除を確認。
+- 隔離したミュートChromiumの製品previewで、横844×390／小型横667×375／縦390×844の各条件にて、J中央・外縁・外側・実Canvas・映像余白を**各24回、計360回**実タッチイベントで確認。J中央／縁は全144入力が到達、外側３地点の計216タップによる攻撃入力は0。全条件でscale=1、横スクロールなし、押下解除を確認。スティックとJの複数指・touchCancel、ポーズ→正規再開ボタン、HUD→状態メニュー→閉じる、既存メソッドで作った会話fixtureのタッチ送りと自由操作復帰も通過。縦向きの検証点はHUDに重ならない実Canvasを選び、HUDタップは別に検証した。
+- 読み取り中の祖先touch-actionがautoで、補助イベントが消費されず、CDPで拡大率1.5を注入してもレイアウトが追い縮めないことを確認。ただし拡大率注入はブラウザのジェスチャー制限を迂回するため、実機のピンチ成功の証明ではない。WebKit系gestureイベントの補助抑止は合成イベントで検証。
+- 記録：`docs/qa/prologue-zoom-before-2026-10-30.json`、`prologue-art-2026-10-30.json`、`game-zoom-2026-10-30.json`、`prologue-zoom-final-2026-10-31.json`。画面はローカル保持の `docs/screenshots/eloria-prologue-zoom-*.png`。素材・game／stage／render／audio／scripts／publicの保護対象356ファイルはハッシュ不変。今回のsource差分はmain・style・opening.cssと新しいguardのみで、前回のInputController／OpeningController／ViewportLayoutController・HTML等の修正を保持。論理640×360、ゲーム座標、マップ／キャラ縮尺、カメラ、歩行は不変。
+- **未確認**：実機iPhone Chrome／Safariと実際のWebKit、OSのホーム画面起動・ノッチ・ブラウザバー、実機連打／ピンチ／複数指、聴感。今回の確認はChromiumの画面／タッチ／standalone分岐模擬であり、実機で「絶対に拡大しない」とは断定しない。**未commit／未pushで、公開Pagesには未反映**。HEADは既存 `8edeacf` のまま。検証専用Chrome・4174／4175番は終了し、4173番は開始・終了ともリスナーなしで停止操作なし（終了状態の記録はfinal QAを参照）。
+
+## 2026-10-30 実装・ローカル技術検証済み：タイトル音楽とスマホ表示／操作
+
+- ユーザーが「制約も理解しました！実装に移って！」と明示承認した `docs/codex-proposal-mobile-title-audio-fullscreen-layout-touch-2026-10-29-v1.md` の４項目をローカル実装。元の実機報告はiPhone Chrome横向きの `IMG_6711.PNG`〜`IMG_6713.PNG`。**実機での修正確認と公開Pagesへの反映は未実施**。この依頼ではcommit／pushを行っていない。推奨モデルは Sol High。
+- タイトルは再生希望を既定ONとし、自動再生の拒否後も希望を保持して最初の通常操作で再試行する。音楽ボタンは「ON・再生中／ON・操作待ち／OFF」とaria-pressedを同期。再生実績ではなくユーザーのミュート設定を切り替えるため、pointerdownの音声アンロック後のclickで逆にONになる誤解釈を避ける。明示OFF／ONは既存のBGMミュート設定へ保存し、Mキー、START・戻る・スキップ、タイトルへの再読込でも尊重。既存の序章・森へのクロスフェードを使用する。
+- `public/manifest.webmanifest` とホーム画面用メタ情報・アイコンを追加。manifestの起動URL／scopeは相対 `./`、HTML参照は `%BASE_URL%` でdev `/` と製品 `/project-eloria/` に対応。アイコン180／192／512pxは既存の承認済みカイルHUD画像から余白・背景・寸法だけを調整し、元画像は保持。再現スクリプト `scripts/prepare-web-app-icons.py`。自動インストールやオフライン機能は追加していない。
+- Fullscreen APIが使える環境は従来の全画面ボタンを維持。非対応のiPhoneには「ホーム画面で遊ぶ」と、共有→ホーム画面に追加→追加したアイコンから起動する案内を表示し、`display-mode:standalone` または `navigator.standalone` では案内を隠す。タブから真の全画面にできるとは案内しない。
+- 横向きの不均等な余白はChromiumでも再現し、古い `justify-content:flex-end` がgrid化後も残って映像を右寄せにしていたことを確認。これを明示的に中央寄せへ戻し、bodyのsafe-area paddingと100vw幅の併用も解消。新しい `ViewportLayoutController` は可視領域の幅・高さ・offsetと画面回転／URLバー相当の高さ変更／全画面出入りに追従し、16:9映像を中央配置する。HUD・ポーズ・操作ボタンは映像内かつ安全余白の内側へ置く。ユーザーがピンチズーム中はレイアウトを追い縮めず、文字拡大を妨げない。**640×360論理キャンバス、ゲーム座標、背景／キャラの相対縮尺、歩行マスクとカメラは不変**。
+- J/K/L/交代とスティックだけに非passive touchend・dblclick・contextmenuの既定動作抑止を追加。複数指、pointercancel、lostpointercapture、blurで入力と押下表示を解除し、同一ボタンを２本指で押した場合は最後の指まで保持する。ページ全体のuser-scalable禁止は追加せず、文字の会話パネルには `pan-y pinch-zoom` を許可。**実機で最初の拡大が起きた正確なジェスチャー経路は未確定**であり、この局所対策の実機確認は残る。
+- 型検査・**全437テスト（28ファイル）**・製品buildが通過。追加10件で、拒否後の通常操作再生・ミュート保持、複数指／cancel／lost capture／blurと局所ジェスチャー、縦横とoffsetの16:9中央配置を確認。
+- 隔離したミュートChromeの製品previewで、自動再生許可／拒否・通常の最初のクリック／キー・最初の音楽ボタン操作でOFF・再読込・START→戻る→再開→スキップ→森とミュート設定の整合を確認。既存のタイトル復帰コントローラーによる再読込でも保持（帰還pendingフラグを制御）。開発版のDEV選択から第１層への開始も確認した。
+- PC、iPhone Chrome／SafariのUA分岐、iPhoneのnavigator／media standalone分岐、Android、iPadを**同じChromium上で模擬した８条件**で中央配置・HUD／ボタンの範囲・回転・表示高さ変更を検証。PC／Android／iPad相当は実際のChromium Fullscreen APIを出入りした。左右ノッチ余白はCSS変数で模擬。タッチ７条件で各24回のJ連打を実タッチイベントで通し、全入力の到達、押下解除、scale不変・横スクロールなしを確認。可視領域offsetは別のEventTarget模擬でも検証した。縦向きの状態メニューの表示・文字拡大を一律禁止しないことも確認。
+- manifestはChromiumのパーサーでエラーなし。製品サブパスの起動URL／scope・アイコンHTTP 200とdevルートの解決を確認。実際の「ホーム画面に追加」とOS側standalone起動は未検証。
+- 記録：`docs/qa/mobile-{title-audio,layout-touch,edges,visual,manifest,final}-2026-10-30.json`。画面：ローカル保持の `docs/screenshots/eloria-mobile-*.png`。既存保護対象351ファイル（素材・game／stage／render／audio／scripts）はハッシュ不変。検証用Chrome・4174／4175番は終了、4173番は開始・終了ともリスナーなしで停止操作なし。開始時からあった承認資料の変更は保持した。
+- **未確認**：iPhone Chrome／Safari等の実機・実際のWebKit、ホーム画面への追加／起動、OSのノッチ／ホームインジケーター／ブラウザバー、実機での連打ズームと複数指、standaloneとタブの設定保存領域、聴感、全章の手動通しプレイ。**ローカルHEADは既存の `8edeacf` のまま**で、この修正は未commit／未push。公開での修正確認は行っていない。後日の公開承認後にpush／Pages更新と公開・実機確認を行う。
 
 ## 2026-10-28 実装・公開・技術検証済み：GitHub Pages
 

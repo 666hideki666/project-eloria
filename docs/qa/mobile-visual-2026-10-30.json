@@ -1,0 +1,42 @@
+{
+  "reports": [
+    {
+      "portraitReadingPanelFitsVisibleViewport": true,
+      "box": {
+        "x": 5,
+        "y": 312.3125,
+        "width": 380,
+        "height": 365,
+        "top": 312.3125,
+        "right": 385,
+        "bottom": 677.3125,
+        "left": 5
+      }
+    },
+    {
+      "label": "left-notch",
+      "size": [
+        844,
+        390
+      ],
+      "settledFieldVisuallyReviewed": true
+    },
+    {
+      "label": "right-notch",
+      "size": [
+        844,
+        390
+      ],
+      "settledFieldVisuallyReviewed": true
+    },
+    {
+      "label": "ipad",
+      "size": [
+        1024,
+        768
+      ],
+      "settledFieldVisuallyReviewed": true
+    }
+  ],
+  "limits": "Muted isolated Chrome production preview. Waited for normal forest entry title/fade to finish. Safe-area values simulated; portrait status menu tested. No actual iOS/Android device testing."
+}

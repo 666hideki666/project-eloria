@@ -110,13 +110,6 @@ body.opening-reveal::after {
   .prologue-text, .prologue-size { font-size: 18px; line-height: 1.45; min-height: 2.9em; }
   .prologue-advance { bottom: 27px; }
   .prologue-caption small { bottom: 9px; }
-  .opening:is([data-scene="map-shard-clue"], [data-scene="village-farewell"]) .prologue-artwork {
-    bottom: calc(var(--safe-bottom) + 110px);
-    background: #091512; background-image: none !important;
-  }
-  .opening:is([data-scene="map-shard-clue"], [data-scene="village-farewell"]) .prologue-art {
-    object-fit: contain; object-position: center;
-  }
 }
 @media (max-width: 600px) and (max-aspect-ratio: 3/2) {
   .title-start { left: 50%; width: 66%; bottom: 14%; }
@@ -132,3 +125,9 @@ body.opening-reveal::after {
   .opening *, .opening *::after { animation: none !important; transition: none !important; }
   .prologue-art, .prologue-art.is-current { transform: none; }
 }
+
+.opening {
+  inset: auto; left: var(--view-left, 0px); top: var(--view-top, 0px);
+  width: var(--view-width, 100vw); height: var(--view-height, 100dvh);
+}
+.title-fullscreen-hint { width: min(280px, calc(100% - var(--safe-left) - var(--safe-right))); padding: 5px 7px; line-height: 1.5; }

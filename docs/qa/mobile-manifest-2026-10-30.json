@@ -1,0 +1,21 @@
+{
+  "manifestUrl": "http://127.0.0.1:4175/project-eloria/manifest.webmanifest",
+  "manifestErrors": [],
+  "start": "http://127.0.0.1:4175/project-eloria/",
+  "scope": "http://127.0.0.1:4175/project-eloria/",
+  "display": "standalone",
+  "icons": [
+    {
+      "url": "http://127.0.0.1:4175/project-eloria/icons/eloria-192.png",
+      "status": 200,
+      "size": "192x192"
+    },
+    {
+      "url": "http://127.0.0.1:4175/project-eloria/icons/eloria-512.png",
+      "status": 200,
+      "size": "512x512"
+    }
+  ],
+  "help": "共有 → ホーム画面に追加 → 追加したアイコンから起動。タブ内では全画面にできません。",
+  "limits": "Chromium manifest parse and production subpath resolution, simulated iPhone unavailable-Fullscreen branch. Does not certify iOS installation or standalone runtime."
+}

@@ -1,0 +1,755 @@
+{
+  "reports": [
+    {
+      "name": "landscape",
+      "w": 844,
+      "h": 390,
+      "initial": {
+        "scale": 1,
+        "scroll": [
+          0,
+          0,
+          844,
+          844
+        ],
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390,
+          "top": 0,
+          "right": 844,
+          "bottom": 390,
+          "left": 0
+        },
+        "field": {
+          "x": 75.328125,
+          "y": 0,
+          "width": 693.328125,
+          "height": 390,
+          "top": 0,
+          "right": 768.65625,
+          "bottom": 390,
+          "left": 75.328125
+        },
+        "canvas": [
+          640,
+          360
+        ],
+        "guard": "playing",
+        "touchAction": "none"
+      },
+      "taps": [
+        {
+          "name": "J-center",
+          "point": {
+            "x": 710.390625,
+            "y": 318.703125
+          },
+          "hit": {
+            "tag": "BUTTON",
+            "id": "",
+            "className": "touch-action touch-attack",
+            "action": "attack"
+          },
+          "count": 24,
+          "attackEdges": 24,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            844,
+            844
+          ]
+        },
+        {
+          "name": "J-edge",
+          "point": {
+            "x": 742.390625,
+            "y": 318.703125
+          },
+          "hit": {
+            "tag": "BUTTON",
+            "id": "",
+            "className": "touch-action touch-attack",
+            "action": "attack"
+          },
+          "count": 24,
+          "attackEdges": 24,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            844,
+            844
+          ]
+        },
+        {
+          "name": "J-outside",
+          "point": {
+            "x": 752.390625,
+            "y": 318.703125
+          },
+          "hit": {
+            "tag": "CANVAS",
+            "id": "game",
+            "className": "",
+            "action": null
+          },
+          "count": 24,
+          "attackEdges": 0,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            844,
+            844
+          ]
+        },
+        {
+          "name": "canvas",
+          "point": {
+            "x": 629.990625,
+            "y": 117
+          },
+          "hit": {
+            "tag": "CANVAS",
+            "id": "game",
+            "className": "",
+            "action": null
+          },
+          "count": 24,
+          "attackEdges": 0,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            844,
+            844
+          ]
+        },
+        {
+          "name": "letterbox",
+          "point": {
+            "x": 37.6640625,
+            "y": 195
+          },
+          "hit": {
+            "tag": "DIV",
+            "id": "",
+            "className": "combat-layout",
+            "action": null
+          },
+          "count": 24,
+          "attackEdges": 0,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            844,
+            844
+          ]
+        }
+      ],
+      "fallback": [
+        {
+          "type": "dblclick",
+          "prevented": true
+        },
+        {
+          "type": "gesturestart",
+          "prevented": true
+        },
+        {
+          "type": "gesturechange",
+          "prevented": true
+        },
+        {
+          "type": "gestureend",
+          "prevented": true
+        },
+        {
+          "type": "contextmenu",
+          "prevented": true
+        }
+      ],
+      "multitouchAndCancel": true,
+      "paused": {
+        "state": "reading",
+        "rootTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom",
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      "status": {
+        "state": "reading",
+        "rootTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom",
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      "readingScaleInjected": 1.5,
+      "dialogue": {
+        "state": "reading",
+        "rootTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom",
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      "readFallback": [
+        {
+          "type": "touchend",
+          "prevented": false
+        },
+        {
+          "type": "gesturestart",
+          "prevented": false
+        },
+        {
+          "type": "dblclick",
+          "prevented": false
+        }
+      ],
+      "dialogueTouchAdvance": true,
+      "final": {
+        "scale": 1,
+        "scroll": [
+          0,
+          0,
+          844,
+          844
+        ],
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390,
+          "top": 0,
+          "right": 844,
+          "bottom": 390,
+          "left": 0
+        },
+        "field": {
+          "x": 75.328125,
+          "y": 0,
+          "width": 693.328125,
+          "height": 390,
+          "top": 0,
+          "right": 768.65625,
+          "bottom": 390,
+          "left": 75.328125
+        },
+        "canvas": [
+          640,
+          360
+        ],
+        "guard": "playing",
+        "touchAction": "none"
+      },
+      "errors": []
+    },
+    {
+      "name": "small-landscape",
+      "w": 667,
+      "h": 375,
+      "initial": {
+        "scale": 1,
+        "scroll": [
+          0,
+          0,
+          667,
+          667
+        ],
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 667,
+          "height": 375,
+          "top": 0,
+          "right": 667,
+          "bottom": 375,
+          "left": 0
+        },
+        "field": {
+          "x": 0.171875,
+          "y": 0,
+          "width": 666.65625,
+          "height": 375,
+          "top": 0,
+          "right": 666.828125,
+          "bottom": 375,
+          "left": 0.171875
+        },
+        "canvas": [
+          640,
+          360
+        ],
+        "guard": "playing",
+        "touchAction": "none"
+      },
+      "taps": [
+        {
+          "name": "J-center",
+          "point": {
+            "x": 609.5,
+            "y": 304.75
+          },
+          "hit": {
+            "tag": "BUTTON",
+            "id": "",
+            "className": "touch-action touch-attack",
+            "action": "attack"
+          },
+          "count": 24,
+          "attackEdges": 24,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            667,
+            667
+          ]
+        },
+        {
+          "name": "J-edge",
+          "point": {
+            "x": 641.5,
+            "y": 304.75
+          },
+          "hit": {
+            "tag": "BUTTON",
+            "id": "",
+            "className": "touch-action touch-attack",
+            "action": "attack"
+          },
+          "count": 24,
+          "attackEdges": 24,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            667,
+            667
+          ]
+        },
+        {
+          "name": "J-outside",
+          "point": {
+            "x": 651.5,
+            "y": 304.75
+          },
+          "hit": {
+            "tag": "CANVAS",
+            "id": "game",
+            "className": "",
+            "action": null
+          },
+          "count": 24,
+          "attackEdges": 0,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            667,
+            667
+          ]
+        },
+        {
+          "name": "canvas",
+          "point": {
+            "x": 533.496875,
+            "y": 112.5
+          },
+          "hit": {
+            "tag": "CANVAS",
+            "id": "game",
+            "className": "",
+            "action": null
+          },
+          "count": 24,
+          "attackEdges": 0,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            667,
+            667
+          ]
+        },
+        {
+          "name": "letterbox",
+          "point": {
+            "x": 333.5,
+            "y": 187.5
+          },
+          "hit": {
+            "tag": "CANVAS",
+            "id": "game",
+            "className": "",
+            "action": null
+          },
+          "count": 24,
+          "attackEdges": 0,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            667,
+            667
+          ]
+        }
+      ],
+      "fallback": [
+        {
+          "type": "dblclick",
+          "prevented": true
+        },
+        {
+          "type": "gesturestart",
+          "prevented": true
+        },
+        {
+          "type": "gesturechange",
+          "prevented": true
+        },
+        {
+          "type": "gestureend",
+          "prevented": true
+        },
+        {
+          "type": "contextmenu",
+          "prevented": true
+        }
+      ],
+      "multitouchAndCancel": true,
+      "paused": {
+        "state": "reading",
+        "rootTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom",
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      "status": {
+        "state": "reading",
+        "rootTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom",
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      "readingScaleInjected": 1.5,
+      "dialogue": {
+        "state": "reading",
+        "rootTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom",
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      "readFallback": [
+        {
+          "type": "touchend",
+          "prevented": false
+        },
+        {
+          "type": "gesturestart",
+          "prevented": false
+        },
+        {
+          "type": "dblclick",
+          "prevented": false
+        }
+      ],
+      "dialogueTouchAdvance": true,
+      "final": {
+        "scale": 1,
+        "scroll": [
+          0,
+          0,
+          667,
+          667
+        ],
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 667,
+          "height": 375,
+          "top": 0,
+          "right": 667,
+          "bottom": 375,
+          "left": 0
+        },
+        "field": {
+          "x": 0.171875,
+          "y": 0,
+          "width": 666.65625,
+          "height": 375,
+          "top": 0,
+          "right": 666.828125,
+          "bottom": 375,
+          "left": 0.171875
+        },
+        "canvas": [
+          640,
+          360
+        ],
+        "guard": "playing",
+        "touchAction": "none"
+      },
+      "errors": []
+    },
+    {
+      "name": "portrait",
+      "w": 390,
+      "h": 844,
+      "initial": {
+        "scale": 1,
+        "scroll": [
+          0,
+          0,
+          390,
+          390
+        ],
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "field": {
+          "x": 0,
+          "y": 312.3125,
+          "width": 390,
+          "height": 219.375,
+          "top": 312.3125,
+          "right": 390,
+          "bottom": 531.6875,
+          "left": 0
+        },
+        "canvas": [
+          640,
+          360
+        ],
+        "guard": "playing",
+        "touchAction": "none"
+      },
+      "taps": [
+        {
+          "name": "J-center",
+          "point": {
+            "x": 342.359375,
+            "y": 472.34375
+          },
+          "hit": {
+            "tag": "BUTTON",
+            "id": "",
+            "className": "touch-action touch-attack",
+            "action": "attack"
+          },
+          "count": 24,
+          "attackEdges": 24,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            390,
+            390
+          ]
+        },
+        {
+          "name": "J-edge",
+          "point": {
+            "x": 374.359375,
+            "y": 472.34375
+          },
+          "hit": {
+            "tag": "BUTTON",
+            "id": "",
+            "className": "touch-action touch-attack",
+            "action": "attack"
+          },
+          "count": 24,
+          "attackEdges": 24,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            390,
+            390
+          ]
+        },
+        {
+          "name": "J-outside",
+          "point": {
+            "x": 384.359375,
+            "y": 472.34375
+          },
+          "hit": {
+            "tag": "CANVAS",
+            "id": "game",
+            "className": "",
+            "action": null
+          },
+          "count": 24,
+          "attackEdges": 0,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            390,
+            390
+          ]
+        },
+        {
+          "name": "canvas",
+          "point": {
+            "x": 312,
+            "y": 378.125
+          },
+          "hit": {
+            "tag": "CANVAS",
+            "id": "game",
+            "className": "",
+            "action": null
+          },
+          "count": 24,
+          "attackEdges": 0,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            390,
+            390
+          ]
+        },
+        {
+          "name": "letterbox",
+          "point": {
+            "x": 195,
+            "y": 156.15625
+          },
+          "hit": {
+            "tag": "DIV",
+            "id": "",
+            "className": "combat-layout",
+            "action": null
+          },
+          "count": 24,
+          "attackEdges": 0,
+          "allTouchEndsPrevented": true,
+          "scale": 1,
+          "scroll": [
+            0,
+            0,
+            390,
+            390
+          ]
+        }
+      ],
+      "fallback": [
+        {
+          "type": "dblclick",
+          "prevented": true
+        },
+        {
+          "type": "gesturestart",
+          "prevented": true
+        },
+        {
+          "type": "gesturechange",
+          "prevented": true
+        },
+        {
+          "type": "gestureend",
+          "prevented": true
+        },
+        {
+          "type": "contextmenu",
+          "prevented": true
+        }
+      ],
+      "multitouchAndCancel": true,
+      "paused": {
+        "state": "reading",
+        "rootTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom",
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      "status": {
+        "state": "reading",
+        "rootTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom",
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      "readingScaleInjected": 1.5,
+      "dialogue": {
+        "state": "reading",
+        "rootTouchAction": "auto",
+        "dialogueTouchAction": "pan-y pinch-zoom",
+        "viewport": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      "readFallback": [
+        {
+          "type": "touchend",
+          "prevented": false
+        },
+        {
+          "type": "gesturestart",
+          "prevented": false
+        },
+        {
+          "type": "dblclick",
+          "prevented": false
+        }
+      ],
+      "dialogueTouchAdvance": true,
+      "final": {
+        "scale": 1,
+        "scroll": [
+          0,
+          0,
+          390,
+          390
+        ],
+        "root": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844,
+          "top": 0,
+          "right": 390,
+          "bottom": 844,
+          "left": 0
+        },
+        "field": {
+          "x": 0,
+          "y": 312.3125,
+          "width": 390,
+          "height": 219.375,
+          "top": 312.3125,
+          "right": 390,
+          "bottom": 531.6875,
+          "left": 0
+        },
+        "canvas": [
+          640,
+          360
+        ],
+        "guard": "playing",
+        "touchAction": "none"
+      },
+      "errors": []
+    }
+  ],
+  "limits": "Isolated muted Chromium production preview. Actual CDP touch taps/cancel and native UI click flows; viewport/touch emulation, not real iOS/WebKit. Gesture event fallback synthetic. Reading zoom injected through CDP bypasses browser gesture policy; only verifies that layout does not counteract it, not OS pinch acceptance. Dialogue uses controlled fixture through existing method."
+}

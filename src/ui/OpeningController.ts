@@ -55,7 +55,8 @@ export class OpeningController {
   private devOpen = false;
   private destroyed = false;
   private lastActionAt = -Infinity;
-  private musicRevision = 0;
+  private readonly standalone = window.matchMedia("(display-mode: standalone)");
+  private homeScreenHintOpen = true;
   private prologueMusicStarted = false;
   private readonly removers: (() => void)[] = [];
 
@@ -67,7 +68,7 @@ export class OpeningController {
         <h1 class="sr-only">ELORIA</h1>
         <img class="title-logo" alt="" src="${titleLogo}" fetchpriority="high">
         <button class="title-start" type="button"><strong>START</strong><span>冒険を始める</span></button>
-        <button class="title-music opening-small" type="button" aria-pressed="false">♪ 音楽を再生</button>
+        <button class="title-music opening-small" type="button" aria-pressed="true">♪ 音楽ON・操作で再生</button>
       </div>
       <div class="opening-prologue" hidden>
         <div class="prologue-artwork" aria-hidden="true"></div>
@@ -86,7 +87,7 @@ export class OpeningController {
         </div>
       </div>
       <button class="title-fullscreen opening-small" type="button">⛶ 全画面</button>
-      <span class="title-fullscreen-hint" role="status"></span>
+      <span id="title-fullscreen-hint" class="title-fullscreen-hint" role="status"></span>
       <div class="opening-fade" aria-hidden="true"></div>`;
     const get = <T extends HTMLElement>(selector: string) => root.querySelector<T>(selector)!;
     this.title = get(".opening-title");
@@ -154,6 +155,8 @@ export class OpeningController {
     });
     this.listen(this.fullscreenButton, "click", () => { void this.toggleFullscreen(); });
     this.listen(document, "fullscreenchange", () => this.syncFullscreen());
+    this.listen(this.standalone, "change", () => this.syncFullscreen());
+    this.listen(window, "pageshow", () => this.syncFullscreen());
     this.listen(document, "fullscreenerror", () => this.fullscreenError());
     this.listen(document, "visibilitychange", () => {
       root.classList.toggle("is-suspended", document.hidden);
@@ -220,7 +223,6 @@ export class OpeningController {
 
   private start(): void {
     if (this.devOpen || this.sequence.phase !== "title" || !this.transition.start(this.motion.matches)) return;
-    this.musicRevision += 1;
     this.prologueMusicStarted = false;
     this.options.audio.stopMusic({ fadeOut: OPENING_TRANSITION.musicFade, reset: true });
     this.options.audio.preloadMusicTrack("prologue", true);
@@ -306,41 +308,35 @@ export class OpeningController {
   }
 
   private playTitleMusic(): void {
-    const revision = ++this.musicRevision;
     const audio = this.options.audio;
     if (audio.state.playing && audio.state.musicTrack !== "title") audio.crossfadeMusicTo("title", .6);
     else audio.setMusicTrack("title", { fadeOut: 0, fadeIn: 0.6 });
-    void audio.tryAutoplay().then(() => {
-      if (this.destroyed || revision !== this.musicRevision) return;
-      // Leave rejected autoplay stopped. A capture-phase unlock on the music
-      // button's pointerdown must not turn its following click into a stop.
-      if (!audio.state.playing) audio.stopMusic({ fadeOut: 0 });
-    });
+    // Browser rejection is temporary; keep the request for the shared gesture
+    // listener. Only an explicit user mute changes the persisted preference.
+    void audio.tryAutoplay();
   }
 
   private stopTitleMusic(): void {
-    this.musicRevision += 1;
     this.options.audio.stopMusic({ fadeOut: 0, reset: true });
   }
 
   private toggleTitleMusic(): void {
     if (this.sequence.phase !== "title" || this.transition.active || this.devOpen) return;
-    const revision = ++this.musicRevision;
     const audio = this.options.audio;
-    if (audio.state.playing) {
-      audio.stopMusic({ fadeOut: 0 });
-    } else {
-      audio.playMusic({ fadeIn: 0.6 });
-      void audio.enableFromGesture().then(() => {
-        if (this.destroyed || revision !== this.musicRevision) return;
-        if (!audio.state.playing) audio.stopMusic({ fadeOut: 0 });
-      });
+    // The pointerdown capture listener may already have started playback. Toggle
+    // the user's preference, never that transient playback state.
+    audio.setMuted(!audio.state.muted);
+    if (!audio.state.muted) {
+      audio.playMusic({ fadeIn: .6 });
+      void audio.enableFromGesture();
     }
   }
 
   private readonly syncTitleMusic = (state: AudioManagerState): void => {
-    this.musicButton.textContent = state.playing ? "♪ 音楽を止める" : "♪ 音楽を再生";
-    this.musicButton.setAttribute("aria-pressed", String(state.playing));
+    this.musicButton.textContent = state.muted ? "♪ 音楽OFF" :
+      state.playing ? "♪ 音楽ON・止める" : "♪ 音楽ON・操作で再生";
+    this.musicButton.setAttribute("aria-pressed", String(!state.muted));
+    this.musicButton.dataset.playback = state.muted ? "off" : state.playing ? "playing" : "waiting";
   };
 
   private readonly onKeyDown = (event: KeyboardEvent): void => {
@@ -390,21 +386,51 @@ export class OpeningController {
     });
   }
 
-  private syncFullscreen(): void {
-    const available = typeof document.documentElement.requestFullscreen === "function" &&
+  private isStandalone(): boolean {
+    return this.standalone.matches || (navigator as Navigator & { standalone?: boolean }).standalone === true;
+  }
+
+  private fullscreenAvailable(): boolean {
+    return typeof document.documentElement.requestFullscreen === "function" &&
       typeof document.exitFullscreen === "function" && document.fullscreenEnabled !== false;
-    this.fullscreenButton.disabled = !available;
-    this.fullscreenButton.textContent = !available ? "全画面は非対応" : document.fullscreenElement ? "⛶ 全画面を終了" : "⛶ 全画面";
+  }
+
+  private needsHomeScreenHelp(): boolean {
+    return /iPhone|iPod/i.test(navigator.userAgent) && !this.fullscreenAvailable() && !this.isStandalone();
+  }
+
+  private syncFullscreen(): void {
+    const standalone = this.isStandalone();
+    const available = this.fullscreenAvailable();
+    const homeScreenHelp = this.needsHomeScreenHelp();
+    this.fullscreenButton.hidden = standalone;
+    this.fullscreenButton.disabled = !available && !homeScreenHelp;
+    this.fullscreenButton.textContent = homeScreenHelp ? "ホーム画面で遊ぶ" :
+      !available ? "全画面は非対応" : document.fullscreenElement ? "⛶ 全画面を終了" : "⛶ 全画面";
     this.fullscreenButton.setAttribute("aria-pressed", String(Boolean(document.fullscreenElement)));
-    this.fullscreenHint.textContent = available ? "" : "通常表示で遊べます";
+    this.fullscreenButton.setAttribute("aria-describedby", "title-fullscreen-hint");
+    if (homeScreenHelp) this.fullscreenButton.setAttribute("aria-expanded", String(this.homeScreenHintOpen));
+    else this.fullscreenButton.removeAttribute("aria-expanded");
+    this.fullscreenHint.textContent = standalone ? "" : homeScreenHelp ? this.homeScreenHintOpen ?
+      "共有 → ホーム画面に追加 → 追加したアイコンから起動。タブ内では全画面にできません。" : "" :
+      available ? "" : "通常表示で遊べます";
   }
 
   private fullscreenError(): void {
     this.syncFullscreen();
-    this.fullscreenHint.textContent = "全画面に切り替えられませんでした。通常表示で遊べます。";
+    if (!this.needsHomeScreenHelp() && !this.isStandalone()) {
+      this.fullscreenHint.textContent = "全画面に切り替えられませんでした。通常表示で遊べます。";
+    }
   }
 
   private async toggleFullscreen(): Promise<void> {
+    if (this.isStandalone()) return;
+    if (this.needsHomeScreenHelp()) {
+      this.homeScreenHintOpen = !this.homeScreenHintOpen;
+      this.syncFullscreen();
+      return;
+    }
+    if (!this.fullscreenAvailable()) return;
     try {
       if (document.fullscreenElement) await document.exitFullscreen();
       else await document.documentElement.requestFullscreen();

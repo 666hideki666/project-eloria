@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-30",
+  "baseCommit": "8edeacfd0f31b80adf9079aef6a015d11c9966b2",
+  "tests": {
+    "typecheck": "passed",
+    "testFiles": 28,
+    "tests": 437,
+    "build": "passed"
+  },
+  "protectedFiles": 351,
+  "protectedChanges": [],
+  "protectedScope": "Existing assets, game, stage, render, audio, and scripts; no world/navigation/camera/character or map-scale changes. New app icons and icon preparation script are additions.",
+  "initialListeners4173to4175": "",
+  "finalListeners4173to4175": "",
+  "ownMutedChromeProfilesRemaining": "",
+  "cleanup": "Task-owned dev4174 and preview4175 stopped; task browsers closed. No user tabs/music or server4173 stopped.",
+  "commitOrPushPerformed": false,
+  "publicPagesUpdated": false,
+  "initialUserChangesPreserved": " M docs/project-handoff.md\n?? docs/codex-proposal-mobile-title-audio-fullscreen-layout-touch-2026-10-29-v1.md\n",
+  "limits": "Local Chromium tests with browser policy and branch mocks. Actual iPhone Chrome/Safari, Android, iPad hardware, installation, WebKit fullscreen/home-screen/safe areas/browser chrome, hearing and real iOS rapid-tap zoom remain unverified."
+}

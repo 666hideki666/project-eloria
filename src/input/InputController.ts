@@ -107,6 +107,8 @@ export class InputController {
   public readonly buffer = new InputBuffer();
   private stickPointer: number | null = null;
   private stickOrigin = vec();
+  private readonly touchRemovers: (() => void)[] = [];
+  private readonly touchResets: (() => void)[] = [];
   private readonly onModeChange: (mode: InputMode) => void;
 
   public constructor(
@@ -125,9 +127,23 @@ export class InputController {
 
   public bindTouch(elements: TouchElements): void {
     const { zone, stick, actionButtons } = elements;
-    zone.addEventListener("pointerdown", (event) => {
+    const listen = (element: HTMLElement, type: string, callback: EventListener): void => {
+      element.addEventListener(type, callback, { passive: false });
+      this.touchRemovers.push(() => element.removeEventListener(type, callback));
+    };
+    const guardGestures = (element: HTMLElement): void => {
+      // Scope Safari's legacy double-tap fallback to game controls. Menus and
+      // page text retain normal zoom/selection; these controls use pointer input.
+      for (const type of ["touchend", "dblclick", "contextmenu"]) {
+        listen(element, type, event => { if (event.cancelable) event.preventDefault(); });
+      }
+    };
+    guardGestures(zone);
+    listen(zone, "pointerdown", raw => {
+      const event = raw as PointerEvent;
       if (event.pointerType === "mouse") return;
       event.preventDefault();
+      if (this.stickPointer !== null) return;
       this.stickPointer = event.pointerId;
       zone.setPointerCapture(event.pointerId);
       const bounds = zone.getBoundingClientRect();
@@ -138,9 +154,9 @@ export class InputController {
       stick.style.setProperty("--knob-y", "0px");
       stick.classList.add("is-active");
       this.setMode("touch");
-    }, { passive: false });
-
-    zone.addEventListener("pointermove", (event) => {
+    });
+    listen(zone, "pointermove", raw => {
+      const event = raw as PointerEvent;
       if (event.pointerId !== this.stickPointer) return;
       event.preventDefault();
       const dx = event.clientX - this.stickOrigin.x;
@@ -154,37 +170,50 @@ export class InputController {
         x: Math.max(-1, Math.min(1, dx / maximum)),
         y: Math.max(-1, Math.min(1, dy / maximum)),
       });
-    }, { passive: false });
-
-    const releaseStick = (event: PointerEvent): void => {
-      if (event.pointerId !== this.stickPointer) return;
+    });
+    const resetStick = (): void => {
       this.stickPointer = null;
       this.buffer.setTouchMove(vec());
       stick.classList.remove("is-active");
     };
-    zone.addEventListener("pointerup", releaseStick);
-    zone.addEventListener("pointercancel", releaseStick);
+    this.touchResets.push(resetStick);
+    const releaseStick = (raw: Event): void => {
+      if ((raw as PointerEvent).pointerId === this.stickPointer) resetStick();
+    };
+    for (const type of ["pointerup", "pointercancel", "lostpointercapture"]) listen(zone, type, releaseStick);
 
-    actionButtons.forEach((button) => {
+    actionButtons.forEach(button => {
       const action = button.dataset.touchAction as ActionName | undefined;
       if (!action) return;
-      const release = (): void => {
+      const pointers = new Set<number>();
+      guardGestures(button);
+      const reset = (): void => {
+        pointers.clear();
         button.classList.remove("is-pressed");
         this.buffer.setTouchAction(action, false);
       };
-      button.addEventListener("pointerdown", (event) => {
+      this.touchResets.push(reset);
+      const release = (raw: Event): void => {
+        if (!pointers.delete((raw as PointerEvent).pointerId)) return;
+        if (pointers.size === 0) reset();
+      };
+      listen(button, "pointerdown", raw => {
+        const event = raw as PointerEvent;
         event.preventDefault();
         button.setPointerCapture(event.pointerId);
+        pointers.add(event.pointerId);
         button.classList.add("is-pressed");
         this.buffer.setTouchAction(action, true);
         this.setMode("touch");
-      }, { passive: false });
-      button.addEventListener("pointerup", release);
-      button.addEventListener("pointercancel", release);
+      });
+      for (const type of ["pointerup", "pointercancel", "lostpointercapture"]) listen(button, type, release);
     });
   }
 
   public destroy(): void {
+    this.handleBlur();
+    for (const remove of this.touchRemovers) remove();
+    this.touchRemovers.length = this.touchResets.length = 0;
     this.target.removeEventListener("keydown", this.handleKeyDown);
     this.target.removeEventListener("keyup", this.handleKeyUp);
     this.target.removeEventListener("blur", this.handleBlur);
@@ -204,6 +233,7 @@ export class InputController {
   };
 
   private readonly handleBlur = (): void => {
+    for (const reset of this.touchResets) reset();
     this.buffer.releaseAll();
   };
 

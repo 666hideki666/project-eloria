@@ -25,6 +25,8 @@ import { Renderer } from "./render/Renderer";
 import { AudioControls } from "./ui/AudioControls";
 import { DesktopHudController } from "./ui/DesktopHudController";
 import { OverlayController } from "./ui/OverlayController";
+import { GameGestureGuard } from "./ui/GameGestureGuard";
+import { ViewportLayoutController } from "./ui/ViewportLayoutController";
 import { OpeningController } from "./ui/OpeningController";
 import { shouldShowOpening } from "./ui/openingSequence";
 import { Layer1AnomalyController } from "./ui/Layer1AnomalyController";
@@ -44,8 +46,10 @@ function requireElement<T extends Element>(selector: string): T {
   return element;
 }
 
+const viewportLayout = new ViewportLayoutController(document.documentElement);
 const canvas = requireElement<HTMLCanvasElement>("#game");
 const gameShell = requireElement<HTMLElement>("#game-shell");
+const gameGestures = new GameGestureGuard(gameShell);
 const searchParams = new URLSearchParams(window.location.search);
 const gameMode: GameMode = searchParams.get("mode") === "arena"
   ? "arena"
@@ -1333,6 +1337,7 @@ function frame(now: number): void {
   syncLayerEntry(snapshot);
   gameShell.dataset.caveEntryStory = String(caveEntryTitle.blocking);
   const presentationBlocked = world.inputLocked || caveGuide.blocking;
+  gameGestures.update(world.phase === "playing" && !snapshot.dialogue && !statusPanel.isOpen && !presentationBlocked);
   if (presentationBlocked) requireElement<HTMLButtonElement>("#pause-toggle").disabled = true;
   controlsHelp.hidden = world.phase !== "paused" || presentationBlocked;
   requireElement<HTMLElement>("#screen-overlay").hidden = caveGuide.blocking || chapterCinematic.blocking || forestReturnCinematic.blocking || world.titleReturnPending;
@@ -1490,6 +1495,8 @@ frameRequest = requestAnimationFrame(frame);
 function destroy(): void {
   window.removeEventListener("beforeunload", destroy);
   cancelAnimationFrame(frameRequest);
+  viewportLayout.destroy();
+  gameGestures.destroy();
   devSelectorCleanup?.();
   opening?.destroy();
   layer1Anomaly.destroy();

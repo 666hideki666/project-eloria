@@ -1,0 +1,67 @@
+{
+  "completedAt": "2026-10-30T23:06:28.215922+00:00",
+  "approvalDate": "2026-10-30",
+  "head": "8edeacfd0f31b80adf9079aef6a015d11c9966b2",
+  "committed": false,
+  "pushed": false,
+  "publicPagesUpdated": false,
+  "verification": {
+    "typecheck": "passed",
+    "tests": 441,
+    "testFiles": 29,
+    "build": "passed",
+    "diffCheck": "passed",
+    "artCases": 5,
+    "scenesPerArtCase": [
+      "anomaly",
+      "map-shard-clue",
+      "village-farewell"
+    ],
+    "touchCases": 3,
+    "realCdpTaps": 360,
+    "attackInputEdgesAtJCenterAndEdge": 144,
+    "outsideTaps": 216,
+    "outsideAttackInputEdges": 0,
+    "scaleAll": 1,
+    "multitouchAndCancel": true,
+    "nativePauseAndStatus": true,
+    "dialogueFixtureTouchAdvance": true,
+    "realIPhoneOrWebKit": false,
+    "realHomeScreenLaunch": false
+  },
+  "preserved": {
+    "protectedFiles": 356,
+    "changedProtectedFiles": [],
+    "sourceChangedFromPreviousLocalWork": [
+      "src/main.ts",
+      "src/style.css",
+      "src/ui/opening.css"
+    ],
+    "newSource": [
+      "src/ui/GameGestureGuard.ts"
+    ],
+    "indexUnchanged": true,
+    "previousHandoffSectionsUnchanged": true,
+    "logicalCanvas": [
+      640,
+      360
+    ],
+    "priorLocalInputOpeningAudioViewportFixesRetained": true
+  },
+  "cleanup": {
+    "listenersBefore": "",
+    "listenersAfter": "",
+    "remainingOwnedChrome": "",
+    "user4173Stopped": false
+  },
+  "evidence": [
+    "docs/qa/prologue-zoom-before-2026-10-30.json",
+    "docs/qa/prologue-art-2026-10-30.json",
+    "docs/qa/game-zoom-2026-10-30.json"
+  ],
+  "limits": [
+    "Isolated muted Chromium dev browser; viewport and touch emulated, navigator.standalone mocked. Normal pan animation retained. Not an actual iPhone/WebKit or home screen launch.",
+    "Isolated muted Chromium production preview. Actual CDP touch taps/cancel and native UI click flows; viewport/touch emulation, not real iOS/WebKit. Gesture event fallback synthetic. Reading zoom injected through CDP bypasses browser gesture policy; only verifies that layout does not counteract it, not OS pinch acceptance. Dialogue uses controlled fixture through existing method.",
+    "No real device, OS gesture/notch/browser chrome or actual home-screen installation verification. No public update."
+  ]
+}

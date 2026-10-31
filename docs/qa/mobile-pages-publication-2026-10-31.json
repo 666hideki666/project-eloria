@@ -1,0 +1,53 @@
+{
+  "status": "approved-publication-in-progress",
+  "approval": "User explicitly requested push on 2026-10-31",
+  "recordedAt": "2026-10-31T06:45:23.105216+00:00",
+  "repository": "666hideki666/project-eloria",
+  "branch": "main",
+  "baseSha": "8edeacfd0f31b80adf9079aef6a015d11c9966b2",
+  "localGates": {
+    "typecheck": "passed",
+    "tests": 441,
+    "testFiles": 29,
+    "build": "passed",
+    "diffCheck": "passed"
+  },
+  "screenShotsExcluded": true,
+  "secretPatternHits": [],
+  "unchangedProtectedFiles": 422,
+  "buildArtifacts": {
+    "index.html": {
+      "size": 15968,
+      "sha256": "65ecdb8b92fc4926cdf3956c015f2a6aa9fa22469ac123d06fecd4349f0ea8b3"
+    },
+    "manifest.webmanifest": {
+      "size": 426,
+      "sha256": "484b1b6e6b6c52d44a370340e4f09ce8d02af4431426d608af75c41ade5f8a7f"
+    },
+    "icons/eloria-192.png": {
+      "size": 10283,
+      "sha256": "9bd0eb2bf69ca20509459e2612bc3bc3b0d77cafea922c022509d325b252f8ae"
+    },
+    "icons/eloria-180.png": {
+      "size": 10355,
+      "sha256": "b0354dbc6162b32797861dd72a4a54e0af9dbc71f2d65fcf29653f7eea886f16"
+    },
+    "icons/eloria-512.png": {
+      "size": 13706,
+      "sha256": "2945cb84523da288940591220d984bcbba98b50218e0941dac0e46d596ff9740"
+    },
+    "assets/index-iQF52YWM.js": {
+      "size": 527886,
+      "sha256": "5255c556ab1f4d51f3753a23d678116f771675de8c5726ebd8a9d55095296448"
+    },
+    "assets/index-B0RfbOUG.css": {
+      "size": 58505,
+      "sha256": "5a691179f7c0e440327d2a4cf4d294cbe2bca642753df2769d1a689753ac93ea"
+    }
+  },
+  "limits": [
+    "Real iPhone / Safari / WebKit untested",
+    "Actual home-screen installation and OS gestures untested",
+    "Listening experience untested"
+  ]
+}

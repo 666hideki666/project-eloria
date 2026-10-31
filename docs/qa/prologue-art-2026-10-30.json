@@ -1,0 +1,1381 @@
+{
+  "reports": [
+    {
+      "name": "small-landscape",
+      "w": 667,
+      "h": 375,
+      "scenes": [
+        {
+          "scene": "anomaly",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "63% 40%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 667,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -11.3189697265625,
+            "y": -5.4024658203125,
+            "width": 686.2183837890625,
+            "height": 385.804931640625,
+            "top": -5.4024658203125,
+            "right": 674.8994140625,
+            "bottom": 380.4024658203125,
+            "left": -11.3189697265625
+          },
+          "caption": {
+            "x": 33.34375,
+            "y": 264.71875,
+            "width": 600.3125,
+            "height": 100.28125,
+            "top": 264.71875,
+            "right": 633.65625,
+            "bottom": 365,
+            "left": 33.34375
+          },
+          "text": {
+            "x": 50.34375,
+            "y": 275.71875,
+            "width": 426.3125,
+            "height": 78.28125,
+            "top": 275.71875,
+            "right": 476.65625,
+            "bottom": 354,
+            "left": 50.34375
+          },
+          "font": "18px",
+          "lineHeight": "26.1px",
+          "button": {
+            "x": 502.65625,
+            "y": 293,
+            "width": 110,
+            "height": 44,
+            "top": 293,
+            "right": 612.65625,
+            "bottom": 337,
+            "left": 502.65625
+          },
+          "back": {
+            "x": 18,
+            "y": 8,
+            "width": 110.6875,
+            "height": 44,
+            "top": 8,
+            "right": 128.6875,
+            "bottom": 52,
+            "left": 18
+          },
+          "skip": {
+            "x": 573,
+            "y": 8,
+            "width": 76,
+            "height": 44,
+            "top": 8,
+            "right": 649,
+            "bottom": 52,
+            "left": 573
+          },
+          "textValue": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "fullText": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 667,
+          "width": 667
+        },
+        {
+          "scene": "map-shard-clue",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "50% 50%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 667,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -10.996673583984375,
+            "y": -5.15460205078125,
+            "width": 685.336669921875,
+            "height": 385.3092041015625,
+            "top": -5.15460205078125,
+            "right": 674.3399963378906,
+            "bottom": 380.15460205078125,
+            "left": -10.996673583984375
+          },
+          "caption": {
+            "x": 33.34375,
+            "y": 264.71875,
+            "width": 600.3125,
+            "height": 100.28125,
+            "top": 264.71875,
+            "right": 633.65625,
+            "bottom": 365,
+            "left": 33.34375
+          },
+          "text": {
+            "x": 50.34375,
+            "y": 275.71875,
+            "width": 426.3125,
+            "height": 78.28125,
+            "top": 275.71875,
+            "right": 476.65625,
+            "bottom": 354,
+            "left": 50.34375
+          },
+          "font": "18px",
+          "lineHeight": "26.1px",
+          "button": {
+            "x": 502.65625,
+            "y": 293,
+            "width": 110,
+            "height": 44,
+            "top": 293,
+            "right": 612.65625,
+            "bottom": 337,
+            "left": 502.65625
+          },
+          "back": {
+            "x": 18,
+            "y": 8,
+            "width": 110.6875,
+            "height": 44,
+            "top": 8,
+            "right": 128.6875,
+            "bottom": 52,
+            "left": 18
+          },
+          "skip": {
+            "x": 573,
+            "y": 8,
+            "width": 76,
+            "height": 44,
+            "top": 8,
+            "right": 649,
+            "bottom": 52,
+            "left": 573
+          },
+          "textValue": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "fullText": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 667,
+          "width": 667
+        },
+        {
+          "scene": "village-farewell",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "48% 60%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 667,
+            "height": 375,
+            "top": 0,
+            "right": 667,
+            "bottom": 375,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -10.987396240234375,
+            "y": -5.1474456787109375,
+            "width": 685.311279296875,
+            "height": 385.294921875,
+            "top": -5.1474456787109375,
+            "right": 674.3238830566406,
+            "bottom": 380.14747619628906,
+            "left": -10.987396240234375
+          },
+          "caption": {
+            "x": 33.34375,
+            "y": 238.625,
+            "width": 600.3125,
+            "height": 126.375,
+            "top": 238.625,
+            "right": 633.65625,
+            "bottom": 365,
+            "left": 33.34375
+          },
+          "text": {
+            "x": 50.34375,
+            "y": 249.625,
+            "width": 426.3125,
+            "height": 104.375,
+            "top": 249.625,
+            "right": 476.65625,
+            "bottom": 354,
+            "left": 50.34375
+          },
+          "font": "18px",
+          "lineHeight": "26.1px",
+          "button": {
+            "x": 502.65625,
+            "y": 293,
+            "width": 110,
+            "height": 44,
+            "top": 293,
+            "right": 612.65625,
+            "bottom": 337,
+            "left": 502.65625
+          },
+          "back": {
+            "x": 18,
+            "y": 8,
+            "width": 110.6875,
+            "height": 44,
+            "top": 8,
+            "right": 128.6875,
+            "bottom": 52,
+            "left": 18
+          },
+          "skip": {
+            "x": 573,
+            "y": 8,
+            "width": 76,
+            "height": 44,
+            "top": 8,
+            "right": 649,
+            "bottom": 52,
+            "left": 573
+          },
+          "textValue": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "fullText": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 667,
+          "width": 667
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "landscape",
+      "w": 844,
+      "h": 390,
+      "scenes": [
+        {
+          "scene": "anomaly",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "63% 40%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -14.299530029296875,
+            "y": -5.6039581298828125,
+            "width": 868.255126953125,
+            "height": 401.2078857421875,
+            "top": -5.6039581298828125,
+            "right": 853.9555969238281,
+            "bottom": 395.6039276123047,
+            "left": -14.299530029296875
+          },
+          "caption": {
+            "x": 42.1875,
+            "y": 288,
+            "width": 759.625,
+            "height": 92,
+            "top": 288,
+            "right": 801.8125,
+            "bottom": 380,
+            "left": 42.1875
+          },
+          "text": {
+            "x": 59.1875,
+            "y": 299,
+            "width": 585.625,
+            "height": 52.1875,
+            "top": 299,
+            "right": 644.8125,
+            "bottom": 351.1875,
+            "left": 59.1875
+          },
+          "font": "18px",
+          "lineHeight": "26.1px",
+          "button": {
+            "x": 670.8125,
+            "y": 308,
+            "width": 110,
+            "height": 44,
+            "top": 308,
+            "right": 780.8125,
+            "bottom": 352,
+            "left": 670.8125
+          },
+          "back": {
+            "x": 18,
+            "y": 8,
+            "width": 110.6875,
+            "height": 44,
+            "top": 8,
+            "right": 128.6875,
+            "bottom": 52,
+            "left": 18
+          },
+          "skip": {
+            "x": 750,
+            "y": 8,
+            "width": 76,
+            "height": 44,
+            "top": 8,
+            "right": 826,
+            "bottom": 52,
+            "left": 750
+          },
+          "textValue": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "fullText": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 844,
+          "width": 844
+        },
+        {
+          "scene": "map-shard-clue",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "50% 50%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -13.89129638671875,
+            "y": -5.3459014892578125,
+            "width": 867.13818359375,
+            "height": 400.6917724609375,
+            "top": -5.3459014892578125,
+            "right": 853.2468872070312,
+            "bottom": 395.3458709716797,
+            "left": -13.89129638671875
+          },
+          "caption": {
+            "x": 42.1875,
+            "y": 288,
+            "width": 759.625,
+            "height": 92,
+            "top": 288,
+            "right": 801.8125,
+            "bottom": 380,
+            "left": 42.1875
+          },
+          "text": {
+            "x": 59.1875,
+            "y": 299,
+            "width": 585.625,
+            "height": 52.1875,
+            "top": 299,
+            "right": 644.8125,
+            "bottom": 351.1875,
+            "left": 59.1875
+          },
+          "font": "18px",
+          "lineHeight": "26.1px",
+          "button": {
+            "x": 670.8125,
+            "y": 308,
+            "width": 110,
+            "height": 44,
+            "top": 308,
+            "right": 780.8125,
+            "bottom": 352,
+            "left": 670.8125
+          },
+          "back": {
+            "x": 18,
+            "y": 8,
+            "width": 110.6875,
+            "height": 44,
+            "top": 8,
+            "right": 128.6875,
+            "bottom": 52,
+            "left": 18
+          },
+          "skip": {
+            "x": 750,
+            "y": 8,
+            "width": 76,
+            "height": 44,
+            "top": 8,
+            "right": 826,
+            "bottom": 52,
+            "left": 750
+          },
+          "textValue": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "fullText": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 844,
+          "width": 844
+        },
+        {
+          "scene": "village-farewell",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "48% 60%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 844,
+            "height": 390,
+            "top": 0,
+            "right": 844,
+            "bottom": 390,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -13.89129638671875,
+            "y": -5.3459014892578125,
+            "width": 867.13818359375,
+            "height": 400.6917724609375,
+            "top": -5.3459014892578125,
+            "right": 853.2468872070312,
+            "bottom": 395.3458709716797,
+            "left": -13.89129638671875
+          },
+          "caption": {
+            "x": 42.1875,
+            "y": 279.71875,
+            "width": 759.625,
+            "height": 100.28125,
+            "top": 279.71875,
+            "right": 801.8125,
+            "bottom": 380,
+            "left": 42.1875
+          },
+          "text": {
+            "x": 59.1875,
+            "y": 290.71875,
+            "width": 585.625,
+            "height": 78.28125,
+            "top": 290.71875,
+            "right": 644.8125,
+            "bottom": 369,
+            "left": 59.1875
+          },
+          "font": "18px",
+          "lineHeight": "26.1px",
+          "button": {
+            "x": 670.8125,
+            "y": 308,
+            "width": 110,
+            "height": 44,
+            "top": 308,
+            "right": 780.8125,
+            "bottom": 352,
+            "left": 670.8125
+          },
+          "back": {
+            "x": 18,
+            "y": 8,
+            "width": 110.6875,
+            "height": 44,
+            "top": 8,
+            "right": 128.6875,
+            "bottom": 52,
+            "left": 18
+          },
+          "skip": {
+            "x": 750,
+            "y": 8,
+            "width": 76,
+            "height": 44,
+            "top": 8,
+            "right": 826,
+            "bottom": 52,
+            "left": 750
+          },
+          "textValue": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "fullText": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 844,
+          "width": 844
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "pc",
+      "w": 1600,
+      "h": 900,
+      "scenes": [
+        {
+          "scene": "anomaly",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "63% 40%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -27.02044677734375,
+            "y": -12.86474609375,
+            "width": 1645.7412109375,
+            "height": 925.7294921875,
+            "top": -12.86474609375,
+            "right": 1618.7207641601562,
+            "bottom": 912.86474609375,
+            "left": -27.02044677734375
+          },
+          "caption": {
+            "x": 80,
+            "y": 767.203125,
+            "width": 1440,
+            "height": 114.796875,
+            "top": 767.203125,
+            "right": 1520,
+            "bottom": 882,
+            "left": 80
+          },
+          "text": {
+            "x": 107,
+            "y": 786.203125,
+            "width": 1246,
+            "height": 76.796875,
+            "top": 786.203125,
+            "right": 1353,
+            "bottom": 863,
+            "left": 107
+          },
+          "font": "24px",
+          "lineHeight": "38.4px",
+          "button": {
+            "x": 1389,
+            "y": 802,
+            "width": 110,
+            "height": 44,
+            "top": 802,
+            "right": 1499,
+            "bottom": 846,
+            "left": 1389
+          },
+          "back": {
+            "x": 18,
+            "y": 14,
+            "width": 138.25,
+            "height": 44,
+            "top": 14,
+            "right": 156.25,
+            "bottom": 58,
+            "left": 18
+          },
+          "skip": {
+            "x": 1490,
+            "y": 14,
+            "width": 92,
+            "height": 44,
+            "top": 14,
+            "right": 1582,
+            "bottom": 58,
+            "left": 1490
+          },
+          "textValue": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "fullText": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 1600,
+          "width": 1600
+        },
+        {
+          "scene": "map-shard-clue",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "50% 50%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -26.28948974609375,
+            "y": -12.302337646484375,
+            "width": 1643.74169921875,
+            "height": 924.604736328125,
+            "top": -12.302337646484375,
+            "right": 1617.4522094726562,
+            "bottom": 912.3023986816406,
+            "left": -26.28948974609375
+          },
+          "caption": {
+            "x": 80,
+            "y": 767.203125,
+            "width": 1440,
+            "height": 114.796875,
+            "top": 767.203125,
+            "right": 1520,
+            "bottom": 882,
+            "left": 80
+          },
+          "text": {
+            "x": 107,
+            "y": 786.203125,
+            "width": 1246,
+            "height": 76.796875,
+            "top": 786.203125,
+            "right": 1353,
+            "bottom": 863,
+            "left": 107
+          },
+          "font": "24px",
+          "lineHeight": "38.4px",
+          "button": {
+            "x": 1389,
+            "y": 802,
+            "width": 110,
+            "height": 44,
+            "top": 802,
+            "right": 1499,
+            "bottom": 846,
+            "left": 1389
+          },
+          "back": {
+            "x": 18,
+            "y": 14,
+            "width": 138.25,
+            "height": 44,
+            "top": 14,
+            "right": 156.25,
+            "bottom": 58,
+            "left": 18
+          },
+          "skip": {
+            "x": 1490,
+            "y": 14,
+            "width": 92,
+            "height": 44,
+            "top": 14,
+            "right": 1582,
+            "bottom": 58,
+            "left": 1490
+          },
+          "textValue": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "fullText": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 1600,
+          "width": 1600
+        },
+        {
+          "scene": "village-farewell",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "48% 60%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 900,
+            "top": 0,
+            "right": 1600,
+            "bottom": 900,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -26.31182861328125,
+            "y": -12.319488525390625,
+            "width": 1643.802490234375,
+            "height": 924.638916015625,
+            "top": -12.319488525390625,
+            "right": 1617.4906616210938,
+            "bottom": 912.3194274902344,
+            "left": -26.31182861328125
+          },
+          "caption": {
+            "x": 80,
+            "y": 767.203125,
+            "width": 1440,
+            "height": 114.796875,
+            "top": 767.203125,
+            "right": 1520,
+            "bottom": 882,
+            "left": 80
+          },
+          "text": {
+            "x": 107,
+            "y": 786.203125,
+            "width": 1246,
+            "height": 76.796875,
+            "top": 786.203125,
+            "right": 1353,
+            "bottom": 863,
+            "left": 107
+          },
+          "font": "24px",
+          "lineHeight": "38.4px",
+          "button": {
+            "x": 1389,
+            "y": 802,
+            "width": 110,
+            "height": 44,
+            "top": 802,
+            "right": 1499,
+            "bottom": 846,
+            "left": 1389
+          },
+          "back": {
+            "x": 18,
+            "y": 14,
+            "width": 138.25,
+            "height": 44,
+            "top": 14,
+            "right": 156.25,
+            "bottom": 58,
+            "left": 18
+          },
+          "skip": {
+            "x": 1490,
+            "y": 14,
+            "width": 92,
+            "height": 44,
+            "top": 14,
+            "right": 1582,
+            "bottom": 58,
+            "left": 1490
+          },
+          "textValue": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "fullText": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 1600,
+          "width": 1600
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "portrait",
+      "w": 390,
+      "h": 844,
+      "scenes": [
+        {
+          "scene": "anomaly",
+          "fullyVisible": "true",
+          "fit": "contain",
+          "position": "63% 40%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "top": 0,
+            "right": 390,
+            "bottom": 844,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -6.58087158203125,
+            "y": -12.048370361328125,
+            "width": 401.1347351074219,
+            "height": 868.0966796875,
+            "top": -12.048370361328125,
+            "right": 394.5538635253906,
+            "bottom": 856.0483093261719,
+            "left": -6.58087158203125
+          },
+          "caption": {
+            "x": 18,
+            "y": 611.0625,
+            "width": 354,
+            "height": 199.1875,
+            "top": 611.0625,
+            "right": 372,
+            "bottom": 810.25,
+            "left": 18
+          },
+          "text": {
+            "x": 33,
+            "y": 626.0625,
+            "width": 324,
+            "height": 115.1875,
+            "top": 626.0625,
+            "right": 357,
+            "bottom": 741.25,
+            "left": 33
+          },
+          "font": "18px",
+          "lineHeight": "28.8px",
+          "button": {
+            "x": 247,
+            "y": 745.25,
+            "width": 110,
+            "height": 44,
+            "top": 745.25,
+            "right": 357,
+            "bottom": 789.25,
+            "left": 247
+          },
+          "back": {
+            "x": 18,
+            "y": 14,
+            "width": 110.6875,
+            "height": 44,
+            "top": 14,
+            "right": 128.6875,
+            "bottom": 58,
+            "left": 18
+          },
+          "skip": {
+            "x": 296,
+            "y": 14,
+            "width": 76,
+            "height": 44,
+            "top": 14,
+            "right": 372,
+            "bottom": 58,
+            "left": 296
+          },
+          "textValue": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "fullText": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        {
+          "scene": "map-shard-clue",
+          "fullyVisible": "true",
+          "fit": "contain",
+          "position": "50% 50%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "top": 0,
+            "right": 390,
+            "bottom": 844,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -6.429840087890625,
+            "y": -11.601287841796875,
+            "width": 400.7215576171875,
+            "height": 867.20263671875,
+            "top": -11.601287841796875,
+            "right": 394.2917175292969,
+            "bottom": 855.6013488769531,
+            "left": -6.429840087890625
+          },
+          "caption": {
+            "x": 18,
+            "y": 611.0625,
+            "width": 354,
+            "height": 199.1875,
+            "top": 611.0625,
+            "right": 372,
+            "bottom": 810.25,
+            "left": 18
+          },
+          "text": {
+            "x": 33,
+            "y": 626.0625,
+            "width": 324,
+            "height": 115.1875,
+            "top": 626.0625,
+            "right": 357,
+            "bottom": 741.25,
+            "left": 33
+          },
+          "font": "18px",
+          "lineHeight": "28.8px",
+          "button": {
+            "x": 247,
+            "y": 745.25,
+            "width": 110,
+            "height": 44,
+            "top": 745.25,
+            "right": 357,
+            "bottom": 789.25,
+            "left": 247
+          },
+          "back": {
+            "x": 18,
+            "y": 14,
+            "width": 110.6875,
+            "height": 44,
+            "top": 14,
+            "right": 128.6875,
+            "bottom": 58,
+            "left": 18
+          },
+          "skip": {
+            "x": 296,
+            "y": 14,
+            "width": 76,
+            "height": 44,
+            "top": 14,
+            "right": 372,
+            "bottom": 58,
+            "left": 296
+          },
+          "textValue": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "fullText": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 390,
+          "width": 390
+        },
+        {
+          "scene": "village-farewell",
+          "fullyVisible": "true",
+          "fit": "contain",
+          "position": "48% 60%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 390,
+            "height": 844,
+            "top": 0,
+            "right": 390,
+            "bottom": 844,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -6.4298095703125,
+            "y": -11.6011962890625,
+            "width": 400.7214660644531,
+            "height": 867.202392578125,
+            "top": -11.6011962890625,
+            "right": 394.2916564941406,
+            "bottom": 855.6011962890625,
+            "left": -6.4298095703125
+          },
+          "caption": {
+            "x": 18,
+            "y": 611.0625,
+            "width": 354,
+            "height": 199.1875,
+            "top": 611.0625,
+            "right": 372,
+            "bottom": 810.25,
+            "left": 18
+          },
+          "text": {
+            "x": 33,
+            "y": 626.0625,
+            "width": 324,
+            "height": 115.1875,
+            "top": 626.0625,
+            "right": 357,
+            "bottom": 741.25,
+            "left": 33
+          },
+          "font": "18px",
+          "lineHeight": "28.8px",
+          "button": {
+            "x": 247,
+            "y": 745.25,
+            "width": 110,
+            "height": 44,
+            "top": 745.25,
+            "right": 357,
+            "bottom": 789.25,
+            "left": 247
+          },
+          "back": {
+            "x": 18,
+            "y": 14,
+            "width": 110.6875,
+            "height": 44,
+            "top": 14,
+            "right": 128.6875,
+            "bottom": 58,
+            "left": 18
+          },
+          "skip": {
+            "x": 296,
+            "y": 14,
+            "width": 76,
+            "height": 44,
+            "top": 14,
+            "right": 372,
+            "bottom": 58,
+            "left": 296
+          },
+          "textValue": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "fullText": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 390,
+          "width": 390
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "standalone-simulation",
+      "w": 932,
+      "h": 430,
+      "standalone": true,
+      "scenes": [
+        {
+          "scene": "anomaly",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "63% 40%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 932,
+            "height": 430,
+            "top": 0,
+            "right": 932,
+            "bottom": 430,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -15.816009521484375,
+            "y": -6.194854736328125,
+            "width": 958.85400390625,
+            "height": 442.38970947265625,
+            "top": -6.194854736328125,
+            "right": 943.0379943847656,
+            "bottom": 436.1948547363281,
+            "left": -15.816009521484375
+          },
+          "caption": {
+            "x": 46.59375,
+            "y": 328,
+            "width": 838.8125,
+            "height": 92,
+            "top": 328,
+            "right": 885.40625,
+            "bottom": 420,
+            "left": 46.59375
+          },
+          "text": {
+            "x": 63.59375,
+            "y": 339,
+            "width": 664.8125,
+            "height": 52.1875,
+            "top": 339,
+            "right": 728.40625,
+            "bottom": 391.1875,
+            "left": 63.59375
+          },
+          "font": "18px",
+          "lineHeight": "26.1px",
+          "button": {
+            "x": 754.40625,
+            "y": 348,
+            "width": 110,
+            "height": 44,
+            "top": 348,
+            "right": 864.40625,
+            "bottom": 392,
+            "left": 754.40625
+          },
+          "back": {
+            "x": 18,
+            "y": 8,
+            "width": 110.6875,
+            "height": 44,
+            "top": 8,
+            "right": 128.6875,
+            "bottom": 52,
+            "left": 18
+          },
+          "skip": {
+            "x": 838,
+            "y": 8,
+            "width": 76,
+            "height": 44,
+            "top": 8,
+            "right": 914,
+            "bottom": 52,
+            "left": 838
+          },
+          "textValue": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "fullText": "それは、村の井戸に灯った青い光から始まった。\n輝きは古い根を伝い、静かな朝へ少しずつ広がっていく。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 932,
+          "width": 932
+        },
+        {
+          "scene": "map-shard-clue",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "50% 50%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 932,
+            "height": 430,
+            "top": 0,
+            "right": 932,
+            "bottom": 430,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -15.365692138671875,
+            "y": -5.910614013671875,
+            "width": 957.621826171875,
+            "height": 441.82122802734375,
+            "top": -5.910614013671875,
+            "right": 942.2561340332031,
+            "bottom": 435.9106140136719,
+            "left": -15.365692138671875
+          },
+          "caption": {
+            "x": 46.59375,
+            "y": 328,
+            "width": 838.8125,
+            "height": 92,
+            "top": 328,
+            "right": 885.40625,
+            "bottom": 420,
+            "left": 46.59375
+          },
+          "text": {
+            "x": 63.59375,
+            "y": 339,
+            "width": 664.8125,
+            "height": 52.1875,
+            "top": 339,
+            "right": 728.40625,
+            "bottom": 391.1875,
+            "left": 63.59375
+          },
+          "font": "18px",
+          "lineHeight": "26.1px",
+          "button": {
+            "x": 754.40625,
+            "y": 348,
+            "width": 110,
+            "height": 44,
+            "top": 348,
+            "right": 864.40625,
+            "bottom": 392,
+            "left": 754.40625
+          },
+          "back": {
+            "x": 18,
+            "y": 8,
+            "width": 110.6875,
+            "height": 44,
+            "top": 8,
+            "right": 128.6875,
+            "bottom": 52,
+            "left": 18
+          },
+          "skip": {
+            "x": 838,
+            "y": 8,
+            "width": 76,
+            "height": 44,
+            "top": 8,
+            "right": 914,
+            "bottom": 52,
+            "left": 838
+          },
+          "textValue": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "fullText": "古い地図の印と、小さな晶片の光が示す先は同じ。\nそれは、古の森の奥にある洞窟だった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 932,
+          "width": 932
+        },
+        {
+          "scene": "village-farewell",
+          "fullyVisible": "true",
+          "fit": "cover",
+          "position": "48% 60%",
+          "image": [
+            1672,
+            941
+          ],
+          "artwork": {
+            "x": 0,
+            "y": 0,
+            "width": 932,
+            "height": 430,
+            "top": 0,
+            "right": 932,
+            "bottom": 430,
+            "left": 0
+          },
+          "imageRect": {
+            "x": -15.352783203125,
+            "y": -5.9024658203125,
+            "width": 957.5864868164062,
+            "height": 441.804931640625,
+            "top": -5.9024658203125,
+            "right": 942.2337036132812,
+            "bottom": 435.9024658203125,
+            "left": -15.352783203125
+          },
+          "caption": {
+            "x": 46.59375,
+            "y": 328,
+            "width": 838.8125,
+            "height": 92,
+            "top": 328,
+            "right": 885.40625,
+            "bottom": 420,
+            "left": 46.59375
+          },
+          "text": {
+            "x": 63.59375,
+            "y": 339,
+            "width": 664.8125,
+            "height": 52.1875,
+            "top": 339,
+            "right": 728.40625,
+            "bottom": 391.1875,
+            "left": 63.59375
+          },
+          "font": "18px",
+          "lineHeight": "26.1px",
+          "button": {
+            "x": 754.40625,
+            "y": 348,
+            "width": 110,
+            "height": 44,
+            "top": 348,
+            "right": 864.40625,
+            "bottom": 392,
+            "left": 754.40625
+          },
+          "back": {
+            "x": 18,
+            "y": 8,
+            "width": 110.6875,
+            "height": 44,
+            "top": 8,
+            "right": 128.6875,
+            "bottom": 52,
+            "left": 18
+          },
+          "skip": {
+            "x": 838,
+            "y": 8,
+            "width": 76,
+            "height": 44,
+            "top": 8,
+            "right": 914,
+            "bottom": 52,
+            "left": 838
+          },
+          "textValue": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "fullText": "ナディは心配する村人に、少し森の様子を見てくると伝えた。\nカイルとメルも、それぞれ気になる手がかりを確かめるつもりだった。",
+          "animation": "prologue-pan",
+          "rootTouchAction": "manipulation",
+          "scale": 1,
+          "scrollWidth": 932,
+          "width": 932
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "limits": "Isolated muted Chromium dev browser; viewport and touch emulated, navigator.standalone mocked. Normal pan animation retained. Not an actual iPhone/WebKit or home screen launch."
+}

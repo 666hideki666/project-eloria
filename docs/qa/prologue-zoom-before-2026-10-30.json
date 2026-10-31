@@ -1,0 +1,53 @@
+{
+  "scenes": [
+    {
+      "scene": "anomaly",
+      "fit": "cover",
+      "artwork": {
+        "x": 0,
+        "y": 0,
+        "width": 667,
+        "height": 375,
+        "top": 0,
+        "right": 667,
+        "bottom": 375,
+        "left": 0
+      }
+    },
+    {
+      "scene": "map-shard-clue",
+      "fit": "contain",
+      "artwork": {
+        "x": 0,
+        "y": 0,
+        "width": 667,
+        "height": 255,
+        "top": 0,
+        "right": 667,
+        "bottom": 255,
+        "left": 0
+      }
+    },
+    {
+      "scene": "village-farewell",
+      "fit": "contain",
+      "artwork": {
+        "x": 0,
+        "y": 0,
+        "width": 667,
+        "height": 255,
+        "top": 0,
+        "right": 667,
+        "bottom": 255,
+        "left": 0
+      }
+    }
+  ],
+  "touch": {
+    "rootTouchAction": "auto",
+    "canvasTouchAction": "none",
+    "backgroundTouchEndPrevented": false,
+    "scale": 1
+  },
+  "errors": []
+}
